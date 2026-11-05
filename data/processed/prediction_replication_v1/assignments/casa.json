@@ -1,0 +1,21 @@
+{
+  "shard": "casa",
+  "workers": 4,
+  "manifest_sha256": "a1c079de053c0d2d9dbe5d6b2a4891d04341fb2186bfeab04108642848988ee4",
+  "requests": [
+    "pred-rep-v1-055",
+    "pred-rep-v1-056",
+    "pred-rep-v1-057",
+    "pred-rep-v1-058",
+    "pred-rep-v1-059",
+    "pred-rep-v1-060",
+    "pred-rep-v1-061",
+    "pred-rep-v1-062",
+    "pred-rep-v1-063",
+    "pred-rep-v1-064",
+    "pred-rep-v1-065",
+    "pred-rep-v1-066",
+    "pred-rep-v1-067",
+    "pred-rep-v1-068"
+  ]
+}

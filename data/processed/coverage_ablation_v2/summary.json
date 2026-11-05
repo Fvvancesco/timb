@@ -1,0 +1,1386 @@
+{
+  "manifest_sha256": "d0a4219912ecf88d2196a24dca26a31c8b013962520a077c58e42a1bb3a9ffff",
+  "physical_jobs": 1348,
+  "statuses": {
+    "completed": 1338,
+    "timeout": 7,
+    "censored": 2,
+    "replay_verification_failed": 1
+  },
+  "requests": 170,
+  "paired_requests": 170,
+  "source_team_clusters": 100,
+  "identical_solver_outputs": 3,
+  "coverage_score": 0.4656862745098039,
+  "neutral_score": 0.3588235294117647,
+  "coverage_minus_neutral": 0.1068627450980392,
+  "bootstrap_interval_95": [
+    0.04693336925287357,
+    0.16716574381357766
+  ],
+  "bootstrap_seed": 11,
+  "bootstrap_samples": 10000,
+  "estimand": "Mean over requests of paired win-score differences. Natural draw = 0.5. Slots with censored outcomes in either arm omitted. Bootstrap by source team; residual dependence from common catalog and pilot.",
+  "per_request": [
+    {
+      "request": "coverage-v2-000",
+      "slots": 2,
+      "coverage": 0.5,
+      "neutral": 1.0,
+      "difference": -0.5,
+      "source_team_id": "070c7fdeeac474c81051d2c1"
+    },
+    {
+      "request": "coverage-v2-001",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.0,
+      "difference": 0.0,
+      "source_team_id": "16f93785d4cd2c18deee0956"
+    },
+    {
+      "request": "coverage-v2-002",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.25,
+      "difference": 0.0,
+      "source_team_id": "a380cacfce0381a878f8a3e9"
+    },
+    {
+      "request": "coverage-v2-003",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.0,
+      "difference": 0.5,
+      "source_team_id": "b025a9681a893a95e160d322"
+    },
+    {
+      "request": "coverage-v2-004",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.25,
+      "difference": 0.0,
+      "source_team_id": "a0f6965d9766ab0d0f673a70"
+    },
+    {
+      "request": "coverage-v2-005",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.0,
+      "difference": 1.0,
+      "source_team_id": "4f426d77e61695d679141c2d"
+    },
+    {
+      "request": "coverage-v2-006",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.5,
+      "difference": -0.25,
+      "source_team_id": "a35c42cdd01cac742fb37298"
+    },
+    {
+      "request": "coverage-v2-007",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.0,
+      "difference": 0.0,
+      "source_team_id": "263811dbf68fdb9848f2e73e"
+    },
+    {
+      "request": "coverage-v2-008",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.25,
+      "difference": -0.25,
+      "source_team_id": "d1395c17a3cfaf27ed43ebfb"
+    },
+    {
+      "request": "coverage-v2-009",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.0,
+      "difference": 0.25,
+      "source_team_id": "b47d88b7e4997c2391bd8b54"
+    },
+    {
+      "request": "coverage-v2-010",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.5,
+      "difference": -0.25,
+      "source_team_id": "bbe21baa1cb974a1d3feb6df"
+    },
+    {
+      "request": "coverage-v2-011",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.0,
+      "difference": 0.5,
+      "source_team_id": "736857db70d2777246c7715d"
+    },
+    {
+      "request": "coverage-v2-012",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.5,
+      "difference": -0.25,
+      "source_team_id": "fde2b27e65f8fe9881ff52ba"
+    },
+    {
+      "request": "coverage-v2-013",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.0,
+      "difference": 0.0,
+      "source_team_id": "cdf32a7ebe806119ad24f4d0"
+    },
+    {
+      "request": "coverage-v2-014",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.5,
+      "difference": 0.5,
+      "source_team_id": "0a944dace65252d774cad532"
+    },
+    {
+      "request": "coverage-v2-015",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.25,
+      "difference": 0.5,
+      "source_team_id": "d425e54142f9c3a8dda473a0"
+    },
+    {
+      "request": "coverage-v2-016",
+      "slots": 3,
+      "coverage": 0.0,
+      "neutral": 0.0,
+      "difference": 0.0,
+      "source_team_id": "a576dde7d68e68ec6374e38d"
+    },
+    {
+      "request": "coverage-v2-017",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.5,
+      "difference": 0.25,
+      "source_team_id": "63d47fb9bb03eb57c2ba5b86"
+    },
+    {
+      "request": "coverage-v2-018",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 1.0,
+      "difference": -0.5,
+      "source_team_id": "bc2fef35826b3e1cdad92c1f"
+    },
+    {
+      "request": "coverage-v2-019",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25,
+      "source_team_id": "6704b88c9fc5e984f2542c5c"
+    },
+    {
+      "request": "coverage-v2-020",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.0,
+      "difference": 0.0,
+      "source_team_id": "c52ce8d86ca2e13f9b9da12a"
+    },
+    {
+      "request": "coverage-v2-021",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 1.0,
+      "difference": -0.25,
+      "source_team_id": "79ca0c6153d1b86fc97cd03f"
+    },
+    {
+      "request": "coverage-v2-022",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.75,
+      "difference": -0.25,
+      "source_team_id": "8b6807d1a7710da2f3fd1e2b"
+    },
+    {
+      "request": "coverage-v2-023",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.0,
+      "difference": 0.0,
+      "source_team_id": "7f45e2b7dd1dcdd5aef30e26"
+    },
+    {
+      "request": "coverage-v2-024",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.25,
+      "difference": 0.0,
+      "source_team_id": "675412089e415655ea7888ed"
+    },
+    {
+      "request": "coverage-v2-025",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.0,
+      "difference": 0.0,
+      "source_team_id": "c475efbde1b73f9951d9623f"
+    },
+    {
+      "request": "coverage-v2-026",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.5,
+      "difference": -0.25,
+      "source_team_id": "cebd3974721fcae91efb0da6"
+    },
+    {
+      "request": "coverage-v2-027",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.0,
+      "difference": 0.25,
+      "source_team_id": "bc23e1f5817e6316ce2a3bac"
+    },
+    {
+      "request": "coverage-v2-028",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.5,
+      "difference": -0.25,
+      "source_team_id": "466e018620276bed74465e09"
+    },
+    {
+      "request": "coverage-v2-029",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.75,
+      "difference": -0.25,
+      "source_team_id": "0f9efdad0394bbf94b4548d9"
+    },
+    {
+      "request": "coverage-v2-030",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 1.0,
+      "difference": -0.5,
+      "source_team_id": "f28c6f1d95b3821f89a1a6a1"
+    },
+    {
+      "request": "coverage-v2-031",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25,
+      "source_team_id": "3ea0010274de0bf549333bdc"
+    },
+    {
+      "request": "coverage-v2-032",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.0,
+      "difference": 0.25,
+      "source_team_id": "e97b20ba9ffdcb3536c8dac5"
+    },
+    {
+      "request": "coverage-v2-033",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.25,
+      "difference": -0.25,
+      "source_team_id": "8c664449ba48a8bde3713f35"
+    },
+    {
+      "request": "coverage-v2-034",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25,
+      "source_team_id": "2d89b5fec91a93003074346e"
+    },
+    {
+      "request": "coverage-v2-035",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.0,
+      "difference": 0.0,
+      "source_team_id": "7bb4f33615aaceaec3f04e4f"
+    },
+    {
+      "request": "coverage-v2-036",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.75,
+      "difference": -0.5,
+      "source_team_id": "c731d34b33806be281446343"
+    },
+    {
+      "request": "coverage-v2-037",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.5,
+      "difference": 0.5,
+      "source_team_id": "e2311a5dbf4e1247eee8907f"
+    },
+    {
+      "request": "coverage-v2-038",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.25,
+      "difference": 0.5,
+      "source_team_id": "f2c071e400767591cefb9447"
+    },
+    {
+      "request": "coverage-v2-039",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.5,
+      "difference": 0.0,
+      "source_team_id": "7f18999a6c0bea28dcb037a9"
+    },
+    {
+      "request": "coverage-v2-040",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.0,
+      "difference": 0.75,
+      "source_team_id": "9548dee176622753950cc84c"
+    },
+    {
+      "request": "coverage-v2-041",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.25,
+      "difference": -0.25,
+      "source_team_id": "d833b2286a79803196251b01"
+    },
+    {
+      "request": "coverage-v2-042",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25,
+      "source_team_id": "187135d1359ca3a0c9137cd0"
+    },
+    {
+      "request": "coverage-v2-043",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.75,
+      "difference": -0.5,
+      "source_team_id": "bcb24c5a54c73883b9f144d9"
+    },
+    {
+      "request": "coverage-v2-044",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.25,
+      "difference": 0.5,
+      "source_team_id": "7cf0a49bdbcc13fdd5e412f0"
+    },
+    {
+      "request": "coverage-v2-045",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.25,
+      "difference": 0.5,
+      "source_team_id": "f4538acea690cd8de850d714"
+    },
+    {
+      "request": "coverage-v2-046",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.5,
+      "difference": 0.5,
+      "source_team_id": "e0895d6029e0a70d570bfdb3"
+    },
+    {
+      "request": "coverage-v2-047",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.5,
+      "difference": 0.5,
+      "source_team_id": "95b113f73b6a5f9e3df74ab3"
+    },
+    {
+      "request": "coverage-v2-048",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.0,
+      "difference": 0.5,
+      "source_team_id": "63b23abc67d87748c7aa0e05"
+    },
+    {
+      "request": "coverage-v2-049",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.25,
+      "difference": 0.0,
+      "source_team_id": "8ca0a3ba3068324633c67a32"
+    },
+    {
+      "request": "coverage-v2-050",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.0,
+      "difference": 0.0,
+      "source_team_id": "948a5b3209a7a8285ccfc3af"
+    },
+    {
+      "request": "coverage-v2-051",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.0,
+      "difference": 1.0,
+      "source_team_id": "2578745112fcd38ddbeb7f22"
+    },
+    {
+      "request": "coverage-v2-052",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.25,
+      "difference": 0.5,
+      "source_team_id": "d7d41922cbcb4c04ea0d2efa"
+    },
+    {
+      "request": "coverage-v2-053",
+      "slots": 3,
+      "coverage": 0.3333333333333333,
+      "neutral": 0.0,
+      "difference": 0.3333333333333333,
+      "source_team_id": "69c09457ce7008a316a17939"
+    },
+    {
+      "request": "coverage-v2-054",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.5,
+      "difference": -0.25,
+      "source_team_id": "759d2dc05832c44b20b19b76"
+    },
+    {
+      "request": "coverage-v2-055",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.0,
+      "difference": 0.25,
+      "source_team_id": "3156ebaf4e164f5798a3ea6f"
+    },
+    {
+      "request": "coverage-v2-056",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.5,
+      "difference": 0.0,
+      "source_team_id": "256251dd4a8ed3547ebbfff3"
+    },
+    {
+      "request": "coverage-v2-057",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.0,
+      "difference": 0.75,
+      "source_team_id": "8739a7499e27794ea1a7c0a5"
+    },
+    {
+      "request": "coverage-v2-058",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.0,
+      "difference": 0.75,
+      "source_team_id": "e61a1c4ab24c09d410e75188"
+    },
+    {
+      "request": "coverage-v2-059",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.25,
+      "difference": 0.75,
+      "source_team_id": "782c3835aa8bbb79325d9c1f"
+    },
+    {
+      "request": "coverage-v2-060",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.5,
+      "difference": 0.25,
+      "source_team_id": "254cbe241a773f094bf51367"
+    },
+    {
+      "request": "coverage-v2-061",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.25,
+      "difference": 0.5,
+      "source_team_id": "000e78190162c1a94c30fed7"
+    },
+    {
+      "request": "coverage-v2-062",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.75,
+      "difference": 0.0,
+      "source_team_id": "ea84fc331cbe1fd0de6a6dfb"
+    },
+    {
+      "request": "coverage-v2-063",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.0,
+      "difference": 0.5,
+      "source_team_id": "f0d3477b50bd5ec764c0e106"
+    },
+    {
+      "request": "coverage-v2-064",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.0,
+      "difference": 0.25,
+      "source_team_id": "8c49fd99a2fd0dd4dab19927"
+    },
+    {
+      "request": "coverage-v2-065",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25,
+      "source_team_id": "5cf66220232a51c9249a6101"
+    },
+    {
+      "request": "coverage-v2-066",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.0,
+      "difference": 0.0,
+      "source_team_id": "049083096738cde29089fe5b"
+    },
+    {
+      "request": "coverage-v2-067",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.25,
+      "difference": -0.25,
+      "source_team_id": "b3509a63c7eab279261bc3ee"
+    },
+    {
+      "request": "coverage-v2-068",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.5,
+      "difference": -0.25,
+      "source_team_id": "e2799b5006a03071d56220fd"
+    },
+    {
+      "request": "coverage-v2-069",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.75,
+      "difference": -0.75,
+      "source_team_id": "e1a4476ef1c07e7db7a8aaa0"
+    },
+    {
+      "request": "coverage-v2-070",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.75,
+      "difference": 0.0,
+      "source_team_id": "8ea6b567f8020ee81f66b055"
+    },
+    {
+      "request": "coverage-v2-071",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25,
+      "source_team_id": "d88e88111d050db31f488261"
+    },
+    {
+      "request": "coverage-v2-072",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.0,
+      "difference": 0.25,
+      "source_team_id": "c1f22e29ce5a5affe6f8ca9f"
+    },
+    {
+      "request": "coverage-v2-073",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25,
+      "source_team_id": "b22d5fb6d604d68719c59838"
+    },
+    {
+      "request": "coverage-v2-074",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.0,
+      "difference": 0.0,
+      "source_team_id": "3369e564a427b29ffd5b177a"
+    },
+    {
+      "request": "coverage-v2-075",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.25,
+      "difference": 0.75,
+      "source_team_id": "63f0fe72db1da43bef6f9a80"
+    },
+    {
+      "request": "coverage-v2-076",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.5,
+      "difference": 0.5,
+      "source_team_id": "1c294ceccb7a87282282e4ce"
+    },
+    {
+      "request": "coverage-v2-077",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.5,
+      "difference": -0.25,
+      "source_team_id": "2637dc36b0a87a011cd95297"
+    },
+    {
+      "request": "coverage-v2-078",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.0,
+      "difference": 0.0,
+      "source_team_id": "80328e2d77076f3c7e6d6d04"
+    },
+    {
+      "request": "coverage-v2-079",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.75,
+      "difference": 0.0,
+      "source_team_id": "24bcd1f26758f24b810bfb87"
+    },
+    {
+      "request": "coverage-v2-080",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25,
+      "source_team_id": "820806088723d12f92775d10"
+    },
+    {
+      "request": "coverage-v2-081",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.25,
+      "difference": -0.25,
+      "source_team_id": "7de53aa5675fa5913b7117ce"
+    },
+    {
+      "request": "coverage-v2-082",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.75,
+      "difference": -0.25,
+      "source_team_id": "9390fea38071fd3aa00f464f"
+    },
+    {
+      "request": "coverage-v2-083",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.0,
+      "difference": 0.0,
+      "source_team_id": "9aa7aec9397024732af1b64e"
+    },
+    {
+      "request": "coverage-v2-084",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.0,
+      "difference": 0.0,
+      "source_team_id": "3d679d7e47dd651aa6660b55"
+    },
+    {
+      "request": "coverage-v2-085",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.0,
+      "difference": 0.75,
+      "source_team_id": "741e32dba3beed75fe3e3927"
+    },
+    {
+      "request": "coverage-v2-086",
+      "slots": 2,
+      "coverage": 0.5,
+      "neutral": 0.5,
+      "difference": 0.0,
+      "source_team_id": "97680e81cac316e23b3a0a57"
+    },
+    {
+      "request": "coverage-v2-087",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.5,
+      "difference": 0.25,
+      "source_team_id": "38829a3e19d108e6f2d04ef7"
+    },
+    {
+      "request": "coverage-v2-088",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.75,
+      "difference": 0.25,
+      "source_team_id": "dea988039daf481c0edeee3f"
+    },
+    {
+      "request": "coverage-v2-089",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25,
+      "source_team_id": "3fe00084a90412fedbddf77a"
+    },
+    {
+      "request": "coverage-v2-090",
+      "slots": 3,
+      "coverage": 0.6666666666666666,
+      "neutral": 0.3333333333333333,
+      "difference": 0.3333333333333333,
+      "source_team_id": "d3a4567eb9fc566a686b1212"
+    },
+    {
+      "request": "coverage-v2-091",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 1.0,
+      "difference": -0.5,
+      "source_team_id": "552cbecd0515d2e837a4c30c"
+    },
+    {
+      "request": "coverage-v2-092",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.5,
+      "difference": 0.5,
+      "source_team_id": "3ae8ad636045c4495e69024e"
+    },
+    {
+      "request": "coverage-v2-093",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.75,
+      "difference": -0.25,
+      "source_team_id": "630a57a2a2eb84f9a2400a0d"
+    },
+    {
+      "request": "coverage-v2-094",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.5,
+      "difference": 0.0,
+      "source_team_id": "3b50f488e29d79e49a832ee0"
+    },
+    {
+      "request": "coverage-v2-095",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.25,
+      "difference": 0.5,
+      "source_team_id": "8bcd8f378f57b1f06958eabb"
+    },
+    {
+      "request": "coverage-v2-096",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.75,
+      "difference": -0.25,
+      "source_team_id": "e0ba31a6d2fe33d8eb93ea42"
+    },
+    {
+      "request": "coverage-v2-097",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.75,
+      "difference": 0.25,
+      "source_team_id": "12c468ef2190300a9a532cad"
+    },
+    {
+      "request": "coverage-v2-098",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25,
+      "source_team_id": "052e4e03c1b73e6994cb0915"
+    },
+    {
+      "request": "coverage-v2-099",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.5,
+      "difference": 0.25,
+      "source_team_id": "c0194d72b6352406f0f194e0"
+    },
+    {
+      "request": "coverage-v2-100",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 1.0,
+      "difference": 0.0,
+      "source_team_id": "8c664449ba48a8bde3713f35"
+    },
+    {
+      "request": "coverage-v2-101",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.75,
+      "difference": -0.5,
+      "source_team_id": "254cbe241a773f094bf51367"
+    },
+    {
+      "request": "coverage-v2-102",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.25,
+      "difference": -0.25,
+      "source_team_id": "7cf0a49bdbcc13fdd5e412f0"
+    },
+    {
+      "request": "coverage-v2-103",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.25,
+      "difference": 0.5,
+      "source_team_id": "2d89b5fec91a93003074346e"
+    },
+    {
+      "request": "coverage-v2-104",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 1.0,
+      "difference": -1.0,
+      "source_team_id": "bbe21baa1cb974a1d3feb6df"
+    },
+    {
+      "request": "coverage-v2-105",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25,
+      "source_team_id": "7de53aa5675fa5913b7117ce"
+    },
+    {
+      "request": "coverage-v2-106",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.75,
+      "difference": 0.0,
+      "source_team_id": "552cbecd0515d2e837a4c30c"
+    },
+    {
+      "request": "coverage-v2-107",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.5,
+      "difference": 0.0,
+      "source_team_id": "070c7fdeeac474c81051d2c1"
+    },
+    {
+      "request": "coverage-v2-108",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 1.0,
+      "difference": -0.75,
+      "source_team_id": "263811dbf68fdb9848f2e73e"
+    },
+    {
+      "request": "coverage-v2-109",
+      "slots": 3,
+      "coverage": 0.6666666666666666,
+      "neutral": 0.6666666666666666,
+      "difference": 0.0,
+      "source_team_id": "69c09457ce7008a316a17939"
+    },
+    {
+      "request": "coverage-v2-110",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25,
+      "source_team_id": "c52ce8d86ca2e13f9b9da12a"
+    },
+    {
+      "request": "coverage-v2-111",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.0,
+      "difference": 1.0,
+      "source_team_id": "9aa7aec9397024732af1b64e"
+    },
+    {
+      "request": "coverage-v2-112",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.0,
+      "difference": 0.75,
+      "source_team_id": "63f0fe72db1da43bef6f9a80"
+    },
+    {
+      "request": "coverage-v2-113",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25,
+      "source_team_id": "8ca0a3ba3068324633c67a32"
+    },
+    {
+      "request": "coverage-v2-114",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.75,
+      "difference": 0.0,
+      "source_team_id": "3ae8ad636045c4495e69024e"
+    },
+    {
+      "request": "coverage-v2-115",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.75,
+      "difference": 0.25,
+      "source_team_id": "0a944dace65252d774cad532"
+    },
+    {
+      "request": "coverage-v2-116",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25,
+      "source_team_id": "b3509a63c7eab279261bc3ee"
+    },
+    {
+      "request": "coverage-v2-117",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.5,
+      "difference": 0.0,
+      "source_team_id": "c475efbde1b73f9951d9623f"
+    },
+    {
+      "request": "coverage-v2-118",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.25,
+      "difference": 0.5,
+      "source_team_id": "f28c6f1d95b3821f89a1a6a1"
+    },
+    {
+      "request": "coverage-v2-119",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.5,
+      "difference": -0.25,
+      "source_team_id": "c731d34b33806be281446343"
+    },
+    {
+      "request": "coverage-v2-120",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.5,
+      "difference": -0.25,
+      "source_team_id": "38829a3e19d108e6f2d04ef7"
+    },
+    {
+      "request": "coverage-v2-121",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.75,
+      "difference": -0.25,
+      "source_team_id": "7f18999a6c0bea28dcb037a9"
+    },
+    {
+      "request": "coverage-v2-122",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.25,
+      "difference": 0.75,
+      "source_team_id": "948a5b3209a7a8285ccfc3af"
+    },
+    {
+      "request": "coverage-v2-123",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.5,
+      "difference": 0.25,
+      "source_team_id": "675412089e415655ea7888ed"
+    },
+    {
+      "request": "coverage-v2-124",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.0,
+      "difference": 0.5,
+      "source_team_id": "b025a9681a893a95e160d322"
+    },
+    {
+      "request": "coverage-v2-125",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25,
+      "source_team_id": "e61a1c4ab24c09d410e75188"
+    },
+    {
+      "request": "coverage-v2-126",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25,
+      "source_team_id": "3d679d7e47dd651aa6660b55"
+    },
+    {
+      "request": "coverage-v2-127",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.75,
+      "difference": -0.25,
+      "source_team_id": "a0f6965d9766ab0d0f673a70"
+    },
+    {
+      "request": "coverage-v2-128",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.25,
+      "difference": -0.25,
+      "source_team_id": "cdf32a7ebe806119ad24f4d0"
+    },
+    {
+      "request": "coverage-v2-129",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.75,
+      "difference": 0.0,
+      "source_team_id": "bc23e1f5817e6316ce2a3bac"
+    },
+    {
+      "request": "coverage-v2-130",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.5,
+      "difference": 0.25,
+      "source_team_id": "1c294ceccb7a87282282e4ce"
+    },
+    {
+      "request": "coverage-v2-131",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.75,
+      "difference": -0.5,
+      "source_team_id": "a380cacfce0381a878f8a3e9"
+    },
+    {
+      "request": "coverage-v2-132",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.5,
+      "difference": 0.25,
+      "source_team_id": "c1f22e29ce5a5affe6f8ca9f"
+    },
+    {
+      "request": "coverage-v2-133",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.25,
+      "difference": -0.25,
+      "source_team_id": "3369e564a427b29ffd5b177a"
+    },
+    {
+      "request": "coverage-v2-134",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.25,
+      "difference": 0.5,
+      "source_team_id": "d7d41922cbcb4c04ea0d2efa"
+    },
+    {
+      "request": "coverage-v2-135",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.75,
+      "difference": -0.5,
+      "source_team_id": "d1395c17a3cfaf27ed43ebfb"
+    },
+    {
+      "request": "coverage-v2-136",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25,
+      "source_team_id": "e2311a5dbf4e1247eee8907f"
+    },
+    {
+      "request": "coverage-v2-137",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.75,
+      "difference": -0.75,
+      "source_team_id": "e0ba31a6d2fe33d8eb93ea42"
+    },
+    {
+      "request": "coverage-v2-138",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.25,
+      "difference": -0.25,
+      "source_team_id": "bcb24c5a54c73883b9f144d9"
+    },
+    {
+      "request": "coverage-v2-139",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.0,
+      "difference": 0.25,
+      "source_team_id": "fde2b27e65f8fe9881ff52ba"
+    },
+    {
+      "request": "coverage-v2-140",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.5,
+      "difference": -0.5,
+      "source_team_id": "e2799b5006a03071d56220fd"
+    },
+    {
+      "request": "coverage-v2-141",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.0,
+      "difference": 0.25,
+      "source_team_id": "d3a4567eb9fc566a686b1212"
+    },
+    {
+      "request": "coverage-v2-142",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.5,
+      "difference": 0.25,
+      "source_team_id": "0f9efdad0394bbf94b4548d9"
+    },
+    {
+      "request": "coverage-v2-143",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.0,
+      "difference": 0.25,
+      "source_team_id": "5cf66220232a51c9249a6101"
+    },
+    {
+      "request": "coverage-v2-144",
+      "slots": 2,
+      "coverage": 0.5,
+      "neutral": 0.0,
+      "difference": 0.5,
+      "source_team_id": "a576dde7d68e68ec6374e38d"
+    },
+    {
+      "request": "coverage-v2-145",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.0,
+      "difference": 0.25,
+      "source_team_id": "782c3835aa8bbb79325d9c1f"
+    },
+    {
+      "request": "coverage-v2-146",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.0,
+      "difference": 0.75,
+      "source_team_id": "7f45e2b7dd1dcdd5aef30e26"
+    },
+    {
+      "request": "coverage-v2-147",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.0,
+      "difference": 0.5,
+      "source_team_id": "8b6807d1a7710da2f3fd1e2b"
+    },
+    {
+      "request": "coverage-v2-148",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.5,
+      "difference": 0.25,
+      "source_team_id": "63d47fb9bb03eb57c2ba5b86"
+    },
+    {
+      "request": "coverage-v2-149",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 1.0,
+      "difference": -0.25,
+      "source_team_id": "80328e2d77076f3c7e6d6d04"
+    },
+    {
+      "request": "coverage-v2-150",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.5,
+      "difference": -0.5,
+      "source_team_id": "16f93785d4cd2c18deee0956"
+    },
+    {
+      "request": "coverage-v2-151",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.0,
+      "difference": 0.25,
+      "source_team_id": "466e018620276bed74465e09"
+    },
+    {
+      "request": "coverage-v2-152",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.0,
+      "difference": 0.25,
+      "source_team_id": "d833b2286a79803196251b01"
+    },
+    {
+      "request": "coverage-v2-153",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.75,
+      "difference": -0.5,
+      "source_team_id": "8ea6b567f8020ee81f66b055"
+    },
+    {
+      "request": "coverage-v2-154",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.75,
+      "difference": -0.5,
+      "source_team_id": "4f426d77e61695d679141c2d"
+    },
+    {
+      "request": "coverage-v2-155",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.25,
+      "difference": 0.0,
+      "source_team_id": "24bcd1f26758f24b810bfb87"
+    },
+    {
+      "request": "coverage-v2-156",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.0,
+      "difference": 0.5,
+      "source_team_id": "2637dc36b0a87a011cd95297"
+    },
+    {
+      "request": "coverage-v2-157",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.0,
+      "difference": 1.0,
+      "source_team_id": "630a57a2a2eb84f9a2400a0d"
+    },
+    {
+      "request": "coverage-v2-158",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.5,
+      "difference": -0.25,
+      "source_team_id": "049083096738cde29089fe5b"
+    },
+    {
+      "request": "coverage-v2-159",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 1.0,
+      "difference": 0.0,
+      "source_team_id": "ea84fc331cbe1fd0de6a6dfb"
+    },
+    {
+      "request": "coverage-v2-160",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.25,
+      "difference": 0.5,
+      "source_team_id": "3156ebaf4e164f5798a3ea6f"
+    },
+    {
+      "request": "coverage-v2-161",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.0,
+      "difference": 0.25,
+      "source_team_id": "8c49fd99a2fd0dd4dab19927"
+    },
+    {
+      "request": "coverage-v2-162",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.25,
+      "difference": 0.5,
+      "source_team_id": "12c468ef2190300a9a532cad"
+    },
+    {
+      "request": "coverage-v2-163",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.25,
+      "difference": -0.25,
+      "source_team_id": "6704b88c9fc5e984f2542c5c"
+    },
+    {
+      "request": "coverage-v2-164",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.5,
+      "difference": 0.0,
+      "source_team_id": "e1a4476ef1c07e7db7a8aaa0"
+    },
+    {
+      "request": "coverage-v2-165",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.25,
+      "difference": 0.0,
+      "source_team_id": "187135d1359ca3a0c9137cd0"
+    },
+    {
+      "request": "coverage-v2-166",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.0,
+      "difference": 0.25,
+      "source_team_id": "741e32dba3beed75fe3e3927"
+    },
+    {
+      "request": "coverage-v2-167",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.5,
+      "difference": 0.25,
+      "source_team_id": "63b23abc67d87748c7aa0e05"
+    },
+    {
+      "request": "coverage-v2-168",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25,
+      "source_team_id": "f0d3477b50bd5ec764c0e106"
+    },
+    {
+      "request": "coverage-v2-169",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 1.0,
+      "difference": -0.25,
+      "source_team_id": "d425e54142f9c3a8dda473a0"
+    }
+  ]
+}

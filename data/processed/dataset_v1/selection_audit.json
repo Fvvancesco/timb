@@ -1,0 +1,1377 @@
+{
+  "inspected": 226,
+  "decisions": [
+    {
+      "source": "gen9ou/team_107688.gen9ou_team",
+      "accepted": true,
+      "team_id": "9548dee176622753950cc84c"
+    },
+    {
+      "source": "gen9ou/team_24766.gen9ou_team",
+      "accepted": true,
+      "team_id": "3ae8ad636045c4495e69024e"
+    },
+    {
+      "source": "gen9ou/team_72581.gen9ou_team",
+      "accepted": true,
+      "team_id": "8da38d7d54d794c4d81d2396"
+    },
+    {
+      "source": "gen9ou/team_112843.gen9ou_team",
+      "accepted": true,
+      "team_id": "c52ce8d86ca2e13f9b9da12a"
+    },
+    {
+      "source": "gen9ou/team_32475.gen9ou_team",
+      "accepted": true,
+      "team_id": "21d5024b28fd1457735553b5"
+    },
+    {
+      "source": "gen9ou/team_97256.gen9ou_team",
+      "accepted": true,
+      "team_id": "63b23abc67d87748c7aa0e05"
+    },
+    {
+      "source": "gen9ou/team_10272.gen9ou_team",
+      "accepted": true,
+      "team_id": "80328e2d77076f3c7e6d6d04"
+    },
+    {
+      "source": "gen9ou/team_106030.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Dragapult's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_95942.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Excadrill's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_40714.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Hoopa's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_78185.gen9ou_team",
+      "accepted": true,
+      "team_id": "630a57a2a2eb84f9a2400a0d"
+    },
+    {
+      "source": "gen9ou/team_84151.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Frosmoth's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_50297.gen9ou_team",
+      "accepted": true,
+      "team_id": "1c294ceccb7a87282282e4ce"
+    },
+    {
+      "source": "gen9ou/team_54291.gen9ou_team",
+      "accepted": true,
+      "team_id": "d24638567a001234a7045185"
+    },
+    {
+      "source": "gen9ou/team_106388.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Kyurem's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_44722.gen9ou_team",
+      "accepted": true,
+      "team_id": "263811dbf68fdb9848f2e73e"
+    },
+    {
+      "source": "gen9ou/team_110133.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Iron Moth's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_28052.gen9ou_team",
+      "accepted": true,
+      "team_id": "7f18999a6c0bea28dcb037a9"
+    },
+    {
+      "source": "gen9ou/team_36762.gen9ou_team",
+      "accepted": true,
+      "team_id": "fde2b27e65f8fe9881ff52ba"
+    },
+    {
+      "source": "gen9ou/team_42215.gen9ou_team",
+      "accepted": true,
+      "team_id": "24bcd1f26758f24b810bfb87"
+    },
+    {
+      "source": "gen9ou/team_28411.gen9ou_team",
+      "accepted": true,
+      "team_id": "c0194d72b6352406f0f194e0"
+    },
+    {
+      "source": "gen9ou/team_61034.gen9ou_team",
+      "accepted": true,
+      "team_id": "f2c071e400767591cefb9447"
+    },
+    {
+      "source": "gen9ou/team_55720.gen9ou_team",
+      "accepted": true,
+      "team_id": "070c7fdeeac474c81051d2c1"
+    },
+    {
+      "source": "gen9ou/team_47690.gen9ou_team",
+      "accepted": true,
+      "team_id": "049083096738cde29089fe5b"
+    },
+    {
+      "source": "gen9ou/team_27998.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Enamorus's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_55151.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Thundurus's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_5541.gen9ou_team",
+      "accepted": false,
+      "reason": "development_species_composition",
+      "validation_errors": []
+    },
+    {
+      "source": "gen9ou/team_102113.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Sandy Shocks's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_80838.gen9ou_team",
+      "accepted": true,
+      "team_id": "b47d88b7e4997c2391bd8b54"
+    },
+    {
+      "source": "gen9ou/team_18864.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Iron Moth's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_87060.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Sandy Shocks's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_21174.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Comfey's move Tera Blast is banned.",
+        "Walking Wake's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_59127.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Dragonite's move Tera Blast is banned.",
+        "Landorus's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_76813.gen9ou_team",
+      "accepted": true,
+      "team_id": "c5a87eb1d2f47b50dbbea2b2"
+    },
+    {
+      "source": "gen9ou/team_117921.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Tornadus's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_54260.gen9ou_team",
+      "accepted": false,
+      "reason": "duplicate_species_composition",
+      "validation_errors": []
+    },
+    {
+      "source": "gen9ou/team_90428.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Sandy Shocks's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_77015.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Dragapult's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_24930.gen9ou_team",
+      "accepted": true,
+      "team_id": "c1f22e29ce5a5affe6f8ca9f"
+    },
+    {
+      "source": "gen9ou/team_15474.gen9ou_team",
+      "accepted": true,
+      "team_id": "736857db70d2777246c7715d"
+    },
+    {
+      "source": "gen9ou/team_9943.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Dragonite's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_75892.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Dragonite's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_54160.gen9ou_team",
+      "accepted": true,
+      "team_id": "b025a9681a893a95e160d322"
+    },
+    {
+      "source": "gen9ou/team_59892.gen9ou_team",
+      "accepted": true,
+      "team_id": "2d89b5fec91a93003074346e"
+    },
+    {
+      "source": "gen9ou/team_18147.gen9ou_team",
+      "accepted": true,
+      "team_id": "7467f213c99cebdd4d5c89e9"
+    },
+    {
+      "source": "gen9ou/team_96801.gen9ou_team",
+      "accepted": true,
+      "team_id": "256251dd4a8ed3547ebbfff3"
+    },
+    {
+      "source": "gen9ou/team_84671.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Kyurem's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_69772.gen9ou_team",
+      "accepted": true,
+      "team_id": "79ca0c6153d1b86fc97cd03f"
+    },
+    {
+      "source": "gen9ou/team_76696.gen9ou_team",
+      "accepted": true,
+      "team_id": "97680e81cac316e23b3a0a57"
+    },
+    {
+      "source": "gen9ou/team_109398.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Landorus's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_39411.gen9ou_team",
+      "accepted": true,
+      "team_id": "e476ce0341452de8d8f04d30"
+    },
+    {
+      "source": "gen9ou/team_69580.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Dragapult's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_44411.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Kingambit's move Tera Blast is banned.",
+        "Iron Thorns's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_78515.gen9ou_team",
+      "accepted": true,
+      "team_id": "159809102d78f1101d76e2c6"
+    },
+    {
+      "source": "gen9ou/team_92518.gen9ou_team",
+      "accepted": true,
+      "team_id": "63f0fe72db1da43bef6f9a80"
+    },
+    {
+      "source": "gen9ou/team_53785.gen9ou_team",
+      "accepted": true,
+      "team_id": "e97b20ba9ffdcb3536c8dac5"
+    },
+    {
+      "source": "gen9ou/team_73141.gen9ou_team",
+      "accepted": true,
+      "team_id": "d3a4567eb9fc566a686b1212"
+    },
+    {
+      "source": "gen9ou/team_14603.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Skeledirge's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_64467.gen9ou_team",
+      "accepted": true,
+      "team_id": "cdf32a7ebe806119ad24f4d0"
+    },
+    {
+      "source": "gen9ou/team_78284.gen9ou_team",
+      "accepted": true,
+      "team_id": "d7d41922cbcb4c04ea0d2efa"
+    },
+    {
+      "source": "gen9ou/team_28277.gen9ou_team",
+      "accepted": true,
+      "team_id": "5cc4c36d32f675ff75c7a9da"
+    },
+    {
+      "source": "gen9ou/team_78310.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Frosmoth's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_30185.gen9ou_team",
+      "accepted": true,
+      "team_id": "dea988039daf481c0edeee3f"
+    },
+    {
+      "source": "gen9ou/team_12929.gen9ou_team",
+      "accepted": true,
+      "team_id": "552cbecd0515d2e837a4c30c"
+    },
+    {
+      "source": "gen9ou/team_60844.gen9ou_team",
+      "accepted": true,
+      "team_id": "a380cacfce0381a878f8a3e9"
+    },
+    {
+      "source": "gen9ou/team_100190.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Iron Moth's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_53810.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Polteageist's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_83850.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Haxorus's move Tera Blast is banned.",
+        "Pecharunt's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_26866.gen9ou_team",
+      "accepted": true,
+      "team_id": "e0ba31a6d2fe33d8eb93ea42"
+    },
+    {
+      "source": "gen9ou/team_56668.gen9ou_team",
+      "accepted": false,
+      "reason": "development_species_composition",
+      "validation_errors": []
+    },
+    {
+      "source": "gen9ou/team_64673.gen9ou_team",
+      "accepted": true,
+      "team_id": "3b35c350fadd8840bab9cd77"
+    },
+    {
+      "source": "gen9ou/team_42577.gen9ou_team",
+      "accepted": false,
+      "reason": "duplicate_species_composition",
+      "validation_errors": []
+    },
+    {
+      "source": "gen9ou/team_62790.gen9ou_team",
+      "accepted": true,
+      "team_id": "3a728a82f2a2b61245808cc3"
+    },
+    {
+      "source": "gen9ou/team_22368.gen9ou_team",
+      "accepted": true,
+      "team_id": "948a5b3209a7a8285ccfc3af"
+    },
+    {
+      "source": "gen9ou/team_26907.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Kyurem's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_97259.gen9ou_team",
+      "accepted": true,
+      "team_id": "5cf66220232a51c9249a6101"
+    },
+    {
+      "source": "gen9ou/team_51154.gen9ou_team",
+      "accepted": true,
+      "team_id": "7bb4f33615aaceaec3f04e4f"
+    },
+    {
+      "source": "gen9ou/team_543.gen9ou_team",
+      "accepted": true,
+      "team_id": "4edeba45c2407908f15b044e"
+    },
+    {
+      "source": "gen9ou/team_62172.gen9ou_team",
+      "accepted": false,
+      "reason": "duplicate_species_composition",
+      "validation_errors": []
+    },
+    {
+      "source": "gen9ou/team_77289.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Serperior's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_83425.gen9ou_team",
+      "accepted": true,
+      "team_id": "7f45e2b7dd1dcdd5aef30e26"
+    },
+    {
+      "source": "gen9ou/team_60428.gen9ou_team",
+      "accepted": true,
+      "team_id": "12c468ef2190300a9a532cad"
+    },
+    {
+      "source": "gen9ou/team_25403.gen9ou_team",
+      "accepted": true,
+      "team_id": "8b6807d1a7710da2f3fd1e2b"
+    },
+    {
+      "source": "gen9ou/team_109702.gen9ou_team",
+      "accepted": true,
+      "team_id": "466e018620276bed74465e09"
+    },
+    {
+      "source": "gen9ou/team_36025.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Jolteon's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_116285.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Enamorus's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_38192.gen9ou_team",
+      "accepted": true,
+      "team_id": "b22d5fb6d604d68719c59838"
+    },
+    {
+      "source": "gen9ou/team_35670.gen9ou_team",
+      "accepted": true,
+      "team_id": "69c09457ce7008a316a17939"
+    },
+    {
+      "source": "gen9ou/team_117696.gen9ou_team",
+      "accepted": true,
+      "team_id": "0f9efdad0394bbf94b4548d9"
+    },
+    {
+      "source": "gen9ou/team_27700.gen9ou_team",
+      "accepted": true,
+      "team_id": "d1395c17a3cfaf27ed43ebfb"
+    },
+    {
+      "source": "gen9ou/team_9854.gen9ou_team",
+      "accepted": true,
+      "team_id": "2637dc36b0a87a011cd95297"
+    },
+    {
+      "source": "gen9ou/team_26696.gen9ou_team",
+      "accepted": true,
+      "team_id": "5f63424a93ae7891acef0c71"
+    },
+    {
+      "source": "gen9ou/team_88038.gen9ou_team",
+      "accepted": true,
+      "team_id": "79ad6758d542730df240484a"
+    },
+    {
+      "source": "gen9ou/team_106203.gen9ou_team",
+      "accepted": true,
+      "team_id": "e0895d6029e0a70d570bfdb3"
+    },
+    {
+      "source": "gen9ou/team_109617.gen9ou_team",
+      "accepted": true,
+      "team_id": "8c49fd99a2fd0dd4dab19927"
+    },
+    {
+      "source": "gen9ou/team_7145.gen9ou_team",
+      "accepted": true,
+      "team_id": "ffcb4f92aa4af80eb833fa5b"
+    },
+    {
+      "source": "gen9ou/team_72543.gen9ou_team",
+      "accepted": true,
+      "team_id": "c475efbde1b73f9951d9623f"
+    },
+    {
+      "source": "gen9ou/team_23640.gen9ou_team",
+      "accepted": true,
+      "team_id": "d833b2286a79803196251b01"
+    },
+    {
+      "source": "gen9ou/team_35205.gen9ou_team",
+      "accepted": true,
+      "team_id": "254cbe241a773f094bf51367"
+    },
+    {
+      "source": "gen9ou/team_104051.gen9ou_team",
+      "accepted": true,
+      "team_id": "3fe00084a90412fedbddf77a"
+    },
+    {
+      "source": "gen9ou/team_59371.gen9ou_team",
+      "accepted": true,
+      "team_id": "bc23e1f5817e6316ce2a3bac"
+    },
+    {
+      "source": "gen9ou/team_76238.gen9ou_team",
+      "accepted": true,
+      "team_id": "9390fea38071fd3aa00f464f"
+    },
+    {
+      "source": "gen9ou/team_38678.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Raging Bolt's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_89099.gen9ou_team",
+      "accepted": true,
+      "team_id": "000e78190162c1a94c30fed7"
+    },
+    {
+      "source": "gen9ou/team_27939.gen9ou_team",
+      "accepted": true,
+      "team_id": "f0a5d4e223818eb03b4162c0"
+    },
+    {
+      "source": "gen9ou/team_35336.gen9ou_team",
+      "accepted": true,
+      "team_id": "782c3835aa8bbb79325d9c1f"
+    },
+    {
+      "source": "gen9ou/team_21306.gen9ou_team",
+      "accepted": true,
+      "team_id": "187135d1359ca3a0c9137cd0"
+    },
+    {
+      "source": "gen9ou/team_54519.gen9ou_team",
+      "accepted": true,
+      "team_id": "4f426d77e61695d679141c2d"
+    },
+    {
+      "source": "gen9ou/team_44345.gen9ou_team",
+      "accepted": true,
+      "team_id": "0a944dace65252d774cad532"
+    },
+    {
+      "source": "gen9ou/team_90750.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Dragapult's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_107663.gen9ou_team",
+      "accepted": true,
+      "team_id": "46edb97b9071665fee262363"
+    },
+    {
+      "source": "gen9ou/team_75566.gen9ou_team",
+      "accepted": true,
+      "team_id": "bc2fef35826b3e1cdad92c1f"
+    },
+    {
+      "source": "gen9ou/team_76142.gen9ou_team",
+      "accepted": true,
+      "team_id": "3f1d1d18d8cc7d02365d1c31"
+    },
+    {
+      "source": "gen9ou/team_80359.gen9ou_team",
+      "accepted": true,
+      "team_id": "741e32dba3beed75fe3e3927"
+    },
+    {
+      "source": "gen9ou/team_32117.gen9ou_team",
+      "accepted": true,
+      "team_id": "a35c42cdd01cac742fb37298"
+    },
+    {
+      "source": "gen9ou/team_26146.gen9ou_team",
+      "accepted": true,
+      "team_id": "e2311a5dbf4e1247eee8907f"
+    },
+    {
+      "source": "gen9ou/team_44415.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Iron Moth's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_62318.gen9ou_team",
+      "accepted": true,
+      "team_id": "b3509a63c7eab279261bc3ee"
+    },
+    {
+      "source": "gen9ou/team_35096.gen9ou_team",
+      "accepted": true,
+      "team_id": "759d2dc05832c44b20b19b76"
+    },
+    {
+      "source": "gen9ou/team_106092.gen9ou_team",
+      "accepted": true,
+      "team_id": "3369e564a427b29ffd5b177a"
+    },
+    {
+      "source": "gen9ou/team_57118.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Enamorus's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_67281.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Kingambit's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_88617.gen9ou_team",
+      "accepted": false,
+      "reason": "duplicate_species_composition",
+      "validation_errors": []
+    },
+    {
+      "source": "gen9ou/team_29791.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Dragapult's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_27651.gen9ou_team",
+      "accepted": true,
+      "team_id": "27bd71caffe65eec650fdfdd"
+    },
+    {
+      "source": "gen9ou/team_14449.gen9ou_team",
+      "accepted": true,
+      "team_id": "fb99180d1cbd08ac98067571"
+    },
+    {
+      "source": "gen9ou/team_94096.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Blaziken's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_45688.gen9ou_team",
+      "accepted": true,
+      "team_id": "62f29d110ae5a3f9da05e7cc"
+    },
+    {
+      "source": "gen9ou/team_1585.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Haxorus's move Tera Blast is banned.",
+        "Kyurem's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_5005.gen9ou_team",
+      "accepted": true,
+      "team_id": "6704b88c9fc5e984f2542c5c"
+    },
+    {
+      "source": "gen9ou/team_99296.gen9ou_team",
+      "accepted": false,
+      "reason": "development_species_composition",
+      "validation_errors": []
+    },
+    {
+      "source": "gen9ou/team_80175.gen9ou_team",
+      "accepted": true,
+      "team_id": "3d679d7e47dd651aa6660b55"
+    },
+    {
+      "source": "gen9ou/team_35499.gen9ou_team",
+      "accepted": true,
+      "team_id": "3156ebaf4e164f5798a3ea6f"
+    },
+    {
+      "source": "gen9ou/team_11661.gen9ou_team",
+      "accepted": true,
+      "team_id": "af74fd7c3bf626ae5822d8d3"
+    },
+    {
+      "source": "gen9ou/team_77891.gen9ou_team",
+      "accepted": true,
+      "team_id": "3ea0010274de0bf549333bdc"
+    },
+    {
+      "source": "gen9ou/team_59705.gen9ou_team",
+      "accepted": true,
+      "team_id": "8739a7499e27794ea1a7c0a5"
+    },
+    {
+      "source": "gen9ou/team_105613.gen9ou_team",
+      "accepted": false,
+      "reason": "duplicate_species_composition",
+      "validation_errors": []
+    },
+    {
+      "source": "gen9ou/team_99964.gen9ou_team",
+      "accepted": true,
+      "team_id": "95b113f73b6a5f9e3df74ab3"
+    },
+    {
+      "source": "gen9ou/team_20359.gen9ou_team",
+      "accepted": true,
+      "team_id": "62725dca130c87c66c25b383"
+    },
+    {
+      "source": "gen9ou/team_110283.gen9ou_team",
+      "accepted": true,
+      "team_id": "34c3ce92fa96569fc638569c"
+    },
+    {
+      "source": "gen9ou/team_83241.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Walking Wake's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_1169.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Kyurem's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_62004.gen9ou_team",
+      "accepted": true,
+      "team_id": "78e72761654fa27b43a5aba0"
+    },
+    {
+      "source": "gen9ou/team_102036.gen9ou_team",
+      "accepted": true,
+      "team_id": "f4538acea690cd8de850d714"
+    },
+    {
+      "source": "gen9ou/team_84141.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Gholdengo's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_28874.gen9ou_team",
+      "accepted": true,
+      "team_id": "16f93785d4cd2c18deee0956"
+    },
+    {
+      "source": "gen9ou/team_24949.gen9ou_team",
+      "accepted": true,
+      "team_id": "5025adb7d4d8b6317d0257bb"
+    },
+    {
+      "source": "gen9ou/team_61043.gen9ou_team",
+      "accepted": true,
+      "team_id": "f0d3477b50bd5ec764c0e106"
+    },
+    {
+      "source": "gen9ou/team_65788.gen9ou_team",
+      "accepted": true,
+      "team_id": "1d00afdca1b08a327e3c7bc8"
+    },
+    {
+      "source": "gen9ou/team_5104.gen9ou_team",
+      "accepted": true,
+      "team_id": "f55c9d8efee840f424dac223"
+    },
+    {
+      "source": "gen9ou/team_85466.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Landorus's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_17846.gen9ou_team",
+      "accepted": false,
+      "reason": "duplicate_species_composition",
+      "validation_errors": []
+    },
+    {
+      "source": "gen9ou/team_31832.gen9ou_team",
+      "accepted": true,
+      "team_id": "820806088723d12f92775d10"
+    },
+    {
+      "source": "gen9ou/team_119358.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Ceruledge's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_116444.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Dragonite's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_9470.gen9ou_team",
+      "accepted": true,
+      "team_id": "c731d34b33806be281446343"
+    },
+    {
+      "source": "gen9ou/team_24507.gen9ou_team",
+      "accepted": true,
+      "team_id": "09bc32a3c8b55233e251d3fe"
+    },
+    {
+      "source": "gen9ou/team_69009.gen9ou_team",
+      "accepted": true,
+      "team_id": "052e4e03c1b73e6994cb0915"
+    },
+    {
+      "source": "gen9ou/team_117201.gen9ou_team",
+      "accepted": true,
+      "team_id": "d45a08c968ebef31a2176570"
+    },
+    {
+      "source": "gen9ou/team_23808.gen9ou_team",
+      "accepted": true,
+      "team_id": "ea84fc331cbe1fd0de6a6dfb"
+    },
+    {
+      "source": "gen9ou/team_38438.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Pikachu's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_91173.gen9ou_team",
+      "accepted": true,
+      "team_id": "8bcd8f378f57b1f06958eabb"
+    },
+    {
+      "source": "gen9ou/team_99972.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Iron Moth's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_99011.gen9ou_team",
+      "accepted": true,
+      "team_id": "675412089e415655ea7888ed"
+    },
+    {
+      "source": "gen9ou/team_11959.gen9ou_team",
+      "accepted": true,
+      "team_id": "bcb24c5a54c73883b9f144d9"
+    },
+    {
+      "source": "gen9ou/team_98282.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Landorus's move Tera Blast is banned.",
+        "Iron Moth's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_9973.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Enamorus's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_60465.gen9ou_team",
+      "accepted": true,
+      "team_id": "38829a3e19d108e6f2d04ef7"
+    },
+    {
+      "source": "gen9ou/team_115291.gen9ou_team",
+      "accepted": true,
+      "team_id": "bbe21baa1cb974a1d3feb6df"
+    },
+    {
+      "source": "gen9ou/team_51763.gen9ou_team",
+      "accepted": true,
+      "team_id": "2578745112fcd38ddbeb7f22"
+    },
+    {
+      "source": "gen9ou/team_25871.gen9ou_team",
+      "accepted": true,
+      "team_id": "63d47fb9bb03eb57c2ba5b86"
+    },
+    {
+      "source": "gen9ou/team_46006.gen9ou_team",
+      "accepted": true,
+      "team_id": "d425e54142f9c3a8dda473a0"
+    },
+    {
+      "source": "gen9ou/team_15473.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Dragonite's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_1098.gen9ou_team",
+      "accepted": true,
+      "team_id": "3e512e950789a7ae89577a84"
+    },
+    {
+      "source": "gen9ou/team_45035.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Dragonite's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_57168.gen9ou_team",
+      "accepted": true,
+      "team_id": "e1a4476ef1c07e7db7a8aaa0"
+    },
+    {
+      "source": "gen9ou/team_91247.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Vikavolt's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_92135.gen9ou_team",
+      "accepted": false,
+      "reason": "development_species_composition",
+      "validation_errors": []
+    },
+    {
+      "source": "gen9ou/team_21801.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Garchomp's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_25746.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Dragonite's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_94980.gen9ou_team",
+      "accepted": false,
+      "reason": "duplicate_species_composition",
+      "validation_errors": []
+    },
+    {
+      "source": "gen9ou/team_20794.gen9ou_team",
+      "accepted": true,
+      "team_id": "8ea6b567f8020ee81f66b055"
+    },
+    {
+      "source": "gen9ou/team_97929.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Walking Wake's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_75106.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Jolteon's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_70573.gen9ou_team",
+      "accepted": true,
+      "team_id": "59da2e7ec999f8b4276ef86d"
+    },
+    {
+      "source": "gen9ou/team_36046.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Ceruledge's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_22855.gen9ou_team",
+      "accepted": true,
+      "team_id": "7cf0a49bdbcc13fdd5e412f0"
+    },
+    {
+      "source": "gen9ou/team_108661.gen9ou_team",
+      "accepted": true,
+      "team_id": "dfcbb8b0458c652ef76962cd"
+    },
+    {
+      "source": "gen9ou/team_72582.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Moltres's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_13852.gen9ou_team",
+      "accepted": true,
+      "team_id": "e61a1c4ab24c09d410e75188"
+    },
+    {
+      "source": "gen9ou/team_114801.gen9ou_team",
+      "accepted": true,
+      "team_id": "cebd3974721fcae91efb0da6"
+    },
+    {
+      "source": "gen9ou/team_45814.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Kyurem's move Tera Blast is banned.",
+        "Dragonite's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_59574.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Kyurem's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_68217.gen9ou_team",
+      "accepted": false,
+      "reason": "duplicate_species_composition",
+      "validation_errors": []
+    },
+    {
+      "source": "gen9ou/team_13119.gen9ou_team",
+      "accepted": true,
+      "team_id": "78863b3657b5573edfd43dcc"
+    },
+    {
+      "source": "gen9ou/team_32257.gen9ou_team",
+      "accepted": true,
+      "team_id": "a0f6965d9766ab0d0f673a70"
+    },
+    {
+      "source": "gen9ou/team_26452.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Hoopa's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_73252.gen9ou_team",
+      "accepted": true,
+      "team_id": "7881fc408a6cf80da96db601"
+    },
+    {
+      "source": "gen9ou/team_110861.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Kyurem's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_56636.gen9ou_team",
+      "accepted": true,
+      "team_id": "a576dde7d68e68ec6374e38d"
+    },
+    {
+      "source": "gen9ou/team_33824.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Dragonite's move Tera Blast is banned.",
+        "Iron Moth's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_72603.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Skeledirge's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_47596.gen9ou_team",
+      "accepted": true,
+      "team_id": "eb81fcf3c53531468ef70be8"
+    },
+    {
+      "source": "gen9ou/team_39677.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Dragonite's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_31857.gen9ou_team",
+      "accepted": true,
+      "team_id": "e2799b5006a03071d56220fd"
+    },
+    {
+      "source": "gen9ou/team_14468.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Kyurem's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_102680.gen9ou_team",
+      "accepted": true,
+      "team_id": "9aa7aec9397024732af1b64e"
+    },
+    {
+      "source": "gen9ou/team_56360.gen9ou_team",
+      "accepted": true,
+      "team_id": "d88e88111d050db31f488261"
+    },
+    {
+      "source": "gen9ou/team_83295.gen9ou_team",
+      "accepted": true,
+      "team_id": "3b50f488e29d79e49a832ee0"
+    },
+    {
+      "source": "gen9ou/team_39035.gen9ou_team",
+      "accepted": true,
+      "team_id": "6ce7bd47e028999652925d9e"
+    },
+    {
+      "source": "gen9ou/team_14271.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Enamorus's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_103480.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Enamorus's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_46117.gen9ou_team",
+      "accepted": true,
+      "team_id": "3672924c7afc68689827f8c5"
+    },
+    {
+      "source": "gen9ou/team_31527.gen9ou_team",
+      "accepted": false,
+      "reason": "duplicate_species_composition",
+      "validation_errors": []
+    },
+    {
+      "source": "gen9ou/team_100886.gen9ou_team",
+      "accepted": true,
+      "team_id": "06770eb86e1aa8a5ed04fe3c"
+    },
+    {
+      "source": "gen9ou/team_75101.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Hoopa's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_51545.gen9ou_team",
+      "accepted": true,
+      "team_id": "4a3a9edd11b1f46db1b3147f"
+    },
+    {
+      "source": "gen9ou/team_115036.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Iron Moth's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_79837.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Dragonite's move Tera Blast is banned.",
+        "Dragapult's move Tera Blast is banned.",
+        "Serperior's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_53513.gen9ou_team",
+      "accepted": true,
+      "team_id": "21f0a7d8c1280fef7ce8226c"
+    },
+    {
+      "source": "gen9ou/team_50776.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Porygon2's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_103269.gen9ou_team",
+      "accepted": true,
+      "team_id": "7de53aa5675fa5913b7117ce"
+    },
+    {
+      "source": "gen9ou/team_104347.gen9ou_team",
+      "accepted": false,
+      "reason": "illegal_under_pinned_rules",
+      "validation_errors": [
+        "Enamorus's move Tera Blast is banned."
+      ]
+    },
+    {
+      "source": "gen9ou/team_27267.gen9ou_team",
+      "accepted": true,
+      "team_id": "f28c6f1d95b3821f89a1a6a1"
+    },
+    {
+      "source": "gen9ou/team_84181.gen9ou_team",
+      "accepted": true,
+      "team_id": "8ca0a3ba3068324633c67a32"
+    },
+    {
+      "source": "gen9ou/team_52898.gen9ou_team",
+      "accepted": true,
+      "team_id": "8c664449ba48a8bde3713f35"
+    }
+  ]
+}

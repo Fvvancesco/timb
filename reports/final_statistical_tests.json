@@ -1,0 +1,218 @@
+{
+  "purpose": "Exploratory analysis specified after final outcomes were inspected; not preregistered confirmation",
+  "paired_tests": {
+    "supervised_minus_symbolic": {
+      "requests": 20,
+      "mean_difference": 0.049999999999999996,
+      "p_value": 0.58314,
+      "seed": 11,
+      "requested_resamples": 99999,
+      "evaluated_resamples": 99999,
+      "exact": false,
+      "paired_trials": 76,
+      "p_bonferroni_three_contrasts": 1.0,
+      "request_ids": [
+        "request-00",
+        "request-01",
+        "request-02",
+        "request-03",
+        "request-04",
+        "request-05",
+        "request-06",
+        "request-07",
+        "request-08",
+        "request-09",
+        "request-10",
+        "request-11",
+        "request-12",
+        "request-13",
+        "request-14",
+        "request-15",
+        "request-16",
+        "request-17",
+        "request-18",
+        "request-19"
+      ],
+      "request_differences": [
+        -0.75,
+        0.3333333333333333,
+        0.5,
+        0.25,
+        0.0,
+        0.25,
+        0.25,
+        0.6666666666666666,
+        -0.25,
+        -0.5,
+        0.0,
+        0.0,
+        -0.25,
+        0.0,
+        0.25,
+        -0.5,
+        0.25,
+        0.0,
+        0.5,
+        0.0
+      ]
+    },
+    "supervised_minus_random": {
+      "requests": 20,
+      "mean_difference": 0.008333333333333337,
+      "p_value": 1.0,
+      "seed": 11,
+      "requested_resamples": 99999,
+      "evaluated_resamples": 99999,
+      "exact": false,
+      "paired_trials": 78,
+      "p_bonferroni_three_contrasts": 1.0,
+      "request_ids": [
+        "request-00",
+        "request-01",
+        "request-02",
+        "request-03",
+        "request-04",
+        "request-05",
+        "request-06",
+        "request-07",
+        "request-08",
+        "request-09",
+        "request-10",
+        "request-11",
+        "request-12",
+        "request-13",
+        "request-14",
+        "request-15",
+        "request-16",
+        "request-17",
+        "request-18",
+        "request-19"
+      ],
+      "request_differences": [
+        0.0,
+        0.25,
+        -0.25,
+        0.25,
+        0.0,
+        -0.25,
+        0.25,
+        1.0,
+        -0.5,
+        0.0,
+        0.5,
+        -0.25,
+        -0.5,
+        -0.5,
+        0.0,
+        -0.3333333333333333,
+        -0.25,
+        0.0,
+        0.75,
+        0.0
+      ]
+    },
+    "symbolic_minus_random": {
+      "requests": 20,
+      "mean_difference": -0.05,
+      "p_value": 0.65654,
+      "seed": 11,
+      "requested_resamples": 99999,
+      "evaluated_resamples": 99999,
+      "exact": false,
+      "paired_trials": 77,
+      "p_bonferroni_three_contrasts": 1.0,
+      "request_ids": [
+        "request-00",
+        "request-01",
+        "request-02",
+        "request-03",
+        "request-04",
+        "request-05",
+        "request-06",
+        "request-07",
+        "request-08",
+        "request-09",
+        "request-10",
+        "request-11",
+        "request-12",
+        "request-13",
+        "request-14",
+        "request-15",
+        "request-16",
+        "request-17",
+        "request-18",
+        "request-19"
+      ],
+      "request_differences": [
+        0.75,
+        0.0,
+        -0.75,
+        0.0,
+        0.0,
+        -0.5,
+        0.0,
+        0.25,
+        -0.25,
+        0.5,
+        0.5,
+        -0.25,
+        -0.25,
+        -0.5,
+        -0.25,
+        0.0,
+        -0.5,
+        0.0,
+        0.25,
+        0.0
+      ]
+    }
+  },
+  "censoring_sensitivity": {
+    "random": {
+      "requests": 20,
+      "observed_sample_win_rate_bounds": [
+        0.45,
+        0.45
+      ]
+    },
+    "symbolic": {
+      "requests": 20,
+      "observed_sample_win_rate_bounds": [
+        0.375,
+        0.4125
+      ]
+    },
+    "supervised": {
+      "requests": 20,
+      "observed_sample_win_rate_bounds": [
+        0.4375,
+        0.4625
+      ]
+    }
+  },
+  "method": "Two-sided sign flips of request-level paired differences; 99999 resamples, seed 11; Bonferroni over three contrasts",
+  "assumptions": [
+    "Under the null, method labels must be exchangeable within each request block (symmetric difference distribution).",
+    "Request blocks are treated as independent; shared source sets, candidates and opponents can induce residual dependence.",
+    "All repeated trials and orientations remain within their request; only trials decisive for both methods enter a contrast.",
+    "Missing outcomes need not be random. Sensitivity bounds assign every missing result to a loss or win and are not confidence intervals.",
+    "Failure to reject does not establish equivalence. P-values do not measure the probability that the null hypothesis is true.",
+    "No ordinary t-test on overlapping cross-validation folds is performed."
+  ],
+  "references": [
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.permutation_test.html",
+    "https://scikit-learn.org/stable/auto_examples/model_selection/plot_grid_search_stats.html"
+  ],
+  "hashes": {
+    "data/processed/final_v1/manifest.json": "253632ed97a0759dd162e497478a299705adc4d507c26b31e93bca3f3d1bf9f3",
+    "data/processed/final_v1/predictions.json": "c03f9444864c614bb7e54586741ae3322dd68aaf996541a895f87e59c972c74a",
+    "data/processed/final_v1/labels.jsonl": "09cf5f0e86a520656c3cfce5c106149d27c6bb675cc924194fa5ed020abc72f2",
+    "reports/final_evaluation.json": "5367cb1a1903efeca10db6ef22658b5747e3711d9e0752156d25d9e3cbecaac6",
+    "scripts/analyze_final_statistics.py": "f88d5ab3ec1dac245196cc7db3f63959539e24cbef3eb023760bc13ddac71608",
+    "src/icon_pokemon/evaluation.py": "1d6ae161c1369252fb04cdff15c0dfccafa931ca6f5ec090e4179f3ac76fd347"
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  }
+}

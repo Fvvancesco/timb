@@ -1,0 +1,239 @@
+{
+  "scope": "Final evaluation of the frozen core system, conditional on Foul Play and fixed format",
+  "model_selection": {
+    "representation": "v1",
+    "family": "boosting",
+    "parameter": 1,
+    "mean_log_loss": 0.6844218677767132
+  },
+  "prediction": {
+    "total": 80,
+    "statuses": {
+      "completed": 80
+    },
+    "outcomes": {
+      "team_b": 48,
+      "team_a": 32
+    },
+    "metrics_order": [
+      "log_loss",
+      "brier",
+      "accuracy"
+    ],
+    "model": {
+      "n": 80,
+      "groups": 40,
+      "mean": [
+        0.6973745541087373,
+        0.25209936401658734,
+        0.525
+      ],
+      "seed": 11,
+      "repetitions": 10000,
+      "interval_95": [
+        [
+          0.6801489854639894,
+          0.7155604934458516
+        ],
+        [
+          0.24353568236574052,
+          0.2611363067622443
+        ],
+        [
+          0.4125,
+          0.6375
+        ]
+      ]
+    },
+    "neutral": {
+      "n": 80,
+      "groups": 40,
+      "mean": [
+        0.6931471805599456,
+        0.25,
+        0.4
+      ],
+      "seed": 11,
+      "repetitions": 10000,
+      "interval_95": [
+        [
+          0.6931471805599448,
+          0.6931471805599452
+        ],
+        [
+          0.25,
+          0.25
+        ],
+        [
+          0.3,
+          0.5
+        ]
+      ]
+    },
+    "model_minus_neutral": {
+      "n": 80,
+      "groups": 40,
+      "mean": [
+        0.004227373548792062,
+        0.0020993640165873177,
+        0.125
+      ],
+      "seed": 11,
+      "repetitions": 10000,
+      "interval_95": [
+        [
+          -0.012998195095955954,
+          0.022413312885906353
+        ],
+        [
+          -0.00646431763425947,
+          0.011136306762244301
+        ],
+        [
+          -0.025,
+          0.275
+        ]
+      ]
+    }
+  },
+  "selectors": {
+    "random": {
+      "statuses": {
+        "completed": 80
+      },
+      "wins": 36,
+      "draws": 0,
+      "decisive": 80,
+      "mean_request_win_rate": {
+        "n": 20,
+        "groups": 20,
+        "mean": [
+          0.45
+        ],
+        "seed": 11,
+        "repetitions": 10000,
+        "interval_95": [
+          [
+            0.3375,
+            0.5625
+          ]
+        ]
+      }
+    },
+    "symbolic": {
+      "statuses": {
+        "completed": 77,
+        "timeout": 2,
+        "truncated": 1
+      },
+      "wins": 30,
+      "draws": 0,
+      "decisive": 77,
+      "mean_request_win_rate": {
+        "n": 20,
+        "groups": 20,
+        "mean": [
+          0.3875
+        ],
+        "seed": 11,
+        "repetitions": 10000,
+        "interval_95": [
+          [
+            0.25,
+            0.5375
+          ]
+        ]
+      }
+    },
+    "supervised": {
+      "statuses": {
+        "completed": 78,
+        "truncated": 1,
+        "timeout": 1
+      },
+      "wins": 35,
+      "draws": 0,
+      "decisive": 78,
+      "mean_request_win_rate": {
+        "n": 20,
+        "groups": 20,
+        "mean": [
+          0.4541666666666666
+        ],
+        "seed": 11,
+        "repetitions": 10000,
+        "interval_95": [
+          [
+            0.3375,
+            0.575
+          ]
+        ]
+      }
+    }
+  },
+  "paired_selector_differences": {
+    "supervised_minus_symbolic": {
+      "paired_trials": 76,
+      "n": 20,
+      "groups": 20,
+      "mean": [
+        0.049999999999999996
+      ],
+      "seed": 11,
+      "repetitions": 10000,
+      "interval_95": [
+        [
+          -0.10833333333333335,
+          0.2
+        ]
+      ]
+    },
+    "supervised_minus_random": {
+      "paired_trials": 78,
+      "n": 20,
+      "groups": 20,
+      "mean": [
+        0.008333333333333337
+      ],
+      "seed": 11,
+      "repetitions": 10000,
+      "interval_95": [
+        [
+          -0.15416666666666665,
+          0.1875
+        ]
+      ]
+    },
+    "symbolic_minus_random": {
+      "paired_trials": 77,
+      "n": 20,
+      "groups": 20,
+      "mean": [
+        -0.05
+      ],
+      "seed": 11,
+      "repetitions": 10000,
+      "interval_95": [
+        [
+          -0.2125,
+          0.1125
+        ]
+      ]
+    }
+  },
+  "planned_requests": 20,
+  "failed_constructions": 0,
+  "physical_battles": 312,
+  "hashes": {
+    "data/processed/final_v1/manifest.json": "253632ed97a0759dd162e497478a299705adc4d507c26b31e93bca3f3d1bf9f3",
+    "data/processed/final_v1/predictions.json": "c03f9444864c614bb7e54586741ae3322dd68aaf996541a895f87e59c972c74a",
+    "data/processed/final_v1/labels.jsonl": "09cf5f0e86a520656c3cfce5c106149d27c6bb675cc924194fa5ed020abc72f2"
+  },
+  "limits": [
+    "Percentile bootstrap, 10000 repetitions. Prediction resamples unordered pairs; residual dependence from shared teams remains.",
+    "Selector comparisons resample requests, preserving both orientations and roots. Identical selected teams share physical games.",
+    "Primary win rates condition on decisive outcomes. Draws and censored games are excluded and counted separately.",
+    "Paired selector differences use only trials decisive for both methods and weight available requests equally.",
+    "Only 20 reserved opponent teams; no claim of universal team strength or generalization to other pilots/formats."
+  ]
+}

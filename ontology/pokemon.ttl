@@ -1,0 +1,58 @@
+@prefix p: <urn:icon:pokemon:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+p:ontology a owl:Ontology ;
+  rdfs:comment "OWL RL prototype. Capabilities describe moves present in a set, not guaranteed activation in battle." .
+p:PokemonSet a owl:Class .
+p:Move a owl:Class .
+p:Species a owl:Class .
+p:Item a owl:Class .
+p:Ability a owl:Class .
+p:Team a owl:Class .
+p:Type a owl:Class .
+p:TypeInteraction a owl:Class .
+p:hasType a owl:ObjectProperty ; rdfs:range p:Type .
+p:hasMember a owl:ObjectProperty ; rdfs:domain p:Team ; rdfs:range p:PokemonSet .
+p:availableMove a owl:ObjectProperty ; rdfs:domain p:Team ; rdfs:range p:Move ;
+  owl:propertyChainAxiom (p:hasMember p:hasMove) .
+p:hasMove a owl:ObjectProperty ; rdfs:domain p:PokemonSet ; rdfs:range p:Move .
+p:hasSpecies a owl:ObjectProperty ; rdfs:domain p:PokemonSet ; rdfs:range p:Species .
+p:hasItem a owl:ObjectProperty ; rdfs:domain p:PokemonSet ; rdfs:range p:Item .
+p:hasAbility a owl:ObjectProperty ; rdfs:domain p:PokemonSet ; rdfs:range p:Ability .
+p:hasEffect a owl:ObjectProperty .
+p:targets a owl:ObjectProperty .
+
+p:SelfRecoveryMove a owl:Class ; rdfs:subClassOf p:Move ;
+  owl:equivalentClass [ a owl:Class ; owl:intersectionOf (
+    p:Move
+    [ a owl:Restriction ; owl:onProperty p:hasEffect ; owl:hasValue p:DirectHealing ]
+    [ a owl:Restriction ; owl:onProperty p:targets ; owl:hasValue p:Self ]
+  ) ] .
+p:HazardSettingMove a owl:Class ; rdfs:subClassOf p:Move ;
+  owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasEffect ; owl:hasValue p:SetsHazards ] .
+p:HazardRemovalMove a owl:Class ; rdfs:subClassOf p:Move ;
+  owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasEffect ; owl:hasValue p:RemovesHazards ] .
+p:PriorityAttackMove a owl:Class ; rdfs:subClassOf p:Move ;
+  owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasEffect ; owl:hasValue p:PositivePriorityAttack ] .
+
+p:SetWithRecoveryMove a owl:Class ; rdfs:subClassOf p:PokemonSet ;
+  owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasMove ; owl:someValuesFrom p:SelfRecoveryMove ] .
+p:SetWithHazardSettingMove a owl:Class ; rdfs:subClassOf p:PokemonSet ;
+  owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasMove ; owl:someValuesFrom p:HazardSettingMove ] .
+p:SetWithHazardRemovalMove a owl:Class ; rdfs:subClassOf p:PokemonSet ;
+  owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasMove ; owl:someValuesFrom p:HazardRemovalMove ] .
+p:SetWithPriorityAttack a owl:Class ; rdfs:subClassOf p:PokemonSet ;
+  owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasMove ; owl:someValuesFrom p:PriorityAttackMove ] .
+
+p:TeamWithRecovery a owl:Class ; rdfs:subClassOf p:Team ;
+  owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:availableMove ; owl:someValuesFrom p:SelfRecoveryMove ] .
+p:TeamWithHazardSetting a owl:Class ; rdfs:subClassOf p:Team ;
+  owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:availableMove ; owl:someValuesFrom p:HazardSettingMove ] .
+p:TeamWithHazardRemoval a owl:Class ; rdfs:subClassOf p:Team ;
+  owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:availableMove ; owl:someValuesFrom p:HazardRemovalMove ] .
+p:TeamWithPriorityAttack a owl:Class ; rdfs:subClassOf p:Team ;
+  owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:availableMove ; owl:someValuesFrom p:PriorityAttackMove ] .
+p:TeamWithHazardSupport a owl:Class ; rdfs:subClassOf p:Team ;
+  owl:equivalentClass [ a owl:Class ; owl:intersectionOf (p:TeamWithHazardSetting p:TeamWithHazardRemoval) ] .

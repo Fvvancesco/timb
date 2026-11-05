@@ -1,0 +1,662 @@
+{
+  "scope": "Training catalog only; semantic integration demo, not competitive evaluation",
+  "format": "gen9ou",
+  "showdown_version": "0.11.11",
+  "catalog_sha256": "4a57069d62f1d9f1df68b3e9625c6f122f93e26639dd75538fdb8e41e31ab755",
+  "manifest_sha256": "5af60e85b98f44ae7641189c6c3aadf09306ae31a697f740711756bba926a7e9",
+  "teams": 100,
+  "sets": 594,
+  "moves": 246,
+  "asserted_triples": 10404,
+  "closure_triples": 21722,
+  "new_triples": 11318,
+  "inference_seconds": 14.816242325003259,
+  "set_capability_counts": {
+    "hazard_removal": 67,
+    "status_infliction": 222,
+    "recovery": 105,
+    "pivot": 153,
+    "defensive_setup": 86,
+    "special_setup": 70,
+    "hazard_setting": 104,
+    "priority_attack": 102,
+    "physical_setup": 88,
+    "screens": 6,
+    "speed_setup": 23,
+    "forced_switch": 20
+  },
+  "team_capability_counts": {
+    "recovery": 69,
+    "priority_attack": 70,
+    "physical_setup": 64,
+    "special_setup": 57,
+    "defensive_setup": 63,
+    "status_infliction": 98,
+    "hazard_setting": 78,
+    "pivot": 77,
+    "forced_switch": 21,
+    "hazard_removal": 58,
+    "speed_setup": 22,
+    "screens": 6
+  },
+  "team_combinations": {
+    "TeamWithPhysicalSetupAndScreens": 6,
+    "TeamWithSpecialSetupAndScreens": 3
+  },
+  "moves_with_structured_effects": 98,
+  "moves_with_uninterpreted_callbacks": {
+    "acrobatics": [
+      "basePowerCallback"
+    ],
+    "alluringvoice": [
+      "secondaries.0.onHit",
+      "secondary.onHit"
+    ],
+    "auroraveil": [
+      "condition.durationCallback",
+      "condition.onAnyModifyDamage",
+      "condition.onSideEnd",
+      "condition.onSideStart",
+      "onTry"
+    ],
+    "avalanche": [
+      "basePowerCallback"
+    ],
+    "banefulbunker": [
+      "condition.onHit",
+      "condition.onStart",
+      "condition.onTryHit",
+      "onHit",
+      "onPrepareHit"
+    ],
+    "beatup": [
+      "basePowerCallback",
+      "onModifyMove"
+    ],
+    "bellydrum": [
+      "onHit"
+    ],
+    "blizzard": [
+      "onModifyMove"
+    ],
+    "brickbreak": [
+      "onTryHit"
+    ],
+    "ceaselessedge": [
+      "onAfterHit",
+      "onAfterSubDamage"
+    ],
+    "chillyreception": [
+      "condition.onBeforeMove",
+      "priorityChargeCallback"
+    ],
+    "courtchange": [
+      "onHitField"
+    ],
+    "curse": [
+      "condition.onResidual",
+      "condition.onStart",
+      "onHit",
+      "onModifyMove",
+      "onTryHit"
+    ],
+    "defog": [
+      "onHit"
+    ],
+    "destinybond": [
+      "condition.onBeforeMove",
+      "condition.onFaint",
+      "condition.onMoveAborted",
+      "condition.onStart",
+      "onPrepareHit"
+    ],
+    "dragonenergy": [
+      "basePowerCallback"
+    ],
+    "encore": [
+      "condition.onDisableMove",
+      "condition.onEnd",
+      "condition.onOverrideAction",
+      "condition.onResidual",
+      "condition.onStart"
+    ],
+    "endeavor": [
+      "damageCallback",
+      "onTryImmunity"
+    ],
+    "eruption": [
+      "basePowerCallback"
+    ],
+    "expandingforce": [
+      "onBasePower",
+      "onModifyMove"
+    ],
+    "facade": [
+      "onBasePower"
+    ],
+    "fakeout": [
+      "onTry"
+    ],
+    "fellstinger": [
+      "onAfterMoveSecondarySelf"
+    ],
+    "firstimpression": [
+      "onTry"
+    ],
+    "focuspunch": [
+      "beforeMoveCallback",
+      "condition.onHit",
+      "condition.onStart",
+      "condition.onTryAddVolatile",
+      "priorityChargeCallback"
+    ],
+    "freezedry": [
+      "onEffectiveness"
+    ],
+    "futuresight": [
+      "onTry"
+    ],
+    "grassknot": [
+      "basePowerCallback",
+      "onTryHit"
+    ],
+    "grassyglide": [
+      "onModifyPriority"
+    ],
+    "growth": [
+      "onModifyMove"
+    ],
+    "haze": [
+      "onHitField"
+    ],
+    "healbell": [
+      "onHit"
+    ],
+    "healingwish": [
+      "condition.onSwap",
+      "condition.onSwitchIn",
+      "onTryHit"
+    ],
+    "heavyslam": [
+      "basePowerCallback",
+      "onTryHit"
+    ],
+    "hex": [
+      "basePowerCallback"
+    ],
+    "highjumpkick": [
+      "onMoveFail"
+    ],
+    "hurricane": [
+      "onModifyMove"
+    ],
+    "icespinner": [
+      "onAfterHit",
+      "onAfterSubDamage"
+    ],
+    "ivycudgel": [
+      "onModifyType",
+      "onPrepareHit"
+    ],
+    "knockoff": [
+      "onAfterHit",
+      "onBasePower"
+    ],
+    "leechseed": [
+      "condition.onResidual",
+      "condition.onStart",
+      "onTryImmunity"
+    ],
+    "lightscreen": [
+      "condition.durationCallback",
+      "condition.onAnyModifyDamage",
+      "condition.onSideEnd",
+      "condition.onSideStart"
+    ],
+    "lowkick": [
+      "basePowerCallback",
+      "onTryHit"
+    ],
+    "meteorbeam": [
+      "onTryMove"
+    ],
+    "mirrorcoat": [
+      "beforeTurnCallback",
+      "condition.onDamagingHit",
+      "condition.onRedirectTarget",
+      "condition.onStart",
+      "damageCallback",
+      "onTry"
+    ],
+    "moonlight": [
+      "onHit"
+    ],
+    "morningsun": [
+      "onHit"
+    ],
+    "mortalspin": [
+      "onAfterHit",
+      "onAfterSubDamage"
+    ],
+    "painsplit": [
+      "onHit"
+    ],
+    "partingshot": [
+      "onHit"
+    ],
+    "phantomforce": [
+      "onTryMove"
+    ],
+    "photongeyser": [
+      "onModifyMove"
+    ],
+    "poltergeist": [
+      "onTry",
+      "onTryHit"
+    ],
+    "protect": [
+      "condition.onStart",
+      "condition.onTryHit",
+      "onHit",
+      "onPrepareHit"
+    ],
+    "psychicfangs": [
+      "onTryHit"
+    ],
+    "rapidspin": [
+      "onAfterHit",
+      "onAfterSubDamage"
+    ],
+    "reflect": [
+      "condition.durationCallback",
+      "condition.onAnyModifyDamage",
+      "condition.onSideEnd",
+      "condition.onSideStart"
+    ],
+    "rest": [
+      "onHit",
+      "onTry"
+    ],
+    "revivalblessing": [
+      "onTryHit"
+    ],
+    "roost": [
+      "condition.onStart",
+      "condition.onType"
+    ],
+    "ruination": [
+      "damageCallback"
+    ],
+    "saltcure": [
+      "condition.onEnd",
+      "condition.onResidual",
+      "condition.onStart"
+    ],
+    "sleeptalk": [
+      "onHit",
+      "onTry"
+    ],
+    "solarbeam": [
+      "onBasePower",
+      "onTryMove"
+    ],
+    "solarblade": [
+      "onBasePower",
+      "onTryMove"
+    ],
+    "spikes": [
+      "condition.onSideRestart",
+      "condition.onSideStart",
+      "condition.onSwitchIn"
+    ],
+    "stealthrock": [
+      "condition.onSideStart",
+      "condition.onSwitchIn"
+    ],
+    "steelbeam": [
+      "onMoveFail"
+    ],
+    "stickyweb": [
+      "condition.onSideStart",
+      "condition.onSwitchIn"
+    ],
+    "stompingtantrum": [
+      "basePowerCallback"
+    ],
+    "storedpower": [
+      "basePowerCallback"
+    ],
+    "strengthsap": [
+      "onHit"
+    ],
+    "substitute": [
+      "condition.onEnd",
+      "condition.onStart",
+      "condition.onTryPrimaryHit",
+      "onHit",
+      "onTryHit"
+    ],
+    "suckerpunch": [
+      "onTry"
+    ],
+    "supercellslam": [
+      "onMoveFail"
+    ],
+    "switcheroo": [
+      "onHit",
+      "onTryImmunity"
+    ],
+    "synthesis": [
+      "onHit"
+    ],
+    "tailwind": [
+      "condition.durationCallback",
+      "condition.onModifySpe",
+      "condition.onSideEnd",
+      "condition.onSideStart"
+    ],
+    "takeheart": [
+      "onHit"
+    ],
+    "taunt": [
+      "condition.onBeforeMove",
+      "condition.onDisableMove",
+      "condition.onEnd",
+      "condition.onStart"
+    ],
+    "teleport": [
+      "onTry"
+    ],
+    "temperflare": [
+      "basePowerCallback"
+    ],
+    "throatchop": [
+      "condition.onBeforeMove",
+      "condition.onDisableMove",
+      "condition.onEnd",
+      "condition.onModifyMove",
+      "condition.onStart",
+      "secondaries.0.onHit",
+      "secondary.onHit"
+    ],
+    "thunderclap": [
+      "onTry"
+    ],
+    "tidyup": [
+      "onHit"
+    ],
+    "toxicspikes": [
+      "condition.onSideRestart",
+      "condition.onSideStart",
+      "condition.onSwitchIn"
+    ],
+    "trick": [
+      "onHit",
+      "onTryImmunity"
+    ],
+    "trickroom": [
+      "condition.durationCallback",
+      "condition.onFieldEnd",
+      "condition.onFieldRestart",
+      "condition.onFieldStart"
+    ],
+    "tripleaxel": [
+      "basePowerCallback"
+    ],
+    "watershuriken": [
+      "basePowerCallback"
+    ],
+    "weatherball": [
+      "onModifyMove",
+      "onModifyType"
+    ],
+    "wish": [
+      "condition.onEnd",
+      "condition.onResidual",
+      "condition.onStart"
+    ]
+  },
+  "callback_moves_without_structured_effects": [
+    "acrobatics",
+    "alluringvoice",
+    "avalanche",
+    "banefulbunker",
+    "beatup",
+    "bellydrum",
+    "brickbreak",
+    "ceaselessedge",
+    "courtchange",
+    "curse",
+    "defog",
+    "destinybond",
+    "dragonenergy",
+    "encore",
+    "endeavor",
+    "eruption",
+    "expandingforce",
+    "facade",
+    "fakeout",
+    "fellstinger",
+    "firstimpression",
+    "focuspunch",
+    "futuresight",
+    "grassknot",
+    "grassyglide",
+    "haze",
+    "healbell",
+    "healingwish",
+    "heavyslam",
+    "hex",
+    "highjumpkick",
+    "hurricane",
+    "icespinner",
+    "ivycudgel",
+    "knockoff",
+    "leechseed",
+    "lowkick",
+    "meteorbeam",
+    "mirrorcoat",
+    "moonlight",
+    "morningsun",
+    "painsplit",
+    "phantomforce",
+    "photongeyser",
+    "poltergeist",
+    "protect",
+    "psychicfangs",
+    "rest",
+    "roost",
+    "ruination",
+    "saltcure",
+    "sleeptalk",
+    "solarbeam",
+    "solarblade",
+    "steelbeam",
+    "stompingtantrum",
+    "storedpower",
+    "strengthsap",
+    "substitute",
+    "suckerpunch",
+    "supercellslam",
+    "switcheroo",
+    "synthesis",
+    "takeheart",
+    "taunt",
+    "temperflare",
+    "throatchop",
+    "thunderclap",
+    "tidyup",
+    "trick",
+    "trickroom",
+    "tripleaxel",
+    "watershuriken",
+    "weatherball",
+    "wish"
+  ],
+  "repair": {
+    "status": "OPTIMAL",
+    "selected_ids": [
+      "12648d352083269fecdf",
+      "418c4f66e22465d14cb6",
+      "6011f708cfc574694334",
+      "be1cf19124f93b7d8014",
+      "cd118b84ea90ce27e975",
+      "f330e89e2733425ab8a5"
+    ],
+    "replacements": 1,
+    "covered_capabilities": [
+      "hazard_removal",
+      "hazard_setting",
+      "physical_setup",
+      "pivot",
+      "priority_attack",
+      "recovery",
+      "screens",
+      "status_infliction"
+    ],
+    "wall_seconds": 0.017580397994606756,
+    "objective": 29.0,
+    "best_bound": 29.0,
+    "coverage_objective": null,
+    "required": [
+      "physical_setup",
+      "screens"
+    ],
+    "original_ids": [
+      "418c4f66e22465d14cb6",
+      "6011f708cfc574694334",
+      "cd118b84ea90ce27e975",
+      "f330e89e2733425ab8a5",
+      "12648d352083269fecdf",
+      "a70a086f6c3dbc0bfc2d"
+    ],
+    "fixed_ids": [
+      "418c4f66e22465d14cb6",
+      "6011f708cfc574694334"
+    ],
+    "showdown_legal": true,
+    "added": [
+      "be1cf19124f93b7d8014"
+    ],
+    "removed": [
+      "a70a086f6c3dbc0bfc2d"
+    ],
+    "witnesses": {
+      "12648d352083269fecdf": {},
+      "418c4f66e22465d14cb6": {},
+      "6011f708cfc574694334": {},
+      "be1cf19124f93b7d8014": {
+        "screens": [
+          {
+            "move_id": "lightscreen",
+            "effect_id": "urn:icon:pokemon:move/lightscreen/effect/0",
+            "facts": {
+              "effectKind": [
+                "side_condition"
+              ],
+              "recipient": [
+                "allySide"
+              ],
+              "phase": [
+                "primary"
+              ],
+              "condition": [
+                "lightscreen"
+              ],
+              "sourceField": [
+                "sideCondition"
+              ]
+            },
+            "uninterpreted_callbacks": [
+              "condition.durationCallback",
+              "condition.onAnyModifyDamage",
+              "condition.onSideEnd",
+              "condition.onSideStart"
+            ],
+            "scope": "Potential capability; activation and success are not guaranteed."
+          },
+          {
+            "move_id": "reflect",
+            "effect_id": "urn:icon:pokemon:move/reflect/effect/0",
+            "facts": {
+              "effectKind": [
+                "side_condition"
+              ],
+              "recipient": [
+                "allySide"
+              ],
+              "phase": [
+                "primary"
+              ],
+              "condition": [
+                "reflect"
+              ],
+              "sourceField": [
+                "sideCondition"
+              ]
+            },
+            "uninterpreted_callbacks": [
+              "condition.durationCallback",
+              "condition.onAnyModifyDamage",
+              "condition.onSideEnd",
+              "condition.onSideStart"
+            ],
+            "scope": "Potential capability; activation and success are not guaranteed."
+          }
+        ]
+      },
+      "cd118b84ea90ce27e975": {
+        "physical_setup": [
+          {
+            "move_id": "swordsdance",
+            "effect_id": "urn:icon:pokemon:move/swordsdance/effect/0",
+            "facts": {
+              "effectKind": [
+                "stat_change"
+              ],
+              "recipient": [
+                "self"
+              ],
+              "phase": [
+                "primary"
+              ],
+              "stat": [
+                "atk"
+              ],
+              "direction": [
+                "Increase"
+              ],
+              "stages": [
+                2
+              ],
+              "sourceField": [
+                "boosts.atk"
+              ]
+            },
+            "uninterpreted_callbacks": [],
+            "scope": "Potential capability; activation and success are not guaranteed."
+          }
+        ]
+      },
+      "f330e89e2733425ab8a5": {}
+    }
+  },
+  "limits": [
+    "Potential capabilities only; accuracy, immunity, costs and callback conditions can prevent activation.",
+    "Missing entailment is not a proof of absence. Items and abilities are not interpreted.",
+    "Original 236-feature supervised schema is unchanged. This is a versioned KB extension.",
+    "Closure size includes OWL/RDFS bookkeeping, not only useful domain deductions."
+  ],
+  "hashes": {
+    "ontology/pokemon.ttl": "367c6923f47ab06de2f7570ce60592d25dfbea84b43a212cdcaabfdeaf0e78cd",
+    "ontology/move_semantics.ttl": "0263ec139c3d74a6a006f5c7eeb8c35182b9a73ab4cf940675c97be118523366",
+    "ontology/move_annotations.json": "8117352f4fbb642a52cdc02b7072b076e23074719bcfba23a279b2ac5657d35d",
+    "tools/showdown/export-move-semantics.cjs": "7ba7092655a30c2b9695b57bd21b2d4de04d493eeb0a1529a0d4c826a0c58316",
+    "src/icon_pokemon/knowledge.py": "9050a4dfb48b1f9ea4d73083d86ee9139363bcafa344eae0739aba4375ff0436",
+    "src/icon_pokemon/move_semantics.py": "66bda441adb9b43fefca40d7b0236eefebc82ed44f50f3bf51fd94d43f5908fd",
+    "src/icon_pokemon/optimization.py": "8a381384b1f1f060d5d9d4e4410e8d40c1d62e85a8fd3287c2ec2ace012f9efd",
+    "tools/showdown/package-lock.json": "107206ca8d9452aced0bb32537a2c529929369bbddb2514a5faf48edd2ccd432",
+    "scripts/run_kb_enrichment.py": "551dd497be2e8f627a9a77efb364a7d54c2165d2b6c746ad0099b5fa389fc268"
+  },
+  "elapsed_seconds": 16.457287475001067
+}

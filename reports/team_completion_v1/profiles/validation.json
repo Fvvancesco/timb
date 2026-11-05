@@ -1,0 +1,152 @@
+{
+  "scope": "Exploratory validation on the previously used split; test predictions were not computed",
+  "train_teams": 4643,
+  "validation_teams": 995,
+  "validation_masks": 5970,
+  "fit": {
+    "dimension": 32,
+    "epochs": 35
+  },
+  "model_seeds": [
+    11,
+    23,
+    47
+  ],
+  "validation_member_slots_with_profile": 0.907537688442211,
+  "metrics": {
+    "identity": {
+      "top1": 0.207035175879397,
+      "top5": 0.4542713567839196,
+      "log_loss_covered": 3.5959852577119293
+    },
+    "kb": {
+      "top1": 0.20603015075376885,
+      "top5": 0.4623115577889447,
+      "log_loss_covered": 3.580027937065216
+    },
+    "k5": {
+      "top1": 0.20268006700167504,
+      "top5": 0.454606365159129,
+      "log_loss_covered": 3.593171618979295
+    },
+    "k6": {
+      "top1": 0.20753768844221104,
+      "top5": 0.4577889447236181,
+      "log_loss_covered": 3.585896106293466
+    },
+    "k7": {
+      "top1": 0.20284757118927974,
+      "top5": 0.45276381909547736,
+      "log_loss_covered": 3.6018853671152544
+    }
+  },
+  "selected_k": 6,
+  "paired_top1_top5_vs_identity": {
+    "kb": {
+      "n": 5970,
+      "groups": 995,
+      "mean": [
+        -0.0010050251256281408,
+        0.008040201005025126
+      ],
+      "seed": 11,
+      "repetitions": 10000,
+      "interval_95": [
+        [
+          -0.006197654941373534,
+          0.004024288107202619
+        ],
+        [
+          0.0018425460636515912,
+          0.01440536013400335
+        ]
+      ]
+    },
+    "k5": {
+      "n": 5970,
+      "groups": 995,
+      "mean": [
+        -0.004355108877721943,
+        0.00033500837520938025
+      ],
+      "seed": 11,
+      "repetitions": 10000,
+      "interval_95": [
+        [
+          -0.009380234505862646,
+          0.0006700167504187605
+        ],
+        [
+          -0.005527638190954774,
+          0.006197654941373534
+        ]
+      ]
+    },
+    "k6": {
+      "n": 5970,
+      "groups": 995,
+      "mean": [
+        0.0005025125628140704,
+        0.0035175879396984926
+      ],
+      "seed": 11,
+      "repetitions": 10000,
+      "interval_95": [
+        [
+          -0.004857621440536013,
+          0.005862646566164154
+        ],
+        [
+          -0.002680067001675042,
+          0.009715242881072027
+        ]
+      ]
+    },
+    "k7": {
+      "n": 5970,
+      "groups": 995,
+      "mean": [
+        -0.0041876046901172526,
+        -0.001507537688442211
+      ],
+      "seed": 11,
+      "repetitions": 10000,
+      "interval_95": [
+        [
+          -0.009547738693467337,
+          0.0011725293132328308
+        ],
+        [
+          -0.006867671691792295,
+          0.004020100502512563
+        ]
+      ]
+    }
+  },
+  "paired_selected_cluster_vs_kb": {
+    "n": 5970,
+    "groups": 995,
+    "mean": [
+      0.001507537688442211,
+      -0.004522613065326633
+    ],
+    "seed": 11,
+    "repetitions": 10000,
+    "interval_95": [
+      [
+        -0.003186767169179226,
+        0.006197654941373534
+      ],
+      [
+        -0.0103894472361809,
+        0.0011767169179228872
+      ]
+    ]
+  },
+  "hashes": {
+    "data/processed/team_completion_v1/splits.json": "99107b97a1c2bc596fc8abbb6ecd55f0ab2417dc8144d0e893f2428c1f1c20b7",
+    "reports/team_completion_v1/profiles/audit.json": "92287e0ebd499d871ff8039fa3ff2e3e6c960e3f8770afcb4321c68d9ad56737",
+    "reports/team_completion_v1/selection.json": "2a3b49c464391592ed7c05e0305fef39a5ac88c28122a79b6d485e3de4de5d4a",
+    "scripts/run_team_profile_extension.py": "82dc9ff2090169da21c8bb75d5e13d958c565bdd465a68edca074a12d9b5735b"
+  }
+}

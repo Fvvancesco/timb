@@ -1,0 +1,12 @@
+{
+  "shard": "laptop",
+  "workers": 6,
+  "requests": [
+    "panel-v1-10",
+    "panel-v1-11",
+    "panel-v1-12",
+    "panel-v1-13",
+    "panel-v1-14"
+  ],
+  "manifest_sha256": "c3d4a3c53516af850dc88f1bb5e2ba479b085e37b2a5731457c2eb03448b2137"
+}

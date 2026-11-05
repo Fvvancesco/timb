@@ -1,0 +1,1319 @@
+{
+  "mode": "nested",
+  "purpose": "development only",
+  "outcomes": {
+    "team_b": 2716,
+    "team_a": 2747,
+    "None": 57
+  },
+  "kb_version": "v2",
+  "feature_count": 252,
+  "capabilities": [
+    "recovery",
+    "hazard_setting",
+    "hazard_removal",
+    "priority_attack",
+    "physical_setup",
+    "special_setup",
+    "speed_setup",
+    "defensive_setup",
+    "status_infliction",
+    "pivot",
+    "forced_switch",
+    "screens"
+  ],
+  "code_hashes": {
+    "src/icon_pokemon/features.py": "f86d87cab77d072bd0e981721e5d14fd5071a648c3c662a83fe9ada87e3efa1a",
+    "src/icon_pokemon/supervised.py": "9496c66b5d9af57f0421164a0e77afe98ce5cae588d28ddca275b5e268337a29",
+    "src/icon_pokemon/knowledge.py": "9050a4dfb48b1f9ea4d73083d86ee9139363bcafa344eae0739aba4375ff0436",
+    "src/icon_pokemon/matchups.py": "6c0bd4f953e110df4fd62e20634adfddf06b08aadd788c027d2c7cacbc26fc3e",
+    "ontology/pokemon.ttl": "367c6923f47ab06de2f7570ce60592d25dfbea84b43a212cdcaabfdeaf0e78cd",
+    "ontology/move_annotations.json": "8117352f4fbb642a52cdc02b7072b076e23074719bcfba23a279b2ac5657d35d",
+    "tools/showdown/export-mechanics.cjs": "dc31927b3a2dbf86885a267e02b26b5f13cc02e586e27a17de0d232d57151246",
+    "tools/showdown/package-lock.json": "107206ca8d9452aced0bb32537a2c529929369bbddb2514a5faf48edd2ccd432",
+    "scripts/run_supervised.py": "43bc396abee32a35ab8f8a0f725998cfdfffa0ce5704839fdf0a7ffdf6fffc70",
+    "ontology/move_semantics.ttl": "0263ec139c3d74a6a006f5c7eeb8c35182b9a73ab4cf940675c97be118523366",
+    "src/icon_pokemon/move_semantics.py": "66bda441adb9b43fefca40d7b0236eefebc82ed44f50f3bf51fd94d43f5908fd",
+    "tools/showdown/export-move-semantics.cjs": "7ba7092655a30c2b9695b57bd21b2d4de04d493eeb0a1529a0d4c826a0c58316"
+  },
+  "features": [
+    "a_member_Bug",
+    "a_member_Dark",
+    "a_member_Dragon",
+    "a_member_Electric",
+    "a_member_Fairy",
+    "a_member_Fighting",
+    "a_member_Fire",
+    "a_member_Flying",
+    "a_member_Ghost",
+    "a_member_Grass",
+    "a_member_Ground",
+    "a_member_Ice",
+    "a_member_Normal",
+    "a_member_Poison",
+    "a_member_Psychic",
+    "a_member_Rock",
+    "a_member_Steel",
+    "a_member_Water",
+    "a_weak_Bug",
+    "a_weak_Dark",
+    "a_weak_Dragon",
+    "a_weak_Electric",
+    "a_weak_Fairy",
+    "a_weak_Fighting",
+    "a_weak_Fire",
+    "a_weak_Flying",
+    "a_weak_Ghost",
+    "a_weak_Grass",
+    "a_weak_Ground",
+    "a_weak_Ice",
+    "a_weak_Normal",
+    "a_weak_Poison",
+    "a_weak_Psychic",
+    "a_weak_Rock",
+    "a_weak_Steel",
+    "a_weak_Water",
+    "a_resists_Bug",
+    "a_resists_Dark",
+    "a_resists_Dragon",
+    "a_resists_Electric",
+    "a_resists_Fairy",
+    "a_resists_Fighting",
+    "a_resists_Fire",
+    "a_resists_Flying",
+    "a_resists_Ghost",
+    "a_resists_Grass",
+    "a_resists_Ground",
+    "a_resists_Ice",
+    "a_resists_Normal",
+    "a_resists_Poison",
+    "a_resists_Psychic",
+    "a_resists_Rock",
+    "a_resists_Steel",
+    "a_resists_Water",
+    "a_immune_Bug",
+    "a_immune_Dark",
+    "a_immune_Dragon",
+    "a_immune_Electric",
+    "a_immune_Fairy",
+    "a_immune_Fighting",
+    "a_immune_Fire",
+    "a_immune_Flying",
+    "a_immune_Ghost",
+    "a_immune_Grass",
+    "a_immune_Ground",
+    "a_immune_Ice",
+    "a_immune_Normal",
+    "a_immune_Poison",
+    "a_immune_Psychic",
+    "a_immune_Rock",
+    "a_immune_Steel",
+    "a_immune_Water",
+    "a_attack_Bug",
+    "a_attack_Dark",
+    "a_attack_Dragon",
+    "a_attack_Electric",
+    "a_attack_Fairy",
+    "a_attack_Fighting",
+    "a_attack_Fire",
+    "a_attack_Flying",
+    "a_attack_Ghost",
+    "a_attack_Grass",
+    "a_attack_Ground",
+    "a_attack_Ice",
+    "a_attack_Normal",
+    "a_attack_Poison",
+    "a_attack_Psychic",
+    "a_attack_Rock",
+    "a_attack_Steel",
+    "a_attack_Water",
+    "a_hp_mean",
+    "a_hp_min",
+    "a_hp_max",
+    "a_atk_mean",
+    "a_atk_min",
+    "a_atk_max",
+    "a_def_mean",
+    "a_def_min",
+    "a_def_max",
+    "a_spa_mean",
+    "a_spa_min",
+    "a_spa_max",
+    "a_spd_mean",
+    "a_spd_min",
+    "a_spd_max",
+    "a_spe_mean",
+    "a_spe_min",
+    "a_spe_max",
+    "a_recovery",
+    "a_hazard_setting",
+    "a_hazard_removal",
+    "a_priority_attack",
+    "a_physical_setup",
+    "a_special_setup",
+    "a_speed_setup",
+    "a_defensive_setup",
+    "a_status_infliction",
+    "a_pivot",
+    "a_forced_switch",
+    "a_screens",
+    "a_offense",
+    "a_defense",
+    "a_redundancy",
+    "a_worst_best",
+    "a_mean_best",
+    "a_threats_with_known_multiplier",
+    "b_member_Bug",
+    "b_member_Dark",
+    "b_member_Dragon",
+    "b_member_Electric",
+    "b_member_Fairy",
+    "b_member_Fighting",
+    "b_member_Fire",
+    "b_member_Flying",
+    "b_member_Ghost",
+    "b_member_Grass",
+    "b_member_Ground",
+    "b_member_Ice",
+    "b_member_Normal",
+    "b_member_Poison",
+    "b_member_Psychic",
+    "b_member_Rock",
+    "b_member_Steel",
+    "b_member_Water",
+    "b_weak_Bug",
+    "b_weak_Dark",
+    "b_weak_Dragon",
+    "b_weak_Electric",
+    "b_weak_Fairy",
+    "b_weak_Fighting",
+    "b_weak_Fire",
+    "b_weak_Flying",
+    "b_weak_Ghost",
+    "b_weak_Grass",
+    "b_weak_Ground",
+    "b_weak_Ice",
+    "b_weak_Normal",
+    "b_weak_Poison",
+    "b_weak_Psychic",
+    "b_weak_Rock",
+    "b_weak_Steel",
+    "b_weak_Water",
+    "b_resists_Bug",
+    "b_resists_Dark",
+    "b_resists_Dragon",
+    "b_resists_Electric",
+    "b_resists_Fairy",
+    "b_resists_Fighting",
+    "b_resists_Fire",
+    "b_resists_Flying",
+    "b_resists_Ghost",
+    "b_resists_Grass",
+    "b_resists_Ground",
+    "b_resists_Ice",
+    "b_resists_Normal",
+    "b_resists_Poison",
+    "b_resists_Psychic",
+    "b_resists_Rock",
+    "b_resists_Steel",
+    "b_resists_Water",
+    "b_immune_Bug",
+    "b_immune_Dark",
+    "b_immune_Dragon",
+    "b_immune_Electric",
+    "b_immune_Fairy",
+    "b_immune_Fighting",
+    "b_immune_Fire",
+    "b_immune_Flying",
+    "b_immune_Ghost",
+    "b_immune_Grass",
+    "b_immune_Ground",
+    "b_immune_Ice",
+    "b_immune_Normal",
+    "b_immune_Poison",
+    "b_immune_Psychic",
+    "b_immune_Rock",
+    "b_immune_Steel",
+    "b_immune_Water",
+    "b_attack_Bug",
+    "b_attack_Dark",
+    "b_attack_Dragon",
+    "b_attack_Electric",
+    "b_attack_Fairy",
+    "b_attack_Fighting",
+    "b_attack_Fire",
+    "b_attack_Flying",
+    "b_attack_Ghost",
+    "b_attack_Grass",
+    "b_attack_Ground",
+    "b_attack_Ice",
+    "b_attack_Normal",
+    "b_attack_Poison",
+    "b_attack_Psychic",
+    "b_attack_Rock",
+    "b_attack_Steel",
+    "b_attack_Water",
+    "b_hp_mean",
+    "b_hp_min",
+    "b_hp_max",
+    "b_atk_mean",
+    "b_atk_min",
+    "b_atk_max",
+    "b_def_mean",
+    "b_def_min",
+    "b_def_max",
+    "b_spa_mean",
+    "b_spa_min",
+    "b_spa_max",
+    "b_spd_mean",
+    "b_spd_min",
+    "b_spd_max",
+    "b_spe_mean",
+    "b_spe_min",
+    "b_spe_max",
+    "b_recovery",
+    "b_hazard_setting",
+    "b_hazard_removal",
+    "b_priority_attack",
+    "b_physical_setup",
+    "b_special_setup",
+    "b_speed_setup",
+    "b_defensive_setup",
+    "b_status_infliction",
+    "b_pivot",
+    "b_forced_switch",
+    "b_screens",
+    "b_offense",
+    "b_defense",
+    "b_redundancy",
+    "b_worst_best",
+    "b_mean_best",
+    "b_threats_with_known_multiplier"
+  ],
+  "seeds": [
+    11,
+    23,
+    47
+  ],
+  "scikit_learn": "1.9.1",
+  "input_hashes": {
+    "/home/francesco/Scrivania/ICON/data/processed/dataset_v1/catalog.json": "4a57069d62f1d9f1df68b3e9625c6f122f93e26639dd75538fdb8e41e31ab755",
+    "data/processed/dataset_v2/development_labels.jsonl": "0d0da66f290f856e8432e30aa1a2b54b0cbafaa477e30468dc00bc986b73c75a",
+    "data/processed/dataset_v3/development_labels.jsonl": "591639cae9362b7ce23fb3a364a93fa541a267a792e292d86c96acfa4a238504",
+    "data/processed/dataset_v4/development_labels.jsonl": "da19e2209667bf80621399c3eb2b091c0bf71d0a179e6878dc36ecfaafa562fc"
+  },
+  "grid": {
+    "logistic": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "boosting": [
+      1,
+      2,
+      3
+    ]
+  },
+  "runs": {
+    "11": {
+      "status": "ok",
+      "folds": [
+        {
+          "outer": {
+            "train": 2330,
+            "test": 634,
+            "discarded": 2499,
+            "train_class_counts": {
+              "0": 1156,
+              "1": 1174
+            },
+            "test_class_counts": {
+              "0": 321,
+              "1": 313
+            }
+          },
+          "inner": [
+            {
+              "train": 1107,
+              "test": 215,
+              "discarded": 1008,
+              "train_class_counts": {
+                "1": 577,
+                "0": 530
+              },
+              "test_class_counts": {
+                "1": 108,
+                "0": 107
+              }
+            },
+            {
+              "train": 969,
+              "test": 272,
+              "discarded": 1089,
+              "train_class_counts": {
+                "1": 490,
+                "0": 479
+              },
+              "test_class_counts": {
+                "0": 142,
+                "1": 130
+              }
+            },
+            {
+              "train": 1000,
+              "test": 259,
+              "discarded": 1071,
+              "train_class_counts": {
+                "0": 520,
+                "1": 480
+              },
+              "test_class_counts": {
+                "1": 135,
+                "0": 124
+              }
+            }
+          ],
+          "metrics": {
+            "train_rate": {
+              "log_loss": 0.6932745040912405,
+              "brier": 0.2500636603507586,
+              "accuracy": 0.49369085173501576
+            },
+            "neutral": {
+              "log_loss": 0.6931471805599454,
+              "brier": 0.25,
+              "accuracy": 0.49369085173501576
+            },
+            "logistic": {
+              "log_loss": 0.6934220673070444,
+              "brier": 0.2491545923644016,
+              "accuracy": 0.5441640378548895,
+              "parameter": 0.01,
+              "inner_log_losses": [
+                0.7190988212113543,
+                0.7688565784275435,
+                0.7991652673895004
+              ]
+            },
+            "boosting": {
+              "log_loss": 0.6797101222573737,
+              "brier": 0.24334305323457742,
+              "accuracy": 0.5772870662460567,
+              "parameter": 1,
+              "inner_log_losses": [
+                0.696133365983081,
+                0.7003126567067066,
+                0.7116720955050407
+              ]
+            }
+          }
+        },
+        {
+          "outer": {
+            "train": 2407,
+            "test": 606,
+            "discarded": 2450,
+            "train_class_counts": {
+              "0": 1220,
+              "1": 1187
+            },
+            "test_class_counts": {
+              "0": 303,
+              "1": 303
+            }
+          },
+          "inner": [
+            {
+              "train": 1032,
+              "test": 292,
+              "discarded": 1083,
+              "train_class_counts": {
+                "0": 512,
+                "1": 520
+              },
+              "test_class_counts": {
+                "1": 145,
+                "0": 147
+              }
+            },
+            {
+              "train": 1103,
+              "test": 233,
+              "discarded": 1071,
+              "train_class_counts": {
+                "1": 533,
+                "0": 570
+              },
+              "test_class_counts": {
+                "0": 111,
+                "1": 122
+              }
+            },
+            {
+              "train": 1051,
+              "test": 254,
+              "discarded": 1102,
+              "train_class_counts": {
+                "0": 526,
+                "1": 525
+              },
+              "test_class_counts": {
+                "0": 130,
+                "1": 124
+              }
+            }
+          ],
+          "metrics": {
+            "train_rate": {
+              "log_loss": 0.6932411716145869,
+              "brier": 0.2500469911104383,
+              "accuracy": 0.5
+            },
+            "neutral": {
+              "log_loss": 0.6931471805599453,
+              "brier": 0.25,
+              "accuracy": 0.5
+            },
+            "logistic": {
+              "log_loss": 0.7515743928995432,
+              "brier": 0.27637564322244446,
+              "accuracy": 0.4768976897689769,
+              "parameter": 0.01,
+              "inner_log_losses": [
+                0.7197856002366239,
+                0.8013152164657424,
+                0.8590747514690333
+              ]
+            },
+            "boosting": {
+              "log_loss": 0.7023380854602671,
+              "brier": 0.25451822147899417,
+              "accuracy": 0.4884488448844885,
+              "parameter": 1,
+              "inner_log_losses": [
+                0.6888374737300572,
+                0.6981256297493039,
+                0.7153422103018011
+              ]
+            }
+          }
+        },
+        {
+          "outer": {
+            "train": 2520,
+            "test": 554,
+            "discarded": 2389,
+            "train_class_counts": {
+              "0": 1252,
+              "1": 1268
+            },
+            "test_class_counts": {
+              "0": 288,
+              "1": 266
+            }
+          },
+          "inner": [
+            {
+              "train": 1070,
+              "test": 269,
+              "discarded": 1181,
+              "train_class_counts": {
+                "1": 516,
+                "0": 554
+              },
+              "test_class_counts": {
+                "0": 125,
+                "1": 144
+              }
+            },
+            {
+              "train": 1074,
+              "test": 268,
+              "discarded": 1178,
+              "train_class_counts": {
+                "1": 556,
+                "0": 518
+              },
+              "test_class_counts": {
+                "1": 119,
+                "0": 149
+              }
+            },
+            {
+              "train": 1143,
+              "test": 230,
+              "discarded": 1147,
+              "train_class_counts": {
+                "0": 578,
+                "1": 565
+              },
+              "test_class_counts": {
+                "0": 124,
+                "1": 106
+              }
+            }
+          ],
+          "metrics": {
+            "train_rate": {
+              "log_loss": 0.693419475113158,
+              "brier": 0.25013614537939793,
+              "accuracy": 0.48014440433212996
+            },
+            "neutral": {
+              "log_loss": 0.6931471805599453,
+              "brier": 0.25,
+              "accuracy": 0.48014440433212996
+            },
+            "logistic": {
+              "log_loss": 0.6998755632633489,
+              "brier": 0.2523880966462087,
+              "accuracy": 0.5505415162454874,
+              "parameter": 0.01,
+              "inner_log_losses": [
+                0.7059778227446382,
+                0.7414530275805254,
+                0.7733613901063554
+              ]
+            },
+            "boosting": {
+              "log_loss": 0.6900974771892588,
+              "brier": 0.24847850927799192,
+              "accuracy": 0.5288808664259927,
+              "parameter": 1,
+              "inner_log_losses": [
+                0.6949823830726365,
+                0.6981705521205254,
+                0.7037685664408874
+              ]
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "train_rate": {
+          "log_loss": {
+            "mean": 0.6933117169396618,
+            "sd": 9.479784526244018e-05
+          },
+          "brier": {
+            "mean": 0.25008226561353164,
+            "sd": 4.739976551176546e-05
+          },
+          "accuracy": {
+            "mean": 0.4912784186890486,
+            "sd": 0.01014524739631522
+          }
+        },
+        "neutral": {
+          "log_loss": {
+            "mean": 0.6931471805599453,
+            "sd": 6.409875621278546e-17
+          },
+          "brier": {
+            "mean": 0.25,
+            "sd": 0.0
+          },
+          "accuracy": {
+            "mean": 0.4912784186890486,
+            "sd": 0.01014524739631522
+          }
+        },
+        "logistic": {
+          "log_loss": {
+            "mean": 0.7149573411566454,
+            "sd": 0.03187504135324449
+          },
+          "brier": {
+            "mean": 0.2593061107443516,
+            "sd": 0.014870796607802042
+          },
+          "accuracy": {
+            "mean": 0.5238677479564513,
+            "sd": 0.04080205671601228
+          }
+        },
+        "boosting": {
+          "log_loss": {
+            "mean": 0.6907152283022999,
+            "sd": 0.011326623151059718
+          },
+          "brier": {
+            "mean": 0.24877992799718784,
+            "sd": 0.005593678240296488
+          },
+          "accuracy": {
+            "mean": 0.5315389258521793,
+            "sd": 0.044478717985196085
+          }
+        }
+      }
+    },
+    "23": {
+      "status": "ok",
+      "folds": [
+        {
+          "outer": {
+            "train": 2394,
+            "test": 637,
+            "discarded": 2432,
+            "train_class_counts": {
+              "0": 1164,
+              "1": 1230
+            },
+            "test_class_counts": {
+              "1": 316,
+              "0": 321
+            }
+          },
+          "inner": [
+            {
+              "train": 988,
+              "test": 266,
+              "discarded": 1140,
+              "train_class_counts": {
+                "0": 483,
+                "1": 505
+              },
+              "test_class_counts": {
+                "0": 133,
+                "1": 133
+              }
+            },
+            {
+              "train": 1104,
+              "test": 229,
+              "discarded": 1061,
+              "train_class_counts": {
+                "0": 546,
+                "1": 558
+              },
+              "test_class_counts": {
+                "0": 121,
+                "1": 108
+              }
+            },
+            {
+              "train": 1059,
+              "test": 262,
+              "discarded": 1073,
+              "train_class_counts": {
+                "0": 526,
+                "1": 533
+              },
+              "test_class_counts": {
+                "1": 125,
+                "0": 137
+              }
+            }
+          ],
+          "metrics": {
+            "train_rate": {
+              "log_loss": 0.6937437992021629,
+              "brier": 0.25029820965148003,
+              "accuracy": 0.49607535321821034
+            },
+            "neutral": {
+              "log_loss": 0.6931471805599453,
+              "brier": 0.25,
+              "accuracy": 0.49607535321821034
+            },
+            "logistic": {
+              "log_loss": 0.7316507755223673,
+              "brier": 0.2665928075380881,
+              "accuracy": 0.5117739403453689,
+              "parameter": 0.01,
+              "inner_log_losses": [
+                0.6922608033704845,
+                0.7379278586795665,
+                0.79129089113116
+              ]
+            },
+            "boosting": {
+              "log_loss": 0.6944821724391427,
+              "brier": 0.2506447453677125,
+              "accuracy": 0.5227629513343799,
+              "parameter": 1,
+              "inner_log_losses": [
+                0.6998362895232753,
+                0.7034727078566034,
+                0.7060429019458964
+              ]
+            }
+          }
+        },
+        {
+          "outer": {
+            "train": 2277,
+            "test": 651,
+            "discarded": 2535,
+            "train_class_counts": {
+              "0": 1128,
+              "1": 1149
+            },
+            "test_class_counts": {
+              "1": 331,
+              "0": 320
+            }
+          },
+          "inner": [
+            {
+              "train": 948,
+              "test": 281,
+              "discarded": 1048,
+              "train_class_counts": {
+                "0": 460,
+                "1": 488
+              },
+              "test_class_counts": {
+                "0": 145,
+                "1": 136
+              }
+            },
+            {
+              "train": 1110,
+              "test": 207,
+              "discarded": 960,
+              "train_class_counts": {
+                "0": 563,
+                "1": 547
+              },
+              "test_class_counts": {
+                "0": 100,
+                "1": 107
+              }
+            },
+            {
+              "train": 995,
+              "test": 288,
+              "discarded": 994,
+              "train_class_counts": {
+                "1": 499,
+                "0": 496
+              },
+              "test_class_counts": {
+                "0": 146,
+                "1": 142
+              }
+            }
+          ],
+          "metrics": {
+            "train_rate": {
+              "log_loss": 0.6930338706313287,
+              "brier": 0.2499433463405768,
+              "accuracy": 0.5084485407066052
+            },
+            "neutral": {
+              "log_loss": 0.6931471805599453,
+              "brier": 0.25,
+              "accuracy": 0.5084485407066052
+            },
+            "logistic": {
+              "log_loss": 0.6968718474963514,
+              "brier": 0.2515987818242069,
+              "accuracy": 0.5407066052227343,
+              "parameter": 0.01,
+              "inner_log_losses": [
+                0.7131521138097687,
+                0.7573477331292872,
+                0.7979112209403834
+              ]
+            },
+            "boosting": {
+              "log_loss": 0.6920962365561055,
+              "brier": 0.249475600347869,
+              "accuracy": 0.5069124423963134,
+              "parameter": 1,
+              "inner_log_losses": [
+                0.6872189454747493,
+                0.6994316111590447,
+                0.7062144264294815
+              ]
+            }
+          }
+        },
+        {
+          "outer": {
+            "train": 2621,
+            "test": 541,
+            "discarded": 2301,
+            "train_class_counts": {
+              "1": 1303,
+              "0": 1318
+            },
+            "test_class_counts": {
+              "0": 253,
+              "1": 288
+            }
+          },
+          "inner": [
+            {
+              "train": 1144,
+              "test": 283,
+              "discarded": 1194,
+              "train_class_counts": {
+                "1": 571,
+                "0": 573
+              },
+              "test_class_counts": {
+                "1": 147,
+                "0": 136
+              }
+            },
+            {
+              "train": 1224,
+              "test": 246,
+              "discarded": 1151,
+              "train_class_counts": {
+                "1": 612,
+                "0": 612
+              },
+              "test_class_counts": {
+                "0": 123,
+                "1": 123
+              }
+            },
+            {
+              "train": 1099,
+              "test": 317,
+              "discarded": 1205,
+              "train_class_counts": {
+                "0": 549,
+                "1": 550
+              },
+              "test_class_counts": {
+                "1": 160,
+                "0": 157
+              }
+            }
+          ],
+          "metrics": {
+            "train_rate": {
+              "log_loss": 0.6935338112295877,
+              "brier": 0.2501933131795646,
+              "accuracy": 0.4676524953789279
+            },
+            "neutral": {
+              "log_loss": 0.6931471805599453,
+              "brier": 0.25,
+              "accuracy": 0.532347504621072
+            },
+            "logistic": {
+              "log_loss": 0.6870209850597648,
+              "brier": 0.24660579441035774,
+              "accuracy": 0.5415896487985212,
+              "parameter": 0.01,
+              "inner_log_losses": [
+                0.7562991342783734,
+                0.8237715132898143,
+                0.9042077936823147
+              ]
+            },
+            "boosting": {
+              "log_loss": 0.6952541688894196,
+              "brier": 0.25113835307812227,
+              "accuracy": 0.48428835489833644,
+              "parameter": 1,
+              "inner_log_losses": [
+                0.6992368119488712,
+                0.7080268588272995,
+                0.7269892575786915
+              ]
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "train_rate": {
+          "log_loss": {
+            "mean": 0.6934371603543598,
+            "sd": 0.00036469944842761856
+          },
+          "brier": {
+            "mean": 0.25014495639054046,
+            "sd": 0.00018230682005850488
+          },
+          "accuracy": {
+            "mean": 0.4907254631012478,
+            "sd": 0.020917584033347512
+          }
+        },
+        "neutral": {
+          "log_loss": {
+            "mean": 0.6931471805599453,
+            "sd": 0.0
+          },
+          "brier": {
+            "mean": 0.25,
+            "sd": 0.0
+          },
+          "accuracy": {
+            "mean": 0.5122904661819625,
+            "sd": 0.018438750916661376
+          }
+        },
+        "logistic": {
+          "log_loss": {
+            "mean": 0.7051812026928279,
+            "sd": 0.023446504793249227
+          },
+          "brier": {
+            "mean": 0.2549324612575509,
+            "sd": 0.010402174645969094
+          },
+          "accuracy": {
+            "mean": 0.5313567314555415,
+            "sd": 0.016964940973598297
+          }
+        },
+        "boosting": {
+          "log_loss": {
+            "mean": 0.6939441926282226,
+            "sd": 0.00164626877002688
+          },
+          "brier": {
+            "mean": 0.2504195662645679,
+            "sd": 0.0008539413808107158
+          },
+          "accuracy": {
+            "mean": 0.5046545828763432,
+            "sd": 0.019336418746449452
+          }
+        }
+      }
+    },
+    "47": {
+      "status": "ok",
+      "folds": [
+        {
+          "outer": {
+            "train": 2369,
+            "test": 643,
+            "discarded": 2451,
+            "train_class_counts": {
+              "0": 1171,
+              "1": 1198
+            },
+            "test_class_counts": {
+              "0": 324,
+              "1": 319
+            }
+          },
+          "inner": [
+            {
+              "train": 1100,
+              "test": 225,
+              "discarded": 1044,
+              "train_class_counts": {
+                "0": 550,
+                "1": 550
+              },
+              "test_class_counts": {
+                "0": 111,
+                "1": 114
+              }
+            },
+            {
+              "train": 1021,
+              "test": 265,
+              "discarded": 1083,
+              "train_class_counts": {
+                "0": 489,
+                "1": 532
+              },
+              "test_class_counts": {
+                "0": 137,
+                "1": 128
+              }
+            },
+            {
+              "train": 1009,
+              "test": 271,
+              "discarded": 1089,
+              "train_class_counts": {
+                "0": 505,
+                "1": 504
+              },
+              "test_class_counts": {
+                "0": 125,
+                "1": 146
+              }
+            }
+          ],
+          "metrics": {
+            "train_rate": {
+              "log_loss": 0.6933007621632781,
+              "brier": 0.250076786773511,
+              "accuracy": 0.49611197511664074
+            },
+            "neutral": {
+              "log_loss": 0.6931471805599453,
+              "brier": 0.25,
+              "accuracy": 0.49611197511664074
+            },
+            "logistic": {
+              "log_loss": 0.7619285567036251,
+              "brier": 0.2786763538063076,
+              "accuracy": 0.505443234836703,
+              "parameter": 0.01,
+              "inner_log_losses": [
+                0.7256311076447441,
+                0.8081527163094528,
+                0.8460460459687498
+              ]
+            },
+            "boosting": {
+              "log_loss": 0.6951162936719518,
+              "brier": 0.25090824994422994,
+              "accuracy": 0.5303265940902022,
+              "parameter": 1,
+              "inner_log_losses": [
+                0.6894729353011575,
+                0.6903916228365385,
+                0.6959557335288468
+              ]
+            }
+          }
+        },
+        {
+          "outer": {
+            "train": 2344,
+            "test": 620,
+            "discarded": 2499,
+            "train_class_counts": {
+              "0": 1156,
+              "1": 1188
+            },
+            "test_class_counts": {
+              "0": 316,
+              "1": 304
+            }
+          },
+          "inner": [
+            {
+              "train": 1039,
+              "test": 224,
+              "discarded": 1081,
+              "train_class_counts": {
+                "0": 504,
+                "1": 535
+              },
+              "test_class_counts": {
+                "1": 104,
+                "0": 120
+              }
+            },
+            {
+              "train": 941,
+              "test": 295,
+              "discarded": 1108,
+              "train_class_counts": {
+                "0": 474,
+                "1": 467
+              },
+              "test_class_counts": {
+                "1": 157,
+                "0": 138
+              }
+            },
+            {
+              "train": 1087,
+              "test": 204,
+              "discarded": 1053,
+              "train_class_counts": {
+                "1": 547,
+                "0": 540
+              },
+              "test_class_counts": {
+                "0": 104,
+                "1": 100
+              }
+            }
+          ],
+          "metrics": {
+            "train_rate": {
+              "log_loss": 0.6935046224164495,
+              "brier": 0.25017870837731215,
+              "accuracy": 0.49032258064516127
+            },
+            "neutral": {
+              "log_loss": 0.6931471805599453,
+              "brier": 0.25,
+              "accuracy": 0.49032258064516127
+            },
+            "logistic": {
+              "log_loss": 0.7076214065191272,
+              "brier": 0.2565551653658988,
+              "accuracy": 0.5129032258064516,
+              "parameter": 0.01,
+              "inner_log_losses": [
+                0.7371751170102385,
+                0.8347248593849587,
+                0.8997040517805551
+              ]
+            },
+            "boosting": {
+              "log_loss": 0.6963950159947151,
+              "brier": 0.2515807644243257,
+              "accuracy": 0.5129032258064516,
+              "parameter": 1,
+              "inner_log_losses": [
+                0.6952202239901262,
+                0.7017423554829013,
+                0.7011126039128027
+              ]
+            }
+          }
+        },
+        {
+          "outer": {
+            "train": 2574,
+            "test": 561,
+            "discarded": 2328,
+            "train_class_counts": {
+              "1": 1287,
+              "0": 1287
+            },
+            "test_class_counts": {
+              "0": 258,
+              "1": 303
+            }
+          },
+          "inner": [
+            {
+              "train": 1106,
+              "test": 299,
+              "discarded": 1169,
+              "train_class_counts": {
+                "0": 577,
+                "1": 529
+              },
+              "test_class_counts": {
+                "1": 154,
+                "0": 145
+              }
+            },
+            {
+              "train": 1202,
+              "test": 266,
+              "discarded": 1106,
+              "train_class_counts": {
+                "1": 612,
+                "0": 590
+              },
+              "test_class_counts": {
+                "1": 124,
+                "0": 142
+              }
+            },
+            {
+              "train": 1106,
+              "test": 275,
+              "discarded": 1193,
+              "train_class_counts": {
+                "1": 554,
+                "0": 552
+              },
+              "test_class_counts": {
+                "1": 130,
+                "0": 145
+              }
+            }
+          ],
+          "metrics": {
+            "train_rate": {
+              "log_loss": 0.6931471805599454,
+              "brier": 0.25,
+              "accuracy": 0.5401069518716578
+            },
+            "neutral": {
+              "log_loss": 0.6931471805599454,
+              "brier": 0.25,
+              "accuracy": 0.5401069518716578
+            },
+            "logistic": {
+              "log_loss": 0.6834476377488822,
+              "brier": 0.24559719634689817,
+              "accuracy": 0.5472370766488414,
+              "parameter": 0.01,
+              "inner_log_losses": [
+                0.7106035759951748,
+                0.7699631478992278,
+                0.8599605803202488
+              ]
+            },
+            "boosting": {
+              "log_loss": 0.684380678830307,
+              "brier": 0.24565097992027493,
+              "accuracy": 0.5508021390374331,
+              "parameter": 1,
+              "inner_log_losses": [
+                0.685484513483976,
+                0.6858405167775106,
+                0.6871103817384554
+              ]
+            }
+          }
+        }
+      ],
+      "aggregate": {
+        "train_rate": {
+          "log_loss": {
+            "mean": 0.6933175217132244,
+            "sd": 0.00017930931956001544
+          },
+          "brier": {
+            "mean": 0.2500851650502744,
+            "sd": 8.964829988086151e-05
+          },
+          "accuracy": {
+            "mean": 0.5088471692111532,
+            "sd": 0.02722608640758132
+          }
+        },
+        "neutral": {
+          "log_loss": {
+            "mean": 0.6931471805599453,
+            "sd": 6.409875621278546e-17
+          },
+          "brier": {
+            "mean": 0.25,
+            "sd": 0.0
+          },
+          "accuracy": {
+            "mean": 0.5088471692111532,
+            "sd": 0.02722608640758132
+          }
+        },
+        "logistic": {
+          "log_loss": {
+            "mean": 0.7176658669905448,
+            "sd": 0.04019305971951671
+          },
+          "brier": {
+            "mean": 0.26027623850636816,
+            "sd": 0.01685059208288074
+          },
+          "accuracy": {
+            "mean": 0.521861179097332,
+            "sd": 0.02229046878658472
+          }
+        },
+        "boosting": {
+          "log_loss": {
+            "mean": 0.691963996165658,
+            "sd": 0.006598394429795748
+          },
+          "brier": {
+            "mean": 0.24937999809627687,
+            "sd": 0.003246883328547419
+          },
+          "accuracy": {
+            "mean": 0.5313439863113624,
+            "sd": 0.018969929394205023
+          }
+        }
+      }
+    }
+  },
+  "elapsed_seconds": 93.40793813299388
+}

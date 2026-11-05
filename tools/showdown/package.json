@@ -1,0 +1,9 @@
+{
+  "name": "icon-showdown-adapter",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Pinned Showdown data and team validation for the ICON prototype",
+  "dependencies": {
+    "pokemon-showdown": "0.11.11"
+  }
+}

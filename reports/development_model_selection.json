@@ -1,0 +1,681 @@
+{
+  "purpose": "Development model selection, not final evaluation",
+  "seed": 11,
+  "outcomes": {
+    "team_b": 2716,
+    "team_a": 2747,
+    "None": 57
+  },
+  "decisive": 5463,
+  "grid": {
+    "logistic": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1.0
+    ],
+    "boosting": [
+      1,
+      2,
+      3
+    ],
+    "mlp": [
+      "small_l2_1",
+      "small_l2_10",
+      "two_layers_l2_10"
+    ]
+  },
+  "neural_configs": {
+    "small_l2_1": {
+      "hidden_layer_sizes": [
+        32
+      ],
+      "alpha": 1.0
+    },
+    "small_l2_10": {
+      "hidden_layer_sizes": [
+        32
+      ],
+      "alpha": 10.0
+    },
+    "two_layers_l2_10": {
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "alpha": 10.0
+    }
+  },
+  "neural_common": {
+    "activation": "relu",
+    "solver": "adam",
+    "batch_size": 64,
+    "learning_rate_init": 0.001,
+    "max_iter": 200,
+    "tol": 0.0001,
+    "n_iter_no_change": 20,
+    "early_stopping": false
+  },
+  "candidates": [
+    {
+      "representation": "v1",
+      "family": "neutral",
+      "parameter": null,
+      "mean_log_loss": 0.6931471805599453
+    },
+    {
+      "representation": "v1",
+      "family": "logistic",
+      "parameter": 0.0001,
+      "mean_log_loss": 0.6897106318401157
+    },
+    {
+      "representation": "v1",
+      "family": "logistic",
+      "parameter": 0.001,
+      "mean_log_loss": 0.6908018591198557
+    },
+    {
+      "representation": "v1",
+      "family": "logistic",
+      "parameter": 0.01,
+      "mean_log_loss": 0.7154596432877559
+    },
+    {
+      "representation": "v1",
+      "family": "logistic",
+      "parameter": 0.1,
+      "mean_log_loss": 0.7698440045168641
+    },
+    {
+      "representation": "v1",
+      "family": "logistic",
+      "parameter": 1.0,
+      "mean_log_loss": 0.8738755678331166
+    },
+    {
+      "representation": "v1",
+      "family": "boosting",
+      "parameter": 1,
+      "mean_log_loss": 0.6844218677767132
+    },
+    {
+      "representation": "v1",
+      "family": "boosting",
+      "parameter": 2,
+      "mean_log_loss": 0.6863034143002102
+    },
+    {
+      "representation": "v1",
+      "family": "boosting",
+      "parameter": 3,
+      "mean_log_loss": 0.6869183808491385
+    },
+    {
+      "representation": "v1",
+      "family": "mlp",
+      "parameter": "small_l2_1",
+      "mean_log_loss": 0.784073764739876
+    },
+    {
+      "representation": "v1",
+      "family": "mlp",
+      "parameter": "small_l2_10",
+      "mean_log_loss": 0.6887707361160351
+    },
+    {
+      "representation": "v1",
+      "family": "mlp",
+      "parameter": "two_layers_l2_10",
+      "mean_log_loss": 0.6931471805599267
+    },
+    {
+      "representation": "v2",
+      "family": "logistic",
+      "parameter": 0.0001,
+      "mean_log_loss": 0.6898948306991668
+    },
+    {
+      "representation": "v2",
+      "family": "logistic",
+      "parameter": 0.001,
+      "mean_log_loss": 0.6926257474120463
+    },
+    {
+      "representation": "v2",
+      "family": "logistic",
+      "parameter": 0.01,
+      "mean_log_loss": 0.7149573411566454
+    },
+    {
+      "representation": "v2",
+      "family": "logistic",
+      "parameter": 0.1,
+      "mean_log_loss": 0.7683415699660179
+    },
+    {
+      "representation": "v2",
+      "family": "logistic",
+      "parameter": 1.0,
+      "mean_log_loss": 0.8430267479167859
+    },
+    {
+      "representation": "v2",
+      "family": "boosting",
+      "parameter": 1,
+      "mean_log_loss": 0.6907152283022999
+    },
+    {
+      "representation": "v2",
+      "family": "boosting",
+      "parameter": 2,
+      "mean_log_loss": 0.6888538020401772
+    },
+    {
+      "representation": "v2",
+      "family": "boosting",
+      "parameter": 3,
+      "mean_log_loss": 0.6915040408706148
+    },
+    {
+      "representation": "v2",
+      "family": "mlp",
+      "parameter": "small_l2_1",
+      "mean_log_loss": 0.7900736529676584
+    },
+    {
+      "representation": "v2",
+      "family": "mlp",
+      "parameter": "small_l2_10",
+      "mean_log_loss": 0.6919231216914724
+    },
+    {
+      "representation": "v2",
+      "family": "mlp",
+      "parameter": "two_layers_l2_10",
+      "mean_log_loss": 0.6931471805718805
+    }
+  ],
+  "chosen": {
+    "representation": "v1",
+    "family": "boosting",
+    "parameter": 1,
+    "mean_log_loss": 0.6844218677767132
+  },
+  "folds": [
+    {
+      "train": 2330,
+      "test": 634,
+      "discarded": 2499,
+      "train_class_counts": {
+        "0": 1156,
+        "1": 1174
+      },
+      "test_class_counts": {
+        "0": 321,
+        "1": 313
+      }
+    },
+    {
+      "train": 2407,
+      "test": 606,
+      "discarded": 2450,
+      "train_class_counts": {
+        "0": 1220,
+        "1": 1187
+      },
+      "test_class_counts": {
+        "0": 303,
+        "1": 303
+      }
+    },
+    {
+      "train": 2520,
+      "test": 554,
+      "discarded": 2389,
+      "train_class_counts": {
+        "0": 1252,
+        "1": 1268
+      },
+      "test_class_counts": {
+        "0": 288,
+        "1": 266
+      }
+    }
+  ],
+  "neural_fit_diagnostics": {
+    "v1": [
+      {
+        "family": "mlp",
+        "parameter": "small_l2_1",
+        "inner_fold": 0,
+        "epochs": 166,
+        "training_loss": 0.5220514484869301,
+        "warnings": [],
+        "parameter_count": 7617
+      },
+      {
+        "family": "mlp",
+        "parameter": "small_l2_1",
+        "inner_fold": 1,
+        "epochs": 180,
+        "training_loss": 0.5337368210311083,
+        "warnings": [],
+        "parameter_count": 7617
+      },
+      {
+        "family": "mlp",
+        "parameter": "small_l2_1",
+        "inner_fold": 2,
+        "epochs": 177,
+        "training_loss": 0.555889369933175,
+        "warnings": [],
+        "parameter_count": 7617
+      },
+      {
+        "family": "mlp",
+        "parameter": "small_l2_10",
+        "inner_fold": 0,
+        "epochs": 87,
+        "training_loss": 0.6877858336274136,
+        "warnings": [],
+        "parameter_count": 7617
+      },
+      {
+        "family": "mlp",
+        "parameter": "small_l2_10",
+        "inner_fold": 1,
+        "epochs": 101,
+        "training_loss": 0.683665993753781,
+        "warnings": [],
+        "parameter_count": 7617
+      },
+      {
+        "family": "mlp",
+        "parameter": "small_l2_10",
+        "inner_fold": 2,
+        "epochs": 52,
+        "training_loss": 0.6920901082854053,
+        "warnings": [],
+        "parameter_count": 7617
+      },
+      {
+        "family": "mlp",
+        "parameter": "two_layers_l2_10",
+        "inner_fold": 0,
+        "epochs": 46,
+        "training_loss": 0.6932082631330486,
+        "warnings": [],
+        "parameter_count": 17281
+      },
+      {
+        "family": "mlp",
+        "parameter": "two_layers_l2_10",
+        "inner_fold": 1,
+        "epochs": 46,
+        "training_loss": 0.6931877345264013,
+        "warnings": [],
+        "parameter_count": 17281
+      },
+      {
+        "family": "mlp",
+        "parameter": "two_layers_l2_10",
+        "inner_fold": 2,
+        "epochs": 44,
+        "training_loss": 0.6931715530189424,
+        "warnings": [],
+        "parameter_count": 17281
+      }
+    ],
+    "v2": [
+      {
+        "family": "mlp",
+        "parameter": "small_l2_1",
+        "inner_fold": 0,
+        "epochs": 137,
+        "training_loss": 0.5171984014947834,
+        "warnings": [],
+        "parameter_count": 8129
+      },
+      {
+        "family": "mlp",
+        "parameter": "small_l2_1",
+        "inner_fold": 1,
+        "epochs": 184,
+        "training_loss": 0.5242480638392095,
+        "warnings": [],
+        "parameter_count": 8129
+      },
+      {
+        "family": "mlp",
+        "parameter": "small_l2_1",
+        "inner_fold": 2,
+        "epochs": 172,
+        "training_loss": 0.5513862375091187,
+        "warnings": [],
+        "parameter_count": 8129
+      },
+      {
+        "family": "mlp",
+        "parameter": "small_l2_10",
+        "inner_fold": 0,
+        "epochs": 74,
+        "training_loss": 0.6881911224931774,
+        "warnings": [],
+        "parameter_count": 8129
+      },
+      {
+        "family": "mlp",
+        "parameter": "small_l2_10",
+        "inner_fold": 1,
+        "epochs": 60,
+        "training_loss": 0.6842044303962269,
+        "warnings": [],
+        "parameter_count": 8129
+      },
+      {
+        "family": "mlp",
+        "parameter": "small_l2_10",
+        "inner_fold": 2,
+        "epochs": 66,
+        "training_loss": 0.6912735990403034,
+        "warnings": [],
+        "parameter_count": 8129
+      },
+      {
+        "family": "mlp",
+        "parameter": "two_layers_l2_10",
+        "inner_fold": 0,
+        "epochs": 54,
+        "training_loss": 0.693164011159038,
+        "warnings": [],
+        "parameter_count": 18305
+      },
+      {
+        "family": "mlp",
+        "parameter": "two_layers_l2_10",
+        "inner_fold": 1,
+        "epochs": 52,
+        "training_loss": 0.6932211949136315,
+        "warnings": [],
+        "parameter_count": 18305
+      },
+      {
+        "family": "mlp",
+        "parameter": "two_layers_l2_10",
+        "inner_fold": 2,
+        "epochs": 48,
+        "training_loss": 0.6932728137540132,
+        "warnings": [],
+        "parameter_count": 18305
+      }
+    ]
+  },
+  "final_fit_diagnostics": null,
+  "features": [
+    "a_member_Bug",
+    "a_member_Dark",
+    "a_member_Dragon",
+    "a_member_Electric",
+    "a_member_Fairy",
+    "a_member_Fighting",
+    "a_member_Fire",
+    "a_member_Flying",
+    "a_member_Ghost",
+    "a_member_Grass",
+    "a_member_Ground",
+    "a_member_Ice",
+    "a_member_Normal",
+    "a_member_Poison",
+    "a_member_Psychic",
+    "a_member_Rock",
+    "a_member_Steel",
+    "a_member_Water",
+    "a_weak_Bug",
+    "a_weak_Dark",
+    "a_weak_Dragon",
+    "a_weak_Electric",
+    "a_weak_Fairy",
+    "a_weak_Fighting",
+    "a_weak_Fire",
+    "a_weak_Flying",
+    "a_weak_Ghost",
+    "a_weak_Grass",
+    "a_weak_Ground",
+    "a_weak_Ice",
+    "a_weak_Normal",
+    "a_weak_Poison",
+    "a_weak_Psychic",
+    "a_weak_Rock",
+    "a_weak_Steel",
+    "a_weak_Water",
+    "a_resists_Bug",
+    "a_resists_Dark",
+    "a_resists_Dragon",
+    "a_resists_Electric",
+    "a_resists_Fairy",
+    "a_resists_Fighting",
+    "a_resists_Fire",
+    "a_resists_Flying",
+    "a_resists_Ghost",
+    "a_resists_Grass",
+    "a_resists_Ground",
+    "a_resists_Ice",
+    "a_resists_Normal",
+    "a_resists_Poison",
+    "a_resists_Psychic",
+    "a_resists_Rock",
+    "a_resists_Steel",
+    "a_resists_Water",
+    "a_immune_Bug",
+    "a_immune_Dark",
+    "a_immune_Dragon",
+    "a_immune_Electric",
+    "a_immune_Fairy",
+    "a_immune_Fighting",
+    "a_immune_Fire",
+    "a_immune_Flying",
+    "a_immune_Ghost",
+    "a_immune_Grass",
+    "a_immune_Ground",
+    "a_immune_Ice",
+    "a_immune_Normal",
+    "a_immune_Poison",
+    "a_immune_Psychic",
+    "a_immune_Rock",
+    "a_immune_Steel",
+    "a_immune_Water",
+    "a_attack_Bug",
+    "a_attack_Dark",
+    "a_attack_Dragon",
+    "a_attack_Electric",
+    "a_attack_Fairy",
+    "a_attack_Fighting",
+    "a_attack_Fire",
+    "a_attack_Flying",
+    "a_attack_Ghost",
+    "a_attack_Grass",
+    "a_attack_Ground",
+    "a_attack_Ice",
+    "a_attack_Normal",
+    "a_attack_Poison",
+    "a_attack_Psychic",
+    "a_attack_Rock",
+    "a_attack_Steel",
+    "a_attack_Water",
+    "a_hp_mean",
+    "a_hp_min",
+    "a_hp_max",
+    "a_atk_mean",
+    "a_atk_min",
+    "a_atk_max",
+    "a_def_mean",
+    "a_def_min",
+    "a_def_max",
+    "a_spa_mean",
+    "a_spa_min",
+    "a_spa_max",
+    "a_spd_mean",
+    "a_spd_min",
+    "a_spd_max",
+    "a_spe_mean",
+    "a_spe_min",
+    "a_spe_max",
+    "a_recovery",
+    "a_hazard_setting",
+    "a_hazard_removal",
+    "a_priority_attack",
+    "a_offense",
+    "a_defense",
+    "a_redundancy",
+    "a_worst_best",
+    "a_mean_best",
+    "a_threats_with_known_multiplier",
+    "b_member_Bug",
+    "b_member_Dark",
+    "b_member_Dragon",
+    "b_member_Electric",
+    "b_member_Fairy",
+    "b_member_Fighting",
+    "b_member_Fire",
+    "b_member_Flying",
+    "b_member_Ghost",
+    "b_member_Grass",
+    "b_member_Ground",
+    "b_member_Ice",
+    "b_member_Normal",
+    "b_member_Poison",
+    "b_member_Psychic",
+    "b_member_Rock",
+    "b_member_Steel",
+    "b_member_Water",
+    "b_weak_Bug",
+    "b_weak_Dark",
+    "b_weak_Dragon",
+    "b_weak_Electric",
+    "b_weak_Fairy",
+    "b_weak_Fighting",
+    "b_weak_Fire",
+    "b_weak_Flying",
+    "b_weak_Ghost",
+    "b_weak_Grass",
+    "b_weak_Ground",
+    "b_weak_Ice",
+    "b_weak_Normal",
+    "b_weak_Poison",
+    "b_weak_Psychic",
+    "b_weak_Rock",
+    "b_weak_Steel",
+    "b_weak_Water",
+    "b_resists_Bug",
+    "b_resists_Dark",
+    "b_resists_Dragon",
+    "b_resists_Electric",
+    "b_resists_Fairy",
+    "b_resists_Fighting",
+    "b_resists_Fire",
+    "b_resists_Flying",
+    "b_resists_Ghost",
+    "b_resists_Grass",
+    "b_resists_Ground",
+    "b_resists_Ice",
+    "b_resists_Normal",
+    "b_resists_Poison",
+    "b_resists_Psychic",
+    "b_resists_Rock",
+    "b_resists_Steel",
+    "b_resists_Water",
+    "b_immune_Bug",
+    "b_immune_Dark",
+    "b_immune_Dragon",
+    "b_immune_Electric",
+    "b_immune_Fairy",
+    "b_immune_Fighting",
+    "b_immune_Fire",
+    "b_immune_Flying",
+    "b_immune_Ghost",
+    "b_immune_Grass",
+    "b_immune_Ground",
+    "b_immune_Ice",
+    "b_immune_Normal",
+    "b_immune_Poison",
+    "b_immune_Psychic",
+    "b_immune_Rock",
+    "b_immune_Steel",
+    "b_immune_Water",
+    "b_attack_Bug",
+    "b_attack_Dark",
+    "b_attack_Dragon",
+    "b_attack_Electric",
+    "b_attack_Fairy",
+    "b_attack_Fighting",
+    "b_attack_Fire",
+    "b_attack_Flying",
+    "b_attack_Ghost",
+    "b_attack_Grass",
+    "b_attack_Ground",
+    "b_attack_Ice",
+    "b_attack_Normal",
+    "b_attack_Poison",
+    "b_attack_Psychic",
+    "b_attack_Rock",
+    "b_attack_Steel",
+    "b_attack_Water",
+    "b_hp_mean",
+    "b_hp_min",
+    "b_hp_max",
+    "b_atk_mean",
+    "b_atk_min",
+    "b_atk_max",
+    "b_def_mean",
+    "b_def_min",
+    "b_def_max",
+    "b_spa_mean",
+    "b_spa_min",
+    "b_spa_max",
+    "b_spd_mean",
+    "b_spd_min",
+    "b_spd_max",
+    "b_spe_mean",
+    "b_spe_min",
+    "b_spe_max",
+    "b_recovery",
+    "b_hazard_setting",
+    "b_hazard_removal",
+    "b_priority_attack",
+    "b_offense",
+    "b_defense",
+    "b_redundancy",
+    "b_worst_best",
+    "b_mean_best",
+    "b_threats_with_known_multiplier"
+  ],
+  "scikit_learn": "1.9.1",
+  "input_hashes": {
+    "data/processed/dataset_v1/catalog.json": "4a57069d62f1d9f1df68b3e9625c6f122f93e26639dd75538fdb8e41e31ab755",
+    "data/processed/dataset_v2/development_labels.jsonl": "0d0da66f290f856e8432e30aa1a2b54b0cbafaa477e30468dc00bc986b73c75a",
+    "config/dataset_v2_manifest.json": "34b87aa16a2031f287b500b519c6ed5d7fa3ece4cf27c32f072607c7e6d610dc",
+    "data/processed/dataset_v3/development_labels.jsonl": "591639cae9362b7ce23fb3a364a93fa541a267a792e292d86c96acfa4a238504",
+    "config/dataset_v3_manifest.json": "4ae40e12f9e2f27f677205a3c37f1f28655a39b187c67bc56e7d7ccaf7c23dac",
+    "data/processed/dataset_v4/development_labels.jsonl": "da19e2209667bf80621399c3eb2b091c0bf71d0a179e6878dc36ecfaafa562fc",
+    "config/dataset_v4_manifest.json": "45807e24f94b5e65d6e110bcd89d318808e64cdd1c14883e5831379f48c67b0f"
+  },
+  "code_hashes": {
+    "scripts/select_development_model.py": "17f31f1c7b944a10dba5f1d29dea68ed76dd0d03676b2260088825a1697624d9",
+    "src/icon_pokemon/supervised.py": "186e527c39dceb174d1cd51b02013f2579cd6e1a46831cc7657d195780a34788",
+    "src/icon_pokemon/features.py": "f86d87cab77d072bd0e981721e5d14fd5071a648c3c662a83fe9ada87e3efa1a",
+    "src/icon_pokemon/knowledge.py": "9050a4dfb48b1f9ea4d73083d86ee9139363bcafa344eae0739aba4375ff0436",
+    "src/icon_pokemon/move_semantics.py": "66bda441adb9b43fefca40d7b0236eefebc82ed44f50f3bf51fd94d43f5908fd",
+    "src/icon_pokemon/matchups.py": "6c0bd4f953e110df4fd62e20634adfddf06b08aadd788c027d2c7cacbc26fc3e",
+    "ontology/pokemon.ttl": "367c6923f47ab06de2f7570ce60592d25dfbea84b43a212cdcaabfdeaf0e78cd",
+    "ontology/move_semantics.ttl": "0263ec139c3d74a6a006f5c7eeb8c35182b9a73ab4cf940675c97be118523366",
+    "ontology/move_annotations.json": "8117352f4fbb642a52cdc02b7072b076e23074719bcfba23a279b2ac5657d35d",
+    "tools/showdown/export-move-semantics.cjs": "7ba7092655a30c2b9695b57bd21b2d4de04d493eeb0a1529a0d4c826a0c58316",
+    "tools/showdown/export-mechanics.cjs": "dc31927b3a2dbf86885a267e02b26b5f13cc02e586e27a17de0d232d57151246",
+    "tools/showdown/package-lock.json": "107206ca8d9452aced0bb32537a2c529929369bbddb2514a5faf48edd2ccd432"
+  },
+  "elapsed_seconds": 89.54520570905879,
+  "limits": "Selection scores reuse development data and cannot serve as final performance claims. The held-out test remains unavailable.",
+  "model_sha256": "62566b0ac938953e99ceb4c40a66c63d59d8145f32dee35b98ffda3b62fbfda6"
+}

@@ -1,0 +1,142 @@
+{
+  "team_counts": {
+    "train": 5663,
+    "validation": 239,
+    "test": 236
+  },
+  "test_masks": 1416,
+  "out_of_vocabulary_targets": 7,
+  "masks_with_unknown_visible_species": 35,
+  "metrics": {
+    "frequency": {
+      "top1": 0.08192090395480225,
+      "top5": 0.24505649717514125,
+      "log_loss_covered": 4.4202166441834585
+    },
+    "naive_bayes": {
+      "top1": 0.12782485875706215,
+      "top5": 0.3248587570621469,
+      "log_loss_covered": 4.765395009195526
+    },
+    "pokemon2vec": {
+      "top1": 0.1765536723163842,
+      "top5": 0.4413841807909605,
+      "log_loss_covered": 3.6969220700724654
+    }
+  },
+  "comparisons": {
+    "naive_bayes_minus_frequency": {
+      "top1_top5": {
+        "n": 1416,
+        "groups": 236,
+        "mean": [
+          0.04590395480225989,
+          0.07980225988700565
+        ],
+        "seed": 11,
+        "repetitions": 10000,
+        "interval_95": [
+          [
+            0.022598870056497175,
+            0.0692090395480226
+          ],
+          [
+            0.050123587570621485,
+            0.1094632768361582
+          ]
+        ]
+      },
+      "log_loss_covered": {
+        "n": 1409,
+        "groups": 236,
+        "mean": [
+          0.34517836501206656
+        ],
+        "seed": 11,
+        "repetitions": 10000,
+        "interval_95": [
+          [
+            0.15120483512080773,
+            0.5465284445511519
+          ]
+        ]
+      }
+    },
+    "pokemon2vec_minus_naive_bayes": {
+      "top1_top5": {
+        "n": 1416,
+        "groups": 236,
+        "mean": [
+          0.048728813559322036,
+          0.11652542372881355
+        ],
+        "seed": 11,
+        "repetitions": 10000,
+        "interval_95": [
+          [
+            0.026836158192090395,
+            0.0713276836158192
+          ],
+          [
+            0.08898305084745763,
+            0.14477401129943504
+          ]
+        ]
+      },
+      "log_loss_covered": {
+        "n": 1409,
+        "groups": 236,
+        "mean": [
+          -1.0684729391230658
+        ],
+        "seed": 11,
+        "repetitions": 10000,
+        "interval_95": [
+          [
+            -1.2579154207611578,
+            -0.8888828468908124
+          ]
+        ]
+      }
+    },
+    "pokemon2vec_minus_frequency": {
+      "top1_top5": {
+        "n": 1416,
+        "groups": 236,
+        "mean": [
+          0.09463276836158192,
+          0.1963276836158192
+        ],
+        "seed": 11,
+        "repetitions": 10000,
+        "interval_95": [
+          [
+            0.067090395480226,
+            0.12217514124293785
+          ],
+          [
+            0.16242937853107345,
+            0.22951977401129944
+          ]
+        ]
+      },
+      "log_loss_covered": {
+        "n": 1409,
+        "groups": 236,
+        "mean": [
+          -0.7232945741109993
+        ],
+        "seed": 11,
+        "repetitions": 10000,
+        "interval_95": [
+          [
+            -0.8357935948217068,
+            -0.6105641609958992
+          ]
+        ]
+      }
+    }
+  },
+  "test_source": "Grouped holdout of human team compositions, reusing the human-preview source shards.",
+  "selection_sha256": "72b01a74c814b4bdae8a1b1dcdeda800dc813daea06ea8c1726d5a36a0f0f741"
+}

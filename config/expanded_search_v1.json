@@ -1,0 +1,25 @@
+{
+  "purpose": "Exploratory development follow-up after the core final test was opened. No final-test access, replacement, or claims of fresh confirmation.",
+  "datasets": ["v2", "v3", "v4"],
+  "representations": ["v1", "v2"],
+  "seeds": [11, 23, 47],
+  "outer_folds": 3,
+  "inner_folds": 3,
+  "augmentation": [false, true],
+  "primary": "Mean inner-fold log loss of symmetrized predictions; stable grid order breaks exact ties. Select each family separately in each outer fold.",
+  "preprocessing": "Logistic/MLP share one StandardScaler for both team positions, fitted only on the unaugmented training teams' feature rows. Apply augmentation after split and preprocessing, with weight 0.5 for each orientation. Trees remain unscaled.",
+  "grids": {
+    "logistic": {"C": [0.001, 0.01, 0.1, 1.0, 10.0]},
+    "boosting": {"max_depth": [1, 2, 3], "n_estimators": [40, 80, 160], "learning_rate": [0.03, 0.1, 0.3], "min_samples_leaf": [5, 10, 20]},
+    "mlp": {"hidden_layer_sizes": [[32], [64], [64, 32]], "alpha": [0.01, 1.0, 10.0], "learning_rate_init": [0.0003, 0.001, 0.003], "batch_size": [32, 64, 128]}
+  },
+  "common": {
+    "logistic_max_iter": 2000,
+    "mlp": {"activation": "relu", "solver": "adam", "max_iter": 300, "tol": 0.0001, "n_iter_no_change": 20, "early_stopping": false}
+  },
+  "learning_curve_team_fractions": [0.5, 0.75, 1.0],
+  "learning_curve_policy": "Nested deterministic subsets of outer-training teams. Keep the selected hyperparameters fixed across sizes. Reuse the full-size outer fit. These are descriptive curves, not separately tuned learning algorithms at every size.",
+  "failures": "Any fitting exception stops the run. Preserve warnings and iteration limits in results. No deletion of unfavorable candidates.",
+  "parallelism": "8 worker processes, one native BLAS/OpenMP thread per process; report wall and fit times, not a dedicated latency benchmark.",
+  "selection_limits": "Augmentation doubles mini-batches per epoch for MLP; it is not a compute-matched treatment. No claim that differences isolate only statistical information. Expanded grids are full Cartesian products, not exhaustive searches of all possible hyperparameters."
+}

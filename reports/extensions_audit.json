@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "split_teams": {
+    "train": 4643,
+    "validation": 995,
+    "test": 996
+  },
+  "prediction_masks_checked": 5976,
+  "metrics_reconstructed": [
+    "frequency",
+    "naive_bayes",
+    "pokemon2vec"
+  ],
+  "log_loss_reconstruction_absolute_tolerance": 1e-07,
+  "external_compositions": {
+    "31": 3444,
+    "32": 2883
+  },
+  "train_profile_sets": 594,
+  "solver_requests": 100,
+  "scope": "Frozen hashes, unordered split separation, training vocabulary, all saved completion masks and metrics, external manifests, profile fractions and solver counts.",
+  "limits": "No refit, new battles, or replay revalidation. External KB/RDF2Vec reports do not save per-mask predictions, so their intervals are not independently reconstructed here.",
+  "script_sha256": "1c4504771492316f93d13ea35e4634cacceaeadd0753b1649c337a60da9d5803"
+}

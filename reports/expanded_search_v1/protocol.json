@@ -1,0 +1,164 @@
+{
+  "config": {
+    "purpose": "Exploratory development follow-up after the core final test was opened. No final-test access, replacement, or claims of fresh confirmation.",
+    "datasets": [
+      "v2",
+      "v3",
+      "v4"
+    ],
+    "representations": [
+      "v1",
+      "v2"
+    ],
+    "seeds": [
+      11,
+      23,
+      47
+    ],
+    "outer_folds": 3,
+    "inner_folds": 3,
+    "augmentation": [
+      false,
+      true
+    ],
+    "primary": "Mean inner-fold log loss of symmetrized predictions; stable grid order breaks exact ties. Select each family separately in each outer fold.",
+    "preprocessing": "Logistic/MLP share one StandardScaler for both team positions, fitted only on the unaugmented training teams' feature rows. Apply augmentation after split and preprocessing, with weight 0.5 for each orientation. Trees remain unscaled.",
+    "grids": {
+      "logistic": {
+        "C": [
+          0.001,
+          0.01,
+          0.1,
+          1.0,
+          10.0
+        ]
+      },
+      "boosting": {
+        "max_depth": [
+          1,
+          2,
+          3
+        ],
+        "n_estimators": [
+          40,
+          80,
+          160
+        ],
+        "learning_rate": [
+          0.03,
+          0.1,
+          0.3
+        ],
+        "min_samples_leaf": [
+          5,
+          10,
+          20
+        ]
+      },
+      "mlp": {
+        "hidden_layer_sizes": [
+          [
+            32
+          ],
+          [
+            64
+          ],
+          [
+            64,
+            32
+          ]
+        ],
+        "alpha": [
+          0.01,
+          1.0,
+          10.0
+        ],
+        "learning_rate_init": [
+          0.0003,
+          0.001,
+          0.003
+        ],
+        "batch_size": [
+          32,
+          64,
+          128
+        ]
+      }
+    },
+    "common": {
+      "logistic_max_iter": 2000,
+      "mlp": {
+        "activation": "relu",
+        "solver": "adam",
+        "max_iter": 300,
+        "tol": 0.0001,
+        "n_iter_no_change": 20,
+        "early_stopping": false
+      }
+    },
+    "learning_curve_team_fractions": [
+      0.5,
+      0.75,
+      1.0
+    ],
+    "learning_curve_policy": "Nested deterministic subsets of outer-training teams. Keep the selected hyperparameters fixed across sizes. Reuse the full-size outer fit. These are descriptive curves, not separately tuned learning algorithms at every size.",
+    "failures": "Any fitting exception stops the run. Preserve warnings and iteration limits in results. No deletion of unfavorable candidates.",
+    "parallelism": "8 worker processes, one native BLAS/OpenMP thread per process; report wall and fit times, not a dedicated latency benchmark.",
+    "selection_limits": "Augmentation doubles mini-batches per epoch for MLP; it is not a compute-matched treatment. No claim that differences isolate only statistical information. Expanded grids are full Cartesian products, not exhaustive searches of all possible hyperparameters."
+  },
+  "input_hashes": {
+    "config/expanded_search_v1.json": "1a83666e66fb7efb7c577e26af7600aa01738be2d643e285c5803d6390028b75",
+    "data/processed/dataset_v1/catalog.json": "4a57069d62f1d9f1df68b3e9625c6f122f93e26639dd75538fdb8e41e31ab755",
+    "reports/expanded_search_v1/local_source_hashes.json": "d603dc395c52c5d0f015b493f4f11e9f7664669686be9e945999702e672c4d99",
+    "data/processed/dataset_v2/development_labels.jsonl": "0d0da66f290f856e8432e30aa1a2b54b0cbafaa477e30468dc00bc986b73c75a",
+    "data/processed/dataset_v3/development_labels.jsonl": "591639cae9362b7ce23fb3a364a93fa541a267a792e292d86c96acfa4a238504",
+    "data/processed/dataset_v4/development_labels.jsonl": "da19e2209667bf80621399c3eb2b091c0bf71d0a179e6878dc36ecfaafa562fc",
+    "config/dataset_v2_manifest.json": "34b87aa16a2031f287b500b519c6ed5d7fa3ece4cf27c32f072607c7e6d610dc",
+    "config/dataset_v3_manifest.json": "4ae40e12f9e2f27f677205a3c37f1f28655a39b187c67bc56e7d7ccaf7c23dac",
+    "config/dataset_v4_manifest.json": "45807e24f94b5e65d6e110bcd89d318808e64cdd1c14883e5831379f48c67b0f"
+  },
+  "code_hashes": {
+    "scripts/run_expanded_search.py": "01940dc33fc638c9aa7011ca5d58fa3586bdb86027189b990165bac1ae10dbe4",
+    "src/icon_pokemon/expanded_search.py": "e06f1256054b0512c60889e89381bdf7e10ed6a221730590c9fbf511dc4b0803",
+    "src/icon_pokemon/adapter.py": "1da7a092d983bd6d0b0560bbe16e55134b60620e317a7cd962a874fff64f45e7",
+    "src/icon_pokemon/features.py": "f86d87cab77d072bd0e981721e5d14fd5071a648c3c662a83fe9ada87e3efa1a",
+    "src/icon_pokemon/knowledge.py": "9050a4dfb48b1f9ea4d73083d86ee9139363bcafa344eae0739aba4375ff0436",
+    "src/icon_pokemon/move_semantics.py": "66bda441adb9b43fefca40d7b0236eefebc82ed44f50f3bf51fd94d43f5908fd",
+    "src/icon_pokemon/matchups.py": "6c0bd4f953e110df4fd62e20634adfddf06b08aadd788c027d2c7cacbc26fc3e",
+    "src/icon_pokemon/supervised.py": "186e527c39dceb174d1cd51b02013f2579cd6e1a46831cc7657d195780a34788",
+    "ontology/pokemon.ttl": "367c6923f47ab06de2f7570ce60592d25dfbea84b43a212cdcaabfdeaf0e78cd",
+    "ontology/move_semantics.ttl": "0263ec139c3d74a6a006f5c7eeb8c35182b9a73ab4cf940675c97be118523366",
+    "ontology/move_annotations.json": "8117352f4fbb642a52cdc02b7072b076e23074719bcfba23a279b2ac5657d35d",
+    "tools/showdown/export-mechanics.cjs": "dc31927b3a2dbf86885a267e02b26b5f13cc02e586e27a17de0d232d57151246",
+    "tools/showdown/export-move-semantics.cjs": "7ba7092655a30c2b9695b57bd21b2d4de04d493eeb0a1529a0d4c826a0c58316",
+    "tools/showdown/package-lock.json": "107206ca8d9452aced0bb32537a2c529929369bbddb2514a5faf48edd2ccd432"
+  },
+  "cache_sha256": "efa07872e8ba9a2b027f942dd071e663e49ec0c37a24135651b67a157e62a0c4",
+  "counts": {
+    "records": 5520,
+    "decisive": 5463,
+    "outcomes": {
+      "team_b": 2716,
+      "team_a": 2747,
+      "None": 57
+    },
+    "teams": 120,
+    "candidates": {
+      "logistic": 5,
+      "boosting": 81,
+      "mlp": 81
+    },
+    "inner_fits": 18036,
+    "outer_plans": 9
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "host": "Francesco-Desktop",
+  "platform": "Linux-7.2.11-200.nobara.fc44.x86_64-x86_64-with-glibc2.43",
+  "python": "3.13.14",
+  "split_policy": "Same team-disjoint outer/inner memberships as original v2-v4 study. Exclude crossing matches; never read final outcomes. All learned preprocessing is fold-local."
+}

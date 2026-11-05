@@ -1,0 +1,20 @@
+{
+  "shard": "bazzite",
+  "workers": 6,
+  "manifest_sha256": "a1c079de053c0d2d9dbe5d6b2a4891d04341fb2186bfeab04108642848988ee4",
+  "requests": [
+    "pred-rep-v1-069",
+    "pred-rep-v1-070",
+    "pred-rep-v1-071",
+    "pred-rep-v1-072",
+    "pred-rep-v1-073",
+    "pred-rep-v1-074",
+    "pred-rep-v1-075",
+    "pred-rep-v1-076",
+    "pred-rep-v1-077",
+    "pred-rep-v1-078",
+    "pred-rep-v1-079",
+    "pred-rep-v1-080",
+    "pred-rep-v1-081"
+  ]
+}

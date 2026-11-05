@@ -1,0 +1,7004 @@
+{
+  "scope": "Train catalog only",
+  "sets": 594,
+  "species": 128,
+  "catalog_sha256": "4a57069d62f1d9f1df68b3e9625c6f122f93e26639dd75538fdb8e41e31ab755",
+  "features": [
+    "hp",
+    "atk",
+    "def",
+    "spa",
+    "spd",
+    "spe",
+    "defensive_setup",
+    "forced_switch",
+    "hazard_removal",
+    "hazard_setting",
+    "physical_setup",
+    "pivot",
+    "priority_attack",
+    "recovery",
+    "screens",
+    "special_setup",
+    "speed_setup",
+    "status_infliction"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "n_init_per_seed": 10,
+  "elbow": 6,
+  "elbow_gap": 0.22570626141928507,
+  "elbow_rule": "Largest vertical gap to the normalized endpoint chord; fallback below 0.1",
+  "candidates": [
+    5,
+    6,
+    7
+  ],
+  "global_means": {
+    "hp": 355.7121212121212,
+    "atk": 256.24242424242425,
+    "def": 243.06565656565655,
+    "spa": 225.97979797979798,
+    "spd": 219.9949494949495,
+    "spe": 258.6986531986532,
+    "defensive_setup": 0.1447811447811448,
+    "forced_switch": 0.03367003367003367,
+    "hazard_removal": 0.1127946127946128,
+    "hazard_setting": 0.1750841750841751,
+    "physical_setup": 0.14814814814814814,
+    "pivot": 0.25757575757575757,
+    "priority_attack": 0.1717171717171717,
+    "recovery": 0.17676767676767677,
+    "screens": 0.010101010101010102,
+    "special_setup": 0.11784511784511785,
+    "speed_setup": 0.03872053872053872,
+    "status_infliction": 0.37373737373737376
+  },
+  "curve": {
+    "2": {
+      "inertia": 1002.8063762096256,
+      "ari_mean": 0.9932720386805616,
+      "ari_min": 0.9865546762465385,
+      "silhouette": 0.15225539024811818,
+      "sizes": [
+        291,
+        303
+      ]
+    },
+    "3": {
+      "inertia": 877.1486246592893,
+      "ari_mean": 0.9968775118398905,
+      "ari_min": 0.994676606853821,
+      "silhouette": 0.16279685512197664,
+      "sizes": [
+        242,
+        172,
+        180
+      ]
+    },
+    "4": {
+      "inertia": 814.4598145984452,
+      "ari_mean": 0.8276335309392182,
+      "ari_min": 0.573140882031998,
+      "silhouette": 0.17197983808954231,
+      "sizes": [
+        244,
+        171,
+        87,
+        92
+      ]
+    },
+    "5": {
+      "inertia": 763.326797152909,
+      "ari_mean": 0.7371224929183096,
+      "ari_min": 0.5079850458703196,
+      "silhouette": 0.15481000064631265,
+      "sizes": [
+        147,
+        93,
+        163,
+        83,
+        108
+      ]
+    },
+    "6": {
+      "inertia": 714.3031740935741,
+      "ari_mean": 0.6498049956230996,
+      "ari_min": 0.46065059992319907,
+      "silhouette": 0.16205345166585608,
+      "sizes": [
+        126,
+        155,
+        83,
+        59,
+        79,
+        92
+      ]
+    },
+    "7": {
+      "inertia": 673.5998821830642,
+      "ari_mean": 0.6659024377480898,
+      "ari_min": 0.45545746664785114,
+      "silhouette": 0.16672740004064174,
+      "sizes": [
+        88,
+        93,
+        77,
+        80,
+        117,
+        63,
+        76
+      ]
+    },
+    "8": {
+      "inertia": 639.5018355816776,
+      "ari_mean": 0.6824381684526947,
+      "ari_min": 0.503263981304653,
+      "silhouette": 0.1811373637726822,
+      "sizes": [
+        59,
+        68,
+        108,
+        67,
+        71,
+        132,
+        29,
+        60
+      ]
+    },
+    "9": {
+      "inertia": 608.7407270630672,
+      "ari_mean": 0.7080987232644518,
+      "ari_min": 0.5300565703764892,
+      "silhouette": 0.19115703508365672,
+      "sizes": [
+        59,
+        118,
+        73,
+        101,
+        50,
+        34,
+        71,
+        62,
+        26
+      ]
+    },
+    "10": {
+      "inertia": 585.5554022665418,
+      "ari_mean": 0.6724877046883229,
+      "ari_min": 0.5433389266028055,
+      "silhouette": 0.1855641932536003,
+      "sizes": [
+        69,
+        58,
+        61,
+        61,
+        56,
+        33,
+        57,
+        44,
+        79,
+        76
+      ]
+    },
+    "11": {
+      "inertia": 561.4121004713356,
+      "ari_mean": 0.7055875982929943,
+      "ari_min": 0.5463096483554403,
+      "silhouette": 0.19921553882045526,
+      "sizes": [
+        26,
+        47,
+        61,
+        38,
+        46,
+        35,
+        81,
+        71,
+        44,
+        83,
+        62
+      ]
+    },
+    "12": {
+      "inertia": 541.722286269976,
+      "ari_mean": 0.7035363281332144,
+      "ari_min": 0.5013689376931755,
+      "silhouette": 0.20103126501607685,
+      "sizes": [
+        57,
+        61,
+        51,
+        39,
+        70,
+        26,
+        57,
+        68,
+        70,
+        41,
+        44,
+        10
+      ]
+    }
+  },
+  "sheets": {
+    "5": [
+      {
+        "cluster": 0,
+        "sets": 147,
+        "species": 34,
+        "means": {
+          "hp": 342.84353741496597,
+          "atk": 327.15646258503403,
+          "def": 243.38095238095238,
+          "spa": 172.33333333333334,
+          "spd": 198.5578231292517,
+          "spe": 326.6734693877551,
+          "defensive_setup": 0.17006802721088435,
+          "forced_switch": 0.034013605442176874,
+          "hazard_removal": 0.2789115646258503,
+          "hazard_setting": 0.2857142857142857,
+          "physical_setup": 0.047619047619047616,
+          "pivot": 0.2789115646258503,
+          "priority_attack": 0.0,
+          "recovery": 0.07482993197278912,
+          "screens": 0.0,
+          "special_setup": 0.006802721088435374,
+          "speed_setup": 0.0,
+          "status_infliction": 0.10884353741496598
+        },
+        "near_center": [
+          {
+            "set_id": "bb5bc2fd31a26f397429",
+            "species": "Quaquaval",
+            "item": "Leftovers",
+            "moves": [
+              "Aqua Step",
+              "Close Combat",
+              "Knock Off",
+              "Triple Axel"
+            ]
+          },
+          {
+            "set_id": "30a5484c4c6eb3bd3db8",
+            "species": "Rillaboom",
+            "item": "Choice Band",
+            "moves": [
+              "Drum Beating",
+              "Grassy Glide",
+              "Knock Off",
+              "Wood Hammer"
+            ]
+          },
+          {
+            "set_id": "1bd5e95fba1d8a72ea3f",
+            "species": "Ogerpon-Wellspring",
+            "item": "Wellspring Mask",
+            "moves": [
+              "Encore",
+              "Ivy Cudgel",
+              "Knock Off",
+              "Play Rough"
+            ]
+          }
+        ],
+        "boundary": [
+          {
+            "set_id": "ac7ef8b460e3fba54c42",
+            "species": "Iron Valiant",
+            "item": "Booster Energy",
+            "moves": [
+              "Close Combat",
+              "Destiny Bond",
+              "Knock Off",
+              "Moonblast"
+            ]
+          },
+          {
+            "set_id": "d939c763dd180886d7fc",
+            "species": "Iron Valiant",
+            "item": "Booster Energy",
+            "moves": [
+              "Encore",
+              "Moonblast",
+              "Psyshock",
+              "Shadow Ball"
+            ]
+          }
+        ]
+      },
+      {
+        "cluster": 1,
+        "sets": 93,
+        "species": 31,
+        "means": {
+          "hp": 389.59139784946234,
+          "atk": 202.90322580645162,
+          "def": 324.5806451612903,
+          "spa": 196.76344086021504,
+          "spd": 203.50537634408602,
+          "spe": 184.56989247311827,
+          "defensive_setup": 0.10752688172043011,
+          "forced_switch": 0.021505376344086023,
+          "hazard_removal": 0.1827956989247312,
+          "hazard_setting": 0.10752688172043011,
+          "physical_setup": 0.010752688172043012,
+          "pivot": 0.4838709677419355,
+          "priority_attack": 0.03225806451612903,
+          "recovery": 0.5376344086021505,
+          "screens": 0.010752688172043012,
+          "special_setup": 0.053763440860215055,
+          "speed_setup": 0.0,
+          "status_infliction": 0.5698924731182796
+        },
+        "near_center": [
+          {
+            "set_id": "8a298d2ed9465119f6bb",
+            "species": "Hippowdon",
+            "item": "Leftovers",
+            "moves": [
+              "Curse",
+              "Earthquake",
+              "Ice Fang",
+              "Slack Off"
+            ]
+          },
+          {
+            "set_id": "e49993aa7ff9af67149a",
+            "species": "Skeledirge",
+            "item": "Throat Spray",
+            "moves": [
+              "Earth Power",
+              "Slack Off",
+              "Torch Song",
+              "Will-O-Wisp"
+            ]
+          },
+          {
+            "set_id": "c35e28dd8e9aa20e8f89",
+            "species": "Moltres",
+            "item": "Heavy-Duty Boots",
+            "moves": [
+              "Flamethrower",
+              "Hurricane",
+              "Roost",
+              "U-turn"
+            ]
+          }
+        ],
+        "boundary": [
+          {
+            "set_id": "3d18fe3703690d494c42",
+            "species": "Ursaluna",
+            "item": "Leftovers",
+            "moves": [
+              "Earthquake",
+              "Facade",
+              "Headlong Rush",
+              "Ice Punch"
+            ]
+          },
+          {
+            "set_id": "b275d9c0d6d7bc659cbe",
+            "species": "Ursaluna",
+            "item": "Flame Orb",
+            "moves": [
+              "Drain Punch",
+              "Facade",
+              "Ice Punch",
+              "Protect"
+            ]
+          }
+        ]
+      },
+      {
+        "cluster": 2,
+        "sets": 163,
+        "species": 44,
+        "means": {
+          "hp": 332.7177914110429,
+          "atk": 186.86503067484662,
+          "def": 214.96932515337423,
+          "spa": 345.4601226993865,
+          "spd": 215.34969325153375,
+          "spe": 296.34355828220856,
+          "defensive_setup": 0.26380368098159507,
+          "forced_switch": 0.006134969325153374,
+          "hazard_removal": 0.018404907975460124,
+          "hazard_setting": 0.06748466257668712,
+          "physical_setup": 0.04294478527607362,
+          "pivot": 0.1901840490797546,
+          "priority_attack": 0.17177914110429449,
+          "recovery": 0.07975460122699386,
+          "screens": 0.024539877300613498,
+          "special_setup": 0.37423312883435583,
+          "speed_setup": 0.012269938650306749,
+          "status_infliction": 0.5460122699386503
+        },
+        "near_center": [
+          {
+            "set_id": "77a58941cad0a5007a27",
+            "species": "Walking Wake",
+            "item": "Choice Scarf",
+            "moves": [
+              "Draco Meteor",
+              "Dragon Pulse",
+              "Flamethrower",
+              "Hydro Steam"
+            ]
+          },
+          {
+            "set_id": "619610b3b5ce7478adf3",
+            "species": "Walking Wake",
+            "item": "Heavy-Duty Boots",
+            "moves": [
+              "Draco Meteor",
+              "Dragon Pulse",
+              "Flamethrower",
+              "Knock Off"
+            ]
+          },
+          {
+            "set_id": "8394b9b6a7b4e44ab890",
+            "species": "Gholdengo",
+            "item": "Air Balloon",
+            "moves": [
+              "Hex",
+              "Make It Rain",
+              "Shadow Ball",
+              "Thunder Wave"
+            ]
+          }
+        ],
+        "boundary": [
+          {
+            "set_id": "29917b0967be82ad16ef",
+            "species": "Heatran",
+            "item": "Leftovers",
+            "moves": [
+              "Earth Power",
+              "Magma Storm",
+              "Stealth Rock",
+              "Will-O-Wisp"
+            ]
+          },
+          {
+            "set_id": "6d5a2c4b3baaef84f688",
+            "species": "Iron Valiant",
+            "item": "Booster Energy",
+            "moves": [
+              "Calm Mind",
+              "Close Combat",
+              "Swords Dance",
+              "Vacuum Wave"
+            ]
+          }
+        ]
+      },
+      {
+        "cluster": 3,
+        "sets": 83,
+        "species": 23,
+        "means": {
+          "hp": 424.1686746987952,
+          "atk": 192.3734939759036,
+          "def": 237.5421686746988,
+          "spa": 194.18072289156626,
+          "spd": 314.0843373493976,
+          "spe": 133.9156626506024,
+          "defensive_setup": 0.060240963855421686,
+          "forced_switch": 0.13253012048192772,
+          "hazard_removal": 0.012048192771084338,
+          "hazard_setting": 0.4819277108433735,
+          "physical_setup": 0.0,
+          "pivot": 0.21686746987951808,
+          "priority_attack": 0.0,
+          "recovery": 0.27710843373493976,
+          "screens": 0.012048192771084338,
+          "special_setup": 0.03614457831325301,
+          "speed_setup": 0.0,
+          "status_infliction": 0.5903614457831325
+        },
+        "near_center": [
+          {
+            "set_id": "f94310b8982a73f07409",
+            "species": "Muk-Alola",
+            "item": "Assault Vest",
+            "moves": [
+              "Drain Punch",
+              "Haze",
+              "Poison Jab",
+              "Protect"
+            ]
+          },
+          {
+            "set_id": "beee0efc45068a816888",
+            "species": "Slowking-Galar",
+            "item": "Assault Vest",
+            "moves": [
+              "Flamethrower",
+              "Future Sight",
+              "Sludge Bomb",
+              "Thunder Wave"
+            ]
+          },
+          {
+            "set_id": "9e3411e82e1d51b281a3",
+            "species": "Slowking-Galar",
+            "item": "Heavy-Duty Boots",
+            "moves": [
+              "Flamethrower",
+              "Future Sight",
+              "Ice Beam",
+              "Sludge Bomb"
+            ]
+          }
+        ],
+        "boundary": [
+          {
+            "set_id": "89f41f77dfcf99b19952",
+            "species": "Gliscor",
+            "item": "Toxic Orb",
+            "moves": [
+              "Facade",
+              "Knock Off",
+              "Protect",
+              "Spikes"
+            ]
+          },
+          {
+            "set_id": "5d2b3b62b8aafcf2d5f1",
+            "species": "Slowking-Galar",
+            "item": "Assault Vest",
+            "moves": [
+              "Chilly Reception",
+              "Ice Beam",
+              "Psyshock",
+              "Sludge Bomb"
+            ]
+          }
+        ]
+      },
+      {
+        "cluster": 4,
+        "sets": 108,
+        "species": 33,
+        "means": {
+          "hp": 326.14814814814815,
+          "atk": 359.44444444444446,
+          "def": 219.09259259259258,
+          "spa": 168.2685185185185,
+          "spd": 198.07407407407408,
+          "spe": 269.0925925925926,
+          "defensive_setup": 0.027777777777777776,
+          "forced_switch": 0.009259259259259259,
+          "hazard_removal": 0.046296296296296294,
+          "hazard_setting": 0.009259259259259259,
+          "physical_setup": 0.6759259259259259,
+          "pivot": 0.16666666666666666,
+          "priority_attack": 0.6574074074074074,
+          "recovery": 0.07407407407407407,
+          "screens": 0.0,
+          "special_setup": 0.0,
+          "speed_setup": 0.19444444444444445,
+          "status_infliction": 0.1388888888888889
+        },
+        "near_center": [
+          {
+            "set_id": "f8a05b28d3f36958d65e",
+            "species": "Scizor",
+            "item": "Life Orb",
+            "moves": [
+              "Bullet Punch",
+              "Close Combat",
+              "Knock Off",
+              "Swords Dance"
+            ]
+          },
+          {
+            "set_id": "20e374c2b2d4d8f053bd",
+            "species": "Ceruledge",
+            "item": "Focus Sash",
+            "moves": [
+              "Bitter Blade",
+              "Shadow Sneak",
+              "Solar Blade",
+              "Swords Dance"
+            ]
+          },
+          {
+            "set_id": "5cf5fb53a385d1460c09",
+            "species": "Kingambit",
+            "item": "Life Orb",
+            "moves": [
+              "Iron Head",
+              "Kowtow Cleave",
+              "Sucker Punch",
+              "Swords Dance"
+            ]
+          }
+        ],
+        "boundary": [
+          {
+            "set_id": "2538f41a73779d3b2376",
+            "species": "Great Tusk",
+            "item": "Booster Energy",
+            "moves": [
+              "Bulk Up",
+              "Close Combat",
+              "Headlong Rush",
+              "Ice Spinner"
+            ]
+          },
+          {
+            "set_id": "b4d5bad6b31cdee91280",
+            "species": "Great Tusk",
+            "item": "Heavy-Duty Boots",
+            "moves": [
+              "Bulk Up",
+              "Close Combat",
+              "Headlong Rush",
+              "Ice Spinner"
+            ]
+          }
+        ]
+      }
+    ],
+    "6": [
+      {
+        "cluster": 0,
+        "sets": 126,
+        "species": 41,
+        "means": {
+          "hp": 327.015873015873,
+          "atk": 206.70634920634922,
+          "def": 205.0952380952381,
+          "spa": 328.23809523809524,
+          "spd": 209.6031746031746,
+          "spe": 331.1031746031746,
+          "defensive_setup": 0.015873015873015872,
+          "forced_switch": 0.007936507936507936,
+          "hazard_removal": 0.031746031746031744,
+          "hazard_setting": 0.12698412698412698,
+          "physical_setup": 0.06349206349206349,
+          "pivot": 0.23015873015873015,
+          "priority_attack": 0.12698412698412698,
+          "recovery": 0.047619047619047616,
+          "screens": 0.031746031746031744,
+          "special_setup": 0.031746031746031744,
+          "speed_setup": 0.03968253968253968,
+          "status_infliction": 0.5952380952380952
+        },
+        "near_center": [
+          {
+            "set_id": "619610b3b5ce7478adf3",
+            "species": "Walking Wake",
+            "item": "Heavy-Duty Boots",
+            "moves": [
+              "Draco Meteor",
+              "Dragon Pulse",
+              "Flamethrower",
+              "Knock Off"
+            ]
+          },
+          {
+            "set_id": "77a58941cad0a5007a27",
+            "species": "Walking Wake",
+            "item": "Choice Scarf",
+            "moves": [
+              "Draco Meteor",
+              "Dragon Pulse",
+              "Flamethrower",
+              "Hydro Steam"
+            ]
+          },
+          {
+            "set_id": "c13f81e4953e732c41da",
+            "species": "Manaphy",
+            "item": "Leftovers",
+            "moves": [
+              "Energy Ball",
+              "Scald",
+              "Stored Power",
+              "Take Heart"
+            ]
+          }
+        ],
+        "boundary": [
+          {
+            "set_id": "6fba91486b632f50148e",
+            "species": "Magnezone",
+            "item": "Assault Vest",
+            "moves": [
+              "Flash Cannon",
+              "Iron Defense",
+              "Thunderbolt",
+              "Volt Switch"
+            ]
+          },
+          {
+            "set_id": "cee3a65e0ee896eb47f1",
+            "species": "Tinkaton",
+            "item": "Air Balloon",
+            "moves": [
+              "Encore",
+              "Gigaton Hammer",
+              "Stealth Rock",
+              "Thunder Wave"
+            ]
+          }
+        ]
+      },
+      {
+        "cluster": 1,
+        "sets": 155,
+        "species": 33,
+        "means": {
+          "hp": 341.6516129032258,
+          "atk": 331.93548387096774,
+          "def": 242.38064516129032,
+          "spa": 159.70322580645163,
+          "spd": 200.4516129032258,
+          "spe": 320.8322580645161,
+          "defensive_setup": 0.18064516129032257,
+          "forced_switch": 0.03225806451612903,
+          "hazard_removal": 0.27741935483870966,
+          "hazard_setting": 0.2645161290322581,
+          "physical_setup": 0.17419354838709677,
+          "pivot": 0.23870967741935484,
+          "priority_attack": 0.0,
+          "recovery": 0.07741935483870968,
+          "screens": 0.0,
+          "special_setup": 0.0064516129032258064,
+          "speed_setup": 0.0,
+          "status_infliction": 0.06451612903225806
+        },
+        "near_center": [
+          {
+            "set_id": "30a5484c4c6eb3bd3db8",
+            "species": "Rillaboom",
+            "item": "Choice Band",
+            "moves": [
+              "Drum Beating",
+              "Grassy Glide",
+              "Knock Off",
+              "Wood Hammer"
+            ]
+          },
+          {
+            "set_id": "bb5bc2fd31a26f397429",
+            "species": "Quaquaval",
+            "item": "Leftovers",
+            "moves": [
+              "Aqua Step",
+              "Close Combat",
+              "Knock Off",
+              "Triple Axel"
+            ]
+          },
+          {
+            "set_id": "1bd5e95fba1d8a72ea3f",
+            "species": "Ogerpon-Wellspring",
+            "item": "Wellspring Mask",
+            "moves": [
+              "Encore",
+              "Ivy Cudgel",
+              "Knock Off",
+              "Play Rough"
+            ]
+          }
+        ],
+        "boundary": [
+          {
+            "set_id": "3d18fe3703690d494c42",
+            "species": "Ursaluna",
+            "item": "Leftovers",
+            "moves": [
+              "Earthquake",
+              "Facade",
+              "Headlong Rush",
+              "Ice Punch"
+            ]
+          },
+          {
+            "set_id": "3d98ae500f8ede2998e7",
+            "species": "Ogerpon-Cornerstone",
+            "item": "Cornerstone Mask",
+            "moves": [
+              "Horn Leech",
+              "Knock Off",
+              "Power Whip",
+              "Swords Dance"
+            ]
+          }
+        ]
+      },
+      {
+        "cluster": 2,
+        "sets": 83,
+        "species": 25,
+        "means": {
+          "hp": 327.0120481927711,
+          "atk": 368.71084337349396,
+          "def": 221.24096385542168,
+          "spa": 164.5421686746988,
+          "spd": 197.3132530120482,
+          "spe": 249.9156626506024,
+          "defensive_setup": 0.0,
+          "forced_switch": 0.012048192771084338,
+          "hazard_removal": 0.024096385542168676,
+          "hazard_setting": 0.0,
+          "physical_setup": 0.5783132530120482,
+          "pivot": 0.20481927710843373,
+          "priority_attack": 0.8433734939759037,
+          "recovery": 0.08433734939759036,
+          "screens": 0.0,
+          "special_setup": 0.0,
+          "speed_setup": 0.21686746987951808,
+          "status_infliction": 0.1566265060240964
+        },
+        "near_center": [
+          {
+            "set_id": "f8a05b28d3f36958d65e",
+            "species": "Scizor",
+            "item": "Life Orb",
+            "moves": [
+              "Bullet Punch",
+              "Close Combat",
+              "Knock Off",
+              "Swords Dance"
+            ]
+          },
+          {
+            "set_id": "20e374c2b2d4d8f053bd",
+            "species": "Ceruledge",
+            "item": "Focus Sash",
+            "moves": [
+              "Bitter Blade",
+              "Shadow Sneak",
+              "Solar Blade",
+              "Swords Dance"
+            ]
+          },
+          {
+            "set_id": "5cf5fb53a385d1460c09",
+            "species": "Kingambit",
+            "item": "Life Orb",
+            "moves": [
+              "Iron Head",
+              "Kowtow Cleave",
+              "Sucker Punch",
+              "Swords Dance"
+            ]
+          }
+        ],
+        "boundary": [
+          {
+            "set_id": "393722af6321406c8dd9",
+            "species": "Blaziken",
+            "item": "Air Balloon",
+            "moves": [
+              "Close Combat",
+              "Flare Blitz",
+              "Protect",
+              "Swords Dance"
+            ]
+          },
+          {
+            "set_id": "e287b9b4cd9913804f21",
+            "species": "Overqwil",
+            "item": "Expert Belt",
+            "moves": [
+              "Fell Stinger",
+              "Liquidation",
+              "Scale Shot",
+              "Swords Dance"
+            ]
+          }
+        ]
+      },
+      {
+        "cluster": 3,
+        "sets": 59,
+        "species": 16,
+        "means": {
+          "hp": 348.45762711864404,
+          "atk": 174.42372881355934,
+          "def": 234.0,
+          "spa": 351.20338983050846,
+          "spd": 220.88135593220338,
+          "spe": 246.05084745762713,
+          "defensive_setup": 0.711864406779661,
+          "forced_switch": 0.0,
+          "hazard_removal": 0.0,
+          "hazard_setting": 0.0,
+          "physical_setup": 0.06779661016949153,
+          "pivot": 0.1016949152542373,
+          "priority_attack": 0.22033898305084745,
+          "recovery": 0.15254237288135594,
+          "screens": 0.0,
+          "special_setup": 1.0,
+          "speed_setup": 0.0,
+          "status_infliction": 0.4576271186440678
+        },
+        "near_center": [
+          {
+            "set_id": "956c47247134a63eb5ef",
+            "species": "Iron Crown",
+            "item": "Booster Energy",
+            "moves": [
+              "Calm Mind",
+              "Focus Blast",
+              "Psyshock",
+              "Tachyon Cutter"
+            ]
+          },
+          {
+            "set_id": "f41552b0efce1fb0f48c",
+            "species": "Iron Crown",
+            "item": "Choice Specs",
+            "moves": [
+              "Calm Mind",
+              "Future Sight",
+              "Psychic Noise",
+              "Tachyon Cutter"
+            ]
+          },
+          {
+            "set_id": "cdae52c67237214c0ff4",
+            "species": "Raging Bolt",
+            "item": "Booster Energy",
+            "moves": [
+              "Calm Mind",
+              "Draco Meteor",
+              "Dragon Pulse",
+              "Thunderbolt"
+            ]
+          }
+        ],
+        "boundary": [
+          {
+            "set_id": "57d41e4d6fb966585bcd",
+            "species": "Manaphy",
+            "item": "Sitrus Berry",
+            "moves": [
+              "Alluring Voice",
+              "Energy Ball",
+              "Scald",
+              "Tail Glow"
+            ]
+          },
+          {
+            "set_id": "140e0ce94f905c5431ba",
+            "species": "Gholdengo",
+            "item": "Choice Scarf",
+            "moves": [
+              "Make It Rain",
+              "Nasty Plot",
+              "Recover",
+              "Trick"
+            ]
+          }
+        ]
+      },
+      {
+        "cluster": 4,
+        "sets": 79,
+        "species": 22,
+        "means": {
+          "hp": 427.0253164556962,
+          "atk": 192.1012658227848,
+          "def": 238.53164556962025,
+          "spa": 196.58227848101265,
+          "spd": 317.17721518987344,
+          "spe": 126.0632911392405,
+          "defensive_setup": 0.06329113924050633,
+          "forced_switch": 0.13924050632911392,
+          "hazard_removal": 0.012658227848101266,
+          "hazard_setting": 0.45569620253164556,
+          "physical_setup": 0.0,
+          "pivot": 0.22784810126582278,
+          "priority_attack": 0.0,
+          "recovery": 0.2911392405063291,
+          "screens": 0.012658227848101266,
+          "special_setup": 0.0379746835443038,
+          "speed_setup": 0.0,
+          "status_infliction": 0.5822784810126582
+        },
+        "near_center": [
+          {
+            "set_id": "f94310b8982a73f07409",
+            "species": "Muk-Alola",
+            "item": "Assault Vest",
+            "moves": [
+              "Drain Punch",
+              "Haze",
+              "Poison Jab",
+              "Protect"
+            ]
+          },
+          {
+            "set_id": "beee0efc45068a816888",
+            "species": "Slowking-Galar",
+            "item": "Assault Vest",
+            "moves": [
+              "Flamethrower",
+              "Future Sight",
+              "Sludge Bomb",
+              "Thunder Wave"
+            ]
+          },
+          {
+            "set_id": "9e3411e82e1d51b281a3",
+            "species": "Slowking-Galar",
+            "item": "Heavy-Duty Boots",
+            "moves": [
+              "Flamethrower",
+              "Future Sight",
+              "Ice Beam",
+              "Sludge Bomb"
+            ]
+          }
+        ],
+        "boundary": [
+          {
+            "set_id": "ad094ea9afc5553c27a7",
+            "species": "Glimmora",
+            "item": "Power Herb",
+            "moves": [
+              "Earth Power",
+              "Meteor Beam",
+              "Mortal Spin",
+              "Stealth Rock"
+            ]
+          },
+          {
+            "set_id": "8deca9d997003ca52695",
+            "species": "Grimmsnarl",
+            "item": "Light Clay",
+            "moves": [
+              "Light Screen",
+              "Spirit Break",
+              "Taunt",
+              "Thunder Wave"
+            ]
+          }
+        ]
+      },
+      {
+        "cluster": 5,
+        "sets": 92,
+        "species": 33,
+        "means": {
+          "hp": 388.0108695652174,
+          "atk": 202.6413043478261,
+          "def": 325.6195652173913,
+          "spa": 197.95652173913044,
+          "spd": 203.59782608695653,
+          "spe": 184.7826086956522,
+          "defensive_setup": 0.09782608695652174,
+          "forced_switch": 0.021739130434782608,
+          "hazard_removal": 0.18478260869565216,
+          "hazard_setting": 0.11956521739130435,
+          "physical_setup": 0.010869565217391304,
+          "pivot": 0.5,
+          "priority_attack": 0.03260869565217391,
+          "recovery": 0.5217391304347826,
+          "screens": 0.010869565217391304,
+          "special_setup": 0.03260869565217391,
+          "speed_setup": 0.0,
+          "status_infliction": 0.5543478260869565
+        },
+        "near_center": [
+          {
+            "set_id": "8a298d2ed9465119f6bb",
+            "species": "Hippowdon",
+            "item": "Leftovers",
+            "moves": [
+              "Curse",
+              "Earthquake",
+              "Ice Fang",
+              "Slack Off"
+            ]
+          },
+          {
+            "set_id": "ec78e75b6569ef0edeb5",
+            "species": "Corviknight",
+            "item": "Rocky Helmet",
+            "moves": [
+              "Body Press",
+              "Brave Bird",
+              "Roost",
+              "U-turn"
+            ]
+          },
+          {
+            "set_id": "c35e28dd8e9aa20e8f89",
+            "species": "Moltres",
+            "item": "Heavy-Duty Boots",
+            "moves": [
+              "Flamethrower",
+              "Hurricane",
+              "Roost",
+              "U-turn"
+            ]
+          }
+        ],
+        "boundary": [
+          {
+            "set_id": "b275d9c0d6d7bc659cbe",
+            "species": "Ursaluna",
+            "item": "Flame Orb",
+            "moves": [
+              "Drain Punch",
+              "Facade",
+              "Ice Punch",
+              "Protect"
+            ]
+          },
+          {
+            "set_id": "86bdae3558fbfcf04ec7",
+            "species": "Landorus-Therian",
+            "item": "Rocky Helmet",
+            "moves": [
+              "Earth Power",
+              "Stealth Rock",
+              "Stone Edge",
+              "U-turn"
+            ]
+          }
+        ]
+      }
+    ],
+    "7": [
+      {
+        "cluster": 0,
+        "sets": 88,
+        "species": 29,
+        "means": {
+          "hp": 386.03409090909093,
+          "atk": 196.79545454545453,
+          "def": 327.04545454545456,
+          "spa": 199.1931818181818,
+          "spd": 204.26136363636363,
+          "spe": 186.42045454545453,
+          "defensive_setup": 0.10227272727272728,
+          "forced_switch": 0.022727272727272728,
+          "hazard_removal": 0.18181818181818182,
+          "hazard_setting": 0.11363636363636363,
+          "physical_setup": 0.011363636363636364,
+          "pivot": 0.5227272727272727,
+          "priority_attack": 0.03409090909090909,
+          "recovery": 0.5454545454545454,
+          "screens": 0.011363636363636364,
+          "special_setup": 0.03409090909090909,
+          "speed_setup": 0.0,
+          "status_infliction": 0.5568181818181818
+        },
+        "near_center": [
+          {
+            "set_id": "c35e28dd8e9aa20e8f89",
+            "species": "Moltres",
+            "item": "Heavy-Duty Boots",
+            "moves": [
+              "Flamethrower",
+              "Hurricane",
+              "Roost",
+              "U-turn"
+            ]
+          },
+          {
+            "set_id": "ea08399e317277a27772",
+            "species": "Moltres",
+            "item": "Heavy-Duty Boots",
+            "moves": [
+              "Flamethrower",
+              "Hurricane",
+              "Roost",
+              "U-turn"
+            ]
+          },
+          {
+            "set_id": "ec78e75b6569ef0edeb5",
+            "species": "Corviknight",
+            "item": "Rocky Helmet",
+            "moves": [
+              "Body Press",
+              "Brave Bird",
+              "Roost",
+              "U-turn"
+            ]
+          }
+        ],
+        "boundary": [
+          {
+            "set_id": "24f3c44cc7f193cec45c",
+            "species": "Chesnaught",
+            "item": "Sitrus Berry",
+            "moves": [
+              "Belly Drum",
+              "Drain Punch",
+              "Knock Off",
+              "Spikes"
+            ]
+          },
+          {
+            "set_id": "32cfbe0dbb8b01a3143a",
+            "species": "Toxapex",
+            "item": "Leftovers",
+            "moves": [
+              "Baneful Bunker",
+              "Surf",
+              "Toxic",
+              "Toxic Spikes"
+            ]
+          }
+        ]
+      },
+      {
+        "cluster": 1,
+        "sets": 93,
+        "species": 32,
+        "means": {
+          "hp": 313.9462365591398,
+          "atk": 337.8709677419355,
+          "def": 199.31182795698925,
+          "spa": 174.21505376344086,
+          "spd": 190.41935483870967,
+          "spe": 310.4731182795699,
+          "defensive_setup": 0.0,
+          "forced_switch": 0.0,
+          "hazard_removal": 0.0967741935483871,
+          "hazard_setting": 0.15053763440860216,
+          "physical_setup": 0.010752688172043012,
+          "pivot": 0.6129032258064516,
+          "priority_attack": 0.3118279569892473,
+          "recovery": 0.07526881720430108,
+          "screens": 0.0,
+          "special_setup": 0.010752688172043012,
+          "speed_setup": 0.0,
+          "status_infliction": 0.15053763440860216
+        },
+        "near_center": [
+          {
+            "set_id": "7d1f2a03ec16f6dba68a",
+            "species": "Zapdos-Galar",
+            "item": "Assault Vest",
+            "moves": [
+              "Close Combat",
+              "Knock Off",
+              "Thunderous Kick",
+              "U-turn"
+            ]
+          },
+          {
+            "set_id": "03b001e75d4467a6fd7d",
+            "species": "Samurott-Hisui",
+            "item": "Focus Sash",
+            "moves": [
+              "Aqua Cutter",
+              "Ceaseless Edge",
+              "Flip Turn",
+              "Razor Shell"
+            ]
+          },
+          {
+            "set_id": "7777733a28092251f18b",
+            "species": "Rillaboom",
+            "item": "Choice Band",
+            "moves": [
+              "Grassy Glide",
+              "Knock Off",
+              "U-turn",
+              "Wood Hammer"
+            ]
+          }
+        ],
+        "boundary": [
+          {
+            "set_id": "8d85955598d8b73064e1",
+            "species": "Maushold",
+            "item": "Wide Lens",
+            "moves": [
+              "Bite",
+              "Encore",
+              "Population Bomb",
+              "Tidy Up"
+            ]
+          },
+          {
+            "set_id": "6defaef7db28c8690f7f",
+            "species": "Whiscash",
+            "item": "Leftovers",
+            "moves": [
+              "Earthquake",
+              "Rest",
+              "Spikes",
+              "Stealth Rock"
+            ]
+          }
+        ]
+      },
+      {
+        "cluster": 2,
+        "sets": 77,
+        "species": 20,
+        "means": {
+          "hp": 428.2077922077922,
+          "atk": 191.44155844155844,
+          "def": 239.32467532467533,
+          "spa": 195.2077922077922,
+          "spd": 319.09090909090907,
+          "spe": 124.42857142857143,
+          "defensive_setup": 0.06493506493506493,
+          "forced_switch": 0.14285714285714285,
+          "hazard_removal": 0.0,
+          "hazard_setting": 0.45454545454545453,
+          "physical_setup": 0.0,
+          "pivot": 0.23376623376623376,
+          "priority_attack": 0.0,
+          "recovery": 0.2987012987012987,
+          "screens": 0.0,
+          "special_setup": 0.03896103896103896,
+          "speed_setup": 0.0,
+          "status_infliction": 0.5714285714285714
+        },
+        "near_center": [
+          {
+            "set_id": "f94310b8982a73f07409",
+            "species": "Muk-Alola",
+            "item": "Assault Vest",
+            "moves": [
+              "Drain Punch",
+              "Haze",
+              "Poison Jab",
+              "Protect"
+            ]
+          },
+          {
+            "set_id": "beee0efc45068a816888",
+            "species": "Slowking-Galar",
+            "item": "Assault Vest",
+            "moves": [
+              "Flamethrower",
+              "Future Sight",
+              "Sludge Bomb",
+              "Thunder Wave"
+            ]
+          },
+          {
+            "set_id": "9e3411e82e1d51b281a3",
+            "species": "Slowking-Galar",
+            "item": "Heavy-Duty Boots",
+            "moves": [
+              "Flamethrower",
+              "Future Sight",
+              "Ice Beam",
+              "Sludge Bomb"
+            ]
+          }
+        ],
+        "boundary": [
+          {
+            "set_id": "5d2b3b62b8aafcf2d5f1",
+            "species": "Slowking-Galar",
+            "item": "Assault Vest",
+            "moves": [
+              "Chilly Reception",
+              "Ice Beam",
+              "Psyshock",
+              "Sludge Bomb"
+            ]
+          },
+          {
+            "set_id": "16cf73c8ac1d79dac683",
+            "species": "Tyranitar",
+            "item": "Smooth Rock",
+            "moves": [
+              "Ice Beam",
+              "Knock Off",
+              "Stealth Rock",
+              "Thunder Wave"
+            ]
+          }
+        ]
+      },
+      {
+        "cluster": 3,
+        "sets": 80,
+        "species": 10,
+        "means": {
+          "hp": 371.875,
+          "atk": 327.725,
+          "def": 283.3,
+          "spa": 150.6875,
+          "spd": 195.65,
+          "spe": 322.0875,
+          "defensive_setup": 0.3375,
+          "forced_switch": 0.0625,
+          "hazard_removal": 0.4125,
+          "hazard_setting": 0.3375,
+          "physical_setup": 0.1125,
+          "pivot": 0.0,
+          "priority_attack": 0.0,
+          "recovery": 0.05,
+          "screens": 0.0,
+          "special_setup": 0.0,
+          "speed_setup": 0.0,
+          "status_infliction": 0.0625
+        },
+        "near_center": [
+          {
+            "set_id": "026abbb7f94c9af7cca2",
+            "species": "Great Tusk",
+            "item": "Booster Energy",
+            "moves": [
+              "Close Combat",
+              "Earthquake",
+              "Headlong Rush",
+              "Ice Spinner"
+            ]
+          },
+          {
+            "set_id": "0cd7a6184d2a35325fc8",
+            "species": "Gliscor",
+            "item": "Toxic Orb",
+            "moves": [
+              "Earthquake",
+              "Facade",
+              "Knock Off",
+              "Protect"
+            ]
+          },
+          {
+            "set_id": "8446645b93871aa8f640",
+            "species": "Iron Treads",
+            "item": "Rocky Helmet",
+            "moves": [
+              "Earthquake",
+              "Ice Spinner",
+              "Rapid Spin",
+              "Steel Beam"
+            ]
+          }
+        ],
+        "boundary": [
+          {
+            "set_id": "dcc3f97f6777a9f08c24",
+            "species": "Tinkaton",
+            "item": "Leftovers",
+            "moves": [
+              "Encore",
+              "Gigaton Hammer",
+              "Knock Off",
+              "Stealth Rock"
+            ]
+          },
+          {
+            "set_id": "5a918a10c1a4c31386bb",
+            "species": "Rillaboom",
+            "item": "Terrain Extender",
+            "moves": [
+              "Drain Punch",
+              "Grassy Glide",
+              "Knock Off",
+              "Wood Hammer"
+            ]
+          }
+        ]
+      },
+      {
+        "cluster": 4,
+        "sets": 117,
+        "species": 41,
+        "means": {
+          "hp": 329.56410256410254,
+          "atk": 200.96581196581195,
+          "def": 207.4017094017094,
+          "spa": 328.0854700854701,
+          "spd": 213.4188034188034,
+          "spe": 320.94871794871796,
+          "defensive_setup": 0.017094017094017096,
+          "forced_switch": 0.008547008547008548,
+          "hazard_removal": 0.05128205128205128,
+          "hazard_setting": 0.1452991452991453,
+          "physical_setup": 0.017094017094017096,
+          "pivot": 0.20512820512820512,
+          "priority_attack": 0.11965811965811966,
+          "recovery": 0.05128205128205128,
+          "screens": 0.042735042735042736,
+          "special_setup": 0.0,
+          "speed_setup": 0.008547008547008548,
+          "status_infliction": 0.5982905982905983
+        },
+        "near_center": [
+          {
+            "set_id": "619610b3b5ce7478adf3",
+            "species": "Walking Wake",
+            "item": "Heavy-Duty Boots",
+            "moves": [
+              "Draco Meteor",
+              "Dragon Pulse",
+              "Flamethrower",
+              "Knock Off"
+            ]
+          },
+          {
+            "set_id": "77a58941cad0a5007a27",
+            "species": "Walking Wake",
+            "item": "Choice Scarf",
+            "moves": [
+              "Draco Meteor",
+              "Dragon Pulse",
+              "Flamethrower",
+              "Hydro Steam"
+            ]
+          },
+          {
+            "set_id": "c13f81e4953e732c41da",
+            "species": "Manaphy",
+            "item": "Leftovers",
+            "moves": [
+              "Energy Ball",
+              "Scald",
+              "Stored Power",
+              "Take Heart"
+            ]
+          }
+        ],
+        "boundary": [
+          {
+            "set_id": "ab3e1a046385a2c7c02e",
+            "species": "Hatterene",
+            "item": "Eject Button",
+            "moves": [
+              "Dazzling Gleam",
+              "Draining Kiss",
+              "Healing Wish",
+              "Mystical Fire"
+            ]
+          },
+          {
+            "set_id": "8deca9d997003ca52695",
+            "species": "Grimmsnarl",
+            "item": "Light Clay",
+            "moves": [
+              "Light Screen",
+              "Spirit Break",
+              "Taunt",
+              "Thunder Wave"
+            ]
+          }
+        ]
+      },
+      {
+        "cluster": 5,
+        "sets": 63,
+        "species": 19,
+        "means": {
+          "hp": 343.6984126984127,
+          "atk": 176.85714285714286,
+          "def": 230.85714285714286,
+          "spa": 350.8253968253968,
+          "spd": 218.85714285714286,
+          "spe": 252.3015873015873,
+          "defensive_setup": 0.6666666666666666,
+          "forced_switch": 0.0,
+          "hazard_removal": 0.0,
+          "hazard_setting": 0.0,
+          "physical_setup": 0.09523809523809523,
+          "pivot": 0.09523809523809523,
+          "priority_attack": 0.20634920634920634,
+          "recovery": 0.14285714285714285,
+          "screens": 0.0,
+          "special_setup": 1.0,
+          "speed_setup": 0.015873015873015872,
+          "status_infliction": 0.47619047619047616
+        },
+        "near_center": [
+          {
+            "set_id": "956c47247134a63eb5ef",
+            "species": "Iron Crown",
+            "item": "Booster Energy",
+            "moves": [
+              "Calm Mind",
+              "Focus Blast",
+              "Psyshock",
+              "Tachyon Cutter"
+            ]
+          },
+          {
+            "set_id": "f41552b0efce1fb0f48c",
+            "species": "Iron Crown",
+            "item": "Choice Specs",
+            "moves": [
+              "Calm Mind",
+              "Future Sight",
+              "Psychic Noise",
+              "Tachyon Cutter"
+            ]
+          },
+          {
+            "set_id": "cdae52c67237214c0ff4",
+            "species": "Raging Bolt",
+            "item": "Booster Energy",
+            "moves": [
+              "Calm Mind",
+              "Draco Meteor",
+              "Dragon Pulse",
+              "Thunderbolt"
+            ]
+          }
+        ],
+        "boundary": [
+          {
+            "set_id": "91ef96ccfe9df3f2e886",
+            "species": "Darkrai",
+            "item": "Heavy-Duty Boots",
+            "moves": [
+              "Dark Pulse",
+              "Ice Beam",
+              "Nasty Plot",
+              "Thunder Wave"
+            ]
+          },
+          {
+            "set_id": "dd3214de90baa258ce86",
+            "species": "Darkrai",
+            "item": "Heavy-Duty Boots",
+            "moves": [
+              "Dark Pulse",
+              "Nasty Plot",
+              "Sludge Bomb",
+              "Will-O-Wisp"
+            ]
+          }
+        ]
+      },
+      {
+        "cluster": 6,
+        "sets": 76,
+        "species": 25,
+        "means": {
+          "hp": 331.4605263157895,
+          "atk": 366.5,
+          "def": 225.82894736842104,
+          "spa": 170.0921052631579,
+          "spd": 210.69736842105263,
+          "spe": 257.8157894736842,
+          "defensive_setup": 0.013157894736842105,
+          "forced_switch": 0.013157894736842105,
+          "hazard_removal": 0.039473684210526314,
+          "hazard_setting": 0.013157894736842105,
+          "physical_setup": 0.9078947368421053,
+          "pivot": 0.02631578947368421,
+          "priority_attack": 0.5657894736842105,
+          "recovery": 0.10526315789473684,
+          "screens": 0.0,
+          "special_setup": 0.0,
+          "speed_setup": 0.27631578947368424,
+          "status_infliction": 0.13157894736842105
+        },
+        "near_center": [
+          {
+            "set_id": "f8a05b28d3f36958d65e",
+            "species": "Scizor",
+            "item": "Life Orb",
+            "moves": [
+              "Bullet Punch",
+              "Close Combat",
+              "Knock Off",
+              "Swords Dance"
+            ]
+          },
+          {
+            "set_id": "20e374c2b2d4d8f053bd",
+            "species": "Ceruledge",
+            "item": "Focus Sash",
+            "moves": [
+              "Bitter Blade",
+              "Shadow Sneak",
+              "Solar Blade",
+              "Swords Dance"
+            ]
+          },
+          {
+            "set_id": "5cf5fb53a385d1460c09",
+            "species": "Kingambit",
+            "item": "Life Orb",
+            "moves": [
+              "Iron Head",
+              "Kowtow Cleave",
+              "Sucker Punch",
+              "Swords Dance"
+            ]
+          }
+        ],
+        "boundary": [
+          {
+            "set_id": "4988fea7e68e99b8cd3f",
+            "species": "Azumarill",
+            "item": "Sitrus Berry",
+            "moves": [
+              "Aqua Jet",
+              "Knock Off",
+              "Liquidation",
+              "Play Rough"
+            ]
+          },
+          {
+            "set_id": "9bb76d512b84b20110e8",
+            "species": "Azumarill",
+            "item": "Assault Vest",
+            "moves": [
+              "Aqua Jet",
+              "Belly Drum",
+              "Liquidation",
+              "Play Rough"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "profiles": {
+    "Alomomola": {
+      "sets": 7,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.8571428571428571,
+        0.14285714285714285,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.7142857142857143
+      ],
+      "k5": [
+        0.0,
+        0.8571428571428571,
+        0.0,
+        0.14285714285714285,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.14285714285714285,
+        0.8571428571428571
+      ],
+      "k7": [
+        0.8571428571428571,
+        0.0,
+        0.14285714285714285,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Amoonguss": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k7": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Araquanid": {
+      "sets": 3,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Arcanine": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Armarouge": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Azelf": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Azumarill": {
+      "sets": 2,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "Barraskewda": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Basculegion": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Blaziken": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "Blissey": {
+      "sets": 4,
+      "kb": [
+        0.75,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.75,
+        0.0,
+        0.25
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Breloom": {
+      "sets": 4,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ]
+    },
+    "Ceruledge": {
+      "sets": 2,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "Chansey": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Chesnaught": {
+      "sets": 2,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k7": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Cinccino": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Cinderace": {
+      "sets": 8,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.625,
+        0.375,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.625,
+        0.0,
+        0.0,
+        0.0,
+        0.375
+      ],
+      "k6": [
+        0.0,
+        0.625,
+        0.375,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Clefable": {
+      "sets": 9,
+      "kb": [
+        0.5555555555555556,
+        0.0,
+        0.0,
+        0.2222222222222222,
+        0.0,
+        0.0,
+        0.0,
+        0.5555555555555556,
+        0.0,
+        0.5555555555555556,
+        0.0,
+        0.7777777777777778
+      ],
+      "k5": [
+        0.0,
+        0.3333333333333333,
+        0.4444444444444444,
+        0.2222222222222222,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.5555555555555556,
+        0.2222222222222222,
+        0.2222222222222222
+      ],
+      "k7": [
+        0.2222222222222222,
+        0.0,
+        0.2222222222222222,
+        0.0,
+        0.0,
+        0.5555555555555556,
+        0.0
+      ]
+    },
+    "Clodsire": {
+      "sets": 5,
+      "kb": [
+        0.4,
+        0.0,
+        0.0,
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Comfey": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "Conkeldurr": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "Corviknight": {
+      "sets": 12,
+      "kb": [
+        0.6666666666666666,
+        0.0,
+        0.5833333333333334,
+        0.0,
+        0.0,
+        0.9166666666666666,
+        0.0,
+        0.9166666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k7": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Cramorant": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Crawdaunt": {
+      "sets": 2,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "k6": [
+        0.0,
+        0.5,
+        0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Cresselia": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k7": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Darkrai": {
+      "sets": 9,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1111111111111111,
+        0.0,
+        0.0,
+        0.2222222222222222,
+        0.0,
+        0.8888888888888888
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.7777777777777778,
+        0.2222222222222222,
+        0.0
+      ]
+    },
+    "Decidueye": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "Deoxys": {
+      "sets": 3,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0
+      ],
+      "k6": [
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.0
+      ]
+    },
+    "Dondozo": {
+      "sets": 6,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.8333333333333334,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.8333333333333334,
+        0.0,
+        0.16666666666666666,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.16666666666666666,
+        0.8333333333333334
+      ],
+      "k7": [
+        0.8333333333333334,
+        0.0,
+        0.16666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Dragapult": {
+      "sets": 17,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.11764705882352941,
+        0.7058823529411765,
+        0.23529411764705882,
+        0.0,
+        0.0,
+        0.0,
+        0.11764705882352941,
+        0.7647058823529411
+      ],
+      "k5": [
+        0.29411764705882354,
+        0.0,
+        0.5294117647058824,
+        0.0,
+        0.17647058823529413
+      ],
+      "k6": [
+        0.8823529411764706,
+        0.0,
+        0.11764705882352941,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.35294117647058826,
+        0.0,
+        0.0,
+        0.5882352941176471,
+        0.0,
+        0.058823529411764705
+      ]
+    },
+    "Dragonite": {
+      "sets": 18,
+      "kb": [
+        0.0,
+        0.05555555555555555,
+        0.0,
+        0.0,
+        0.8888888888888888,
+        0.0,
+        0.7222222222222222,
+        0.3888888888888889,
+        0.0,
+        0.0,
+        0.8888888888888888,
+        0.2222222222222222
+      ],
+      "k5": [
+        0.05555555555555555,
+        0.0,
+        0.0,
+        0.0,
+        0.9444444444444444
+      ],
+      "k6": [
+        0.0,
+        0.05555555555555555,
+        0.9444444444444444,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.05555555555555555,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9444444444444444
+      ]
+    },
+    "Empoleon": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Enamorus": {
+      "sets": 3,
+      "kb": [
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0
+      ]
+    },
+    "Entei": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Excadrill": {
+      "sets": 2,
+      "kb": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "Gallade": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Garchomp": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Garganacl": {
+      "sets": 5,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.2,
+        0.0,
+        0.8,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.8,
+        0.2
+      ],
+      "k7": [
+        0.2,
+        0.0,
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Gholdengo": {
+      "sets": 20,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.45,
+        0.0,
+        0.55,
+        0.0,
+        0.3
+      ],
+      "k5": [
+        0.0,
+        0.15,
+        0.85,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.35,
+        0.0,
+        0.0,
+        0.55,
+        0.0,
+        0.1
+      ],
+      "k7": [
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.35,
+        0.55,
+        0.0
+      ]
+    },
+    "Glimmora": {
+      "sets": 4,
+      "kb": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.75,
+        0.25,
+        0.0
+      ],
+      "k6": [
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.25,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Gliscor": {
+      "sets": 7,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.2857142857142857,
+        0.2857142857142857,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.42857142857142855
+      ],
+      "k5": [
+        0.14285714285714285,
+        0.42857142857142855,
+        0.0,
+        0.2857142857142857,
+        0.14285714285714285
+      ],
+      "k6": [
+        0.0,
+        0.42857142857142855,
+        0.0,
+        0.0,
+        0.14285714285714285,
+        0.42857142857142855
+      ],
+      "k7": [
+        0.42857142857142855,
+        0.0,
+        0.14285714285714285,
+        0.2857142857142857,
+        0.0,
+        0.0,
+        0.14285714285714285
+      ]
+    },
+    "Golem": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Great Tusk": {
+      "sets": 34,
+      "kb": [
+        0.2647058823529412,
+        0.0,
+        0.7941176470588235,
+        0.5588235294117647,
+        0.2647058823529412,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.9117647058823529,
+        0.029411764705882353,
+        0.0,
+        0.0,
+        0.058823529411764705
+      ],
+      "k6": [
+        0.0,
+        0.9705882352941176,
+        0.0,
+        0.0,
+        0.0,
+        0.029411764705882353
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Greninja": {
+      "sets": 4,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.75
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.25,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.0
+      ]
+    },
+    "Grimmsnarl": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Hatterene": {
+      "sets": 7,
+      "kb": [
+        0.7142857142857143,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.7142857142857143,
+        0.0,
+        0.7142857142857143
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.14285714285714285,
+        0.0,
+        0.0,
+        0.7142857142857143,
+        0.0,
+        0.14285714285714285
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2857142857142857,
+        0.7142857142857143,
+        0.0
+      ]
+    },
+    "Hawlucha": {
+      "sets": 3,
+      "kb": [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666
+      ]
+    },
+    "Heatran": {
+      "sets": 6,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.16666666666666666,
+        0.8333333333333334,
+        0.0
+      ],
+      "k6": [
+        0.16666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.8333333333333334,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.8333333333333334,
+        0.0,
+        0.16666666666666666,
+        0.0,
+        0.0
+      ]
+    },
+    "Hippowdon": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k7": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Hoopa": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Houndstone": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Hydrapple": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "Hydreigon": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Incineroar": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k7": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Indeedee": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Iron Boulder": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "Iron Crown": {
+      "sets": 6,
+      "kb": [
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0
+      ]
+    },
+    "Iron Hands": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Iron Jugulis": {
+      "sets": 2,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Iron Moth": {
+      "sets": 10,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Iron Thorns": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "Iron Treads": {
+      "sets": 9,
+      "kb": [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Iron Valiant": {
+      "sets": 17,
+      "kb": [
+        0.29411764705882354,
+        0.0,
+        0.0,
+        0.0,
+        0.23529411764705882,
+        0.0,
+        0.23529411764705882,
+        0.0,
+        0.0,
+        0.29411764705882354,
+        0.0,
+        0.29411764705882354
+      ],
+      "k5": [
+        0.17647058823529413,
+        0.0,
+        0.6470588235294118,
+        0.0,
+        0.17647058823529413
+      ],
+      "k6": [
+        0.5882352941176471,
+        0.11764705882352941,
+        0.0,
+        0.29411764705882354,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.058823529411764705,
+        0.0,
+        0.0,
+        0.5294117647058824,
+        0.29411764705882354,
+        0.11764705882352941
+      ]
+    },
+    "Keldeo": {
+      "sets": 3,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Kingambit": {
+      "sets": 16,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "Klefki": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k7": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Kyurem": {
+      "sets": 11,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2727272727272727,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2727272727272727,
+        0.8181818181818182
+      ],
+      "k5": [
+        0.2727272727272727,
+        0.0,
+        0.45454545454545453,
+        0.0,
+        0.2727272727272727
+      ],
+      "k6": [
+        0.9090909090909091,
+        0.0,
+        0.09090909090909091,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.7272727272727273,
+        0.0,
+        0.2727272727272727
+      ]
+    },
+    "Landorus": {
+      "sets": 12,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.8333333333333334,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.9166666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.08333333333333333
+      ],
+      "k7": [
+        0.08333333333333333,
+        0.9166666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Latias": {
+      "sets": 2,
+      "kb": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.5,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.5,
+        0.0
+      ]
+    },
+    "Latios": {
+      "sets": 3,
+      "kb": [
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.3333333333333333
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0
+      ]
+    },
+    "Lokix": {
+      "sets": 8,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.125,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.875,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.125
+      ]
+    },
+    "Magnezone": {
+      "sets": 1,
+      "kb": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Mamoswine": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Manaphy": {
+      "sets": 4,
+      "kb": [
+        0.25,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.75
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.5,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.5,
+        0.0
+      ]
+    },
+    "Mandibuzz": {
+      "sets": 2,
+      "kb": [
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "k5": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k7": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Maushold": {
+      "sets": 4,
+      "kb": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Meowscarada": {
+      "sets": 2,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Metagross": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "Mew": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Mimikyu": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "Minior": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "Moltres": {
+      "sets": 9,
+      "kb": [
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.7777777777777778,
+        0.0,
+        0.7777777777777778,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.7777777777777778,
+        0.0,
+        0.2222222222222222,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2222222222222222,
+        0.7777777777777778
+      ],
+      "k7": [
+        0.7777777777777778,
+        0.0,
+        0.2222222222222222,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Muk": {
+      "sets": 2,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Necrozma": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Ninetales": {
+      "sets": 6,
+      "kb": [
+        0.0,
+        0.16666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Ogerpon": {
+      "sets": 24,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.16666666666666666,
+        0.4166666666666667,
+        0.3333333333333333,
+        0.0,
+        0.125,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.5833333333333334,
+        0.0,
+        0.0,
+        0.0,
+        0.4166666666666667
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.625,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.375
+      ]
+    },
+    "Okidogi": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Overqwil": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "Pecharunt": {
+      "sets": 11,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9090909090909091,
+        0.0,
+        0.7272727272727273,
+        0.0,
+        0.2727272727272727,
+        0.0,
+        0.8181818181818182
+      ],
+      "k5": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k7": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Pelipper": {
+      "sets": 4,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.25
+      ],
+      "k5": [
+        0.0,
+        0.75,
+        0.25,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.25,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.75
+      ],
+      "k7": [
+        0.75,
+        0.0,
+        0.0,
+        0.0,
+        0.25,
+        0.0,
+        0.0
+      ]
+    },
+    "Pincurchin": {
+      "sets": 3,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666
+      ],
+      "k5": [
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666
+      ],
+      "k7": [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Porygon-Z": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Primarina": {
+      "sets": 2,
+      "kb": [
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.5,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.5,
+        0.0
+      ]
+    },
+    "Quaquaval": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Rabsca": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k7": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Raging Bolt": {
+      "sets": 22,
+      "kb": [
+        0.6818181818181818,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3181818181818182,
+        0.7727272727272727,
+        0.0,
+        0.0,
+        0.6818181818181818,
+        0.0,
+        0.7272727272727273
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.3181818181818182,
+        0.0,
+        0.0,
+        0.6818181818181818,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3181818181818182,
+        0.6818181818181818,
+        0.0
+      ]
+    },
+    "Regidrago": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Ribombee": {
+      "sets": 2,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Rillaboom": {
+      "sets": 9,
+      "kb": [
+        0.1111111111111111,
+        0.0,
+        0.0,
+        0.0,
+        0.1111111111111111,
+        0.5555555555555556,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.8888888888888888,
+        0.0,
+        0.0,
+        0.0,
+        0.1111111111111111
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.2222222222222222,
+        0.0,
+        0.0,
+        0.1111111111111111
+      ]
+    },
+    "Rotom": {
+      "sets": 2,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "k5": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k7": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Samurott": {
+      "sets": 7,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.42857142857142855,
+        0.7142857142857143,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.2857142857142857,
+        0.0,
+        0.0,
+        0.0,
+        0.7142857142857143
+      ],
+      "k6": [
+        0.0,
+        0.2857142857142857,
+        0.7142857142857143,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Sandy Shocks": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Scizor": {
+      "sets": 6,
+      "kb": [
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.3333333333333333,
+        0.6666666666666666,
+        0.8333333333333334,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ]
+    },
+    "Scovillain": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "Sinistcha": {
+      "sets": 2,
+      "kb": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "Skarmory": {
+      "sets": 1,
+      "kb": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k7": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Skeledirge": {
+      "sets": 2,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "k5": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k7": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Slither Wing": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Slowking": {
+      "sets": 22,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6818181818181818,
+        0.0,
+        0.09090909090909091,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.045454545454545456,
+        0.0,
+        0.9545454545454546,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9545454545454546,
+        0.045454545454545456
+      ],
+      "k7": [
+        0.045454545454545456,
+        0.0,
+        0.9545454545454546,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Talonflame": {
+      "sets": 3,
+      "kb": [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666
+      ],
+      "k5": [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333
+      ],
+      "k7": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0
+      ]
+    },
+    "Ting-Lu": {
+      "sets": 13,
+      "kb": [
+        0.0,
+        0.7692307692307693,
+        0.0,
+        0.8461538461538461,
+        0.0,
+        0.0,
+        0.0,
+        0.15384615384615385,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Tinkaton": {
+      "sets": 4,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.75
+      ],
+      "k5": [
+        0.25,
+        0.0,
+        0.0,
+        0.75,
+        0.0
+      ],
+      "k6": [
+        0.75,
+        0.25,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.25,
+        0.75,
+        0.0,
+        0.0
+      ]
+    },
+    "Torkoal": {
+      "sets": 3,
+      "kb": [
+        0.0,
+        0.0,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6666666666666666
+      ],
+      "k5": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k7": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Toxapex": {
+      "sets": 7,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.7142857142857143,
+        0.0,
+        0.0,
+        0.0,
+        0.5714285714285714,
+        0.0,
+        0.0,
+        0.0,
+        0.7142857142857143
+      ],
+      "k5": [
+        0.0,
+        0.14285714285714285,
+        0.0,
+        0.8571428571428571,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.8571428571428571,
+        0.14285714285714285
+      ],
+      "k7": [
+        0.14285714285714285,
+        0.0,
+        0.8571428571428571,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Tyranitar": {
+      "sets": 2,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Umbreon": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Ursaluna": {
+      "sets": 3,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.3333333333333333,
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.6666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Venusaur": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "Vikavolt": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Walking Wake": {
+      "sets": 6,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333333
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Weavile": {
+      "sets": 4,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.75,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.25,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.75
+      ]
+    },
+    "Weezing": {
+      "sets": 7,
+      "kb": [
+        0.0,
+        0.0,
+        0.8571428571428571,
+        0.14285714285714285,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k7": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Whimsicott": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "Whiscash": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Wo-Chien": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Zamazenta": {
+      "sets": 26,
+      "kb": [
+        0.6923076923076923,
+        0.15384615384615385,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.15384615384615385,
+        0.0,
+        0.0,
+        0.0,
+        0.038461538461538464
+      ],
+      "k5": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Zangoose": {
+      "sets": 1,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k5": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "k6": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "k7": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "Zapdos": {
+      "sets": 7,
+      "kb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.7142857142857143,
+        0.0,
+        0.8571428571428571,
+        0.0,
+        0.0,
+        0.0,
+        0.5714285714285714
+      ],
+      "k5": [
+        0.14285714285714285,
+        0.7142857142857143,
+        0.14285714285714285,
+        0.0,
+        0.0
+      ],
+      "k6": [
+        0.14285714285714285,
+        0.14285714285714285,
+        0.0,
+        0.0,
+        0.0,
+        0.7142857142857143
+      ],
+      "k7": [
+        0.7142857142857143,
+        0.14285714285714285,
+        0.0,
+        0.0,
+        0.14285714285714285,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

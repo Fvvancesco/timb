@@ -1,0 +1,304 @@
+{
+  "scope": "Development only: repeated nested group CV, 3 outer x 3 inner, seeds 11/23/47",
+  "outcomes": {
+    "team_b": 2716,
+    "team_a": 2747,
+    "None": 57
+  },
+  "rows": [
+    {
+      "method": "train_rate",
+      "representation": "v1",
+      "additional_after_core_freeze": false,
+      "metrics": {
+        "log_loss": {
+          "mean": 0.6933554663357486,
+          "sd": 0.00021747742773725522
+        },
+        "brier": {
+          "mean": 0.2501041290181155,
+          "sd": 0.00010871534435746848
+        },
+        "accuracy": {
+          "mean": 0.49695035033381657,
+          "sd": 0.020002578840986912
+        }
+      },
+      "chosen_parameters": {},
+      "source": "reports/supervised_v2v3v4_kb_v1.json"
+    },
+    {
+      "method": "neutral",
+      "representation": "v1",
+      "additional_after_core_freeze": false,
+      "metrics": {
+        "log_loss": {
+          "mean": 0.6931471805599453,
+          "sd": 4.8956233716268386e-17
+        },
+        "brier": {
+          "mean": 0.25,
+          "sd": 0.0
+        },
+        "accuracy": {
+          "mean": 0.5041386846940548,
+          "sd": 0.019781209995618384
+        }
+      },
+      "chosen_parameters": {},
+      "source": "reports/supervised_v2v3v4_kb_v1.json"
+    },
+    {
+      "method": "logistic",
+      "representation": "v1",
+      "additional_after_core_freeze": false,
+      "metrics": {
+        "log_loss": {
+          "mean": 0.7100088584470661,
+          "sd": 0.026408322467288414
+        },
+        "brier": {
+          "mean": 0.25689088204123567,
+          "sd": 0.011730724032815843
+        },
+        "accuracy": {
+          "mean": 0.5313202896094462,
+          "sd": 0.033077346702718786
+        }
+      },
+      "chosen_parameters": {
+        "0.01": 9
+      },
+      "source": "reports/supervised_v2v3v4_kb_v1.json"
+    },
+    {
+      "method": "boosting",
+      "representation": "v1",
+      "additional_after_core_freeze": false,
+      "metrics": {
+        "log_loss": {
+          "mean": 0.689316853177455,
+          "sd": 0.005821837398968327
+        },
+        "brier": {
+          "mean": 0.24807580417803465,
+          "sd": 0.002872742146688606
+        },
+        "accuracy": {
+          "mean": 0.5409011588253491,
+          "sd": 0.027947400634765394
+        }
+      },
+      "chosen_parameters": {
+        "1": 8,
+        "2": 1
+      },
+      "source": "reports/supervised_v2v3v4_kb_v1.json"
+    },
+    {
+      "method": "logistic",
+      "representation": "v2",
+      "additional_after_core_freeze": false,
+      "metrics": {
+        "log_loss": {
+          "mean": 0.7126014702800061,
+          "sd": 0.028769023345211094
+        },
+        "brier": {
+          "mean": 0.2581716035027569,
+          "sd": 0.012625383550173872
+        },
+        "accuracy": {
+          "mean": 0.5256952195031083,
+          "sd": 0.025122800434723785
+        }
+      },
+      "chosen_parameters": {
+        "0.01": 9
+      },
+      "source": "reports/supervised_v2v3v4_kb_v2.json"
+    },
+    {
+      "method": "boosting",
+      "representation": "v2",
+      "additional_after_core_freeze": false,
+      "metrics": {
+        "log_loss": {
+          "mean": 0.6922078056987269,
+          "sd": 0.006754531938501417
+        },
+        "brier": {
+          "mean": 0.24952649745267755,
+          "sd": 0.003340108656957414
+        },
+        "accuracy": {
+          "mean": 0.5225124983466283,
+          "sd": 0.029281721013107546
+        }
+      },
+      "chosen_parameters": {
+        "1": 9
+      },
+      "source": "reports/supervised_v2v3v4_kb_v2.json"
+    },
+    {
+      "method": "mlp",
+      "representation": "v1",
+      "additional_after_core_freeze": false,
+      "metrics": {
+        "log_loss": {
+          "mean": 0.6904351276435533,
+          "sd": 0.005704756771612854
+        },
+        "brier": {
+          "mean": 0.2486520878082022,
+          "sd": 0.00283223202363352
+        },
+        "accuracy": {
+          "mean": 0.5289892384912329,
+          "sd": 0.026732381912463604
+        }
+      },
+      "chosen_parameters": {
+        "small_l2_10": 7,
+        "two_layers_l2_10": 2
+      },
+      "source": "reports/neural_v2v3v4_kb_v1.json"
+    },
+    {
+      "method": "mlp",
+      "representation": "v2",
+      "additional_after_core_freeze": false,
+      "metrics": {
+        "log_loss": {
+          "mean": 0.6918080617297425,
+          "sd": 0.006936910731501625
+        },
+        "brier": {
+          "mean": 0.24933374730966282,
+          "sd": 0.0034373208404466764
+        },
+        "accuracy": {
+          "mean": 0.5085758028945592,
+          "sd": 0.03685201764245043
+        }
+      },
+      "chosen_parameters": {
+        "small_l2_10": 7,
+        "two_layers_l2_10": 2
+      },
+      "source": "reports/neural_v2v3v4_kb_v2.json"
+    },
+    {
+      "method": "decision_tree",
+      "representation": "v1",
+      "additional_after_core_freeze": true,
+      "metrics": {
+        "log_loss": {
+          "mean": 0.6959044033321361,
+          "sd": 0.009430339552950133
+        },
+        "brier": {
+          "mean": 0.25127079808697134,
+          "sd": 0.004563049799210491
+        },
+        "accuracy": {
+          "mean": 0.5260330260368378,
+          "sd": 0.020013925497357855
+        }
+      },
+      "chosen_parameters": {
+        "2": 9
+      },
+      "source": "reports/trees_v2v3v4_kb_v1.json"
+    },
+    {
+      "method": "random_forest",
+      "representation": "v1",
+      "additional_after_core_freeze": true,
+      "metrics": {
+        "log_loss": {
+          "mean": 0.6870552432594919,
+          "sd": 0.006477862882439806
+        },
+        "brier": {
+          "mean": 0.2469671561676515,
+          "sd": 0.0032072905417557403
+        },
+        "accuracy": {
+          "mean": 0.5506028886879278,
+          "sd": 0.030512543483170586
+        }
+      },
+      "chosen_parameters": {
+        "0": 3,
+        "8": 5,
+        "4": 1
+      },
+      "source": "reports/trees_v2v3v4_kb_v1.json"
+    },
+    {
+      "method": "decision_tree",
+      "representation": "v2",
+      "additional_after_core_freeze": true,
+      "metrics": {
+        "log_loss": {
+          "mean": 0.697628894660675,
+          "sd": 0.008093829950128945
+        },
+        "brier": {
+          "mean": 0.25214206204908185,
+          "sd": 0.0039005359577306527
+        },
+        "accuracy": {
+          "mean": 0.5136156378527873,
+          "sd": 0.008908622082870113
+        }
+      },
+      "chosen_parameters": {
+        "2": 8,
+        "4": 1
+      },
+      "source": "reports/trees_v2v3v4_kb_v2.json"
+    },
+    {
+      "method": "random_forest",
+      "representation": "v2",
+      "additional_after_core_freeze": true,
+      "metrics": {
+        "log_loss": {
+          "mean": 0.6877690532996031,
+          "sd": 0.00607748594455023
+        },
+        "brier": {
+          "mean": 0.24732174293431725,
+          "sd": 0.003004926959801927
+        },
+        "accuracy": {
+          "mean": 0.537180822891602,
+          "sd": 0.03607746145680514
+        }
+      },
+      "chosen_parameters": {
+        "0": 4,
+        "4": 2,
+        "8": 3
+      },
+      "source": "reports/trees_v2v3v4_kb_v2.json"
+    }
+  ],
+  "limits": [
+    "Equal-weight means over nine outer folds; SD is descriptive, not a confidence interval.",
+    "Folds overlap and cannot be treated as nine independent experiments.",
+    "v1 already includes four KB capability counts; v2 includes twelve. Neither is a no-KB ablation.",
+    "Tree and forest comparisons are additional development experiments; the frozen final model is unchanged."
+  ],
+  "source_hashes": {
+    "reports/supervised_v2v3v4_kb_v1.json": "c5e2bbcef37b23c07b1e563c6831b89261525b902fd09df23d2b9583716879ee",
+    "reports/supervised_v2v3v4_kb_v2.json": "db24824def61d9cc78e5a4f5efccdbda81386763733c375487062f04a8a43279",
+    "reports/neural_v2v3v4_kb_v1.json": "c4d36c7538c1c2630ff797a88f60bcfb53e1f3f80e748dc8fcc76392cdb0e960",
+    "reports/neural_v2v3v4_kb_v2.json": "7bfd8b0ac30d5410fc912e8e9a42199cf3fca86c2bf136a94156f81bc7aef2a6",
+    "reports/trees_v2v3v4_kb_v1.json": "a6e9cdc5541ed4d4026bf81b902f697adbccc346aafccb4474728f052f609926",
+    "reports/trees_v2v3v4_kb_v2.json": "2b2ea316d5e7fad82b4ab53bc0d9e20d74b899f808837dea2c92a277129c85e1"
+  }
+}

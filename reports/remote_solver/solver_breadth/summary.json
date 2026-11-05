@@ -1,0 +1,4535 @@
+{
+  "preparation_seconds": 17.048901900998317,
+  "validator_startup_seconds": 0.3073918370064348,
+  "runs": 300,
+  "statuses": {
+    "OPTIMAL": 100,
+    "BUDGET": 197,
+    "VALIDATION_TIMEOUT": 3
+  },
+  "curves_first_valid": {
+    "instance-00": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-01": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-02": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-03": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 4,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 4,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 4,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 4,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-04": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-05": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-06": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-07": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-08": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-09": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-10": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-11": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-12": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-13": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 4,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 4,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-14": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-15": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-16": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-17": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-18": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-19": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    }
+  },
+  "curves_quality": {
+    "instance-00": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-01": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-02": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-03": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 4,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 4,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 4,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 4,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 4,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-04": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-05": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-06": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 2,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 3,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-07": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 1,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 3,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 4,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-08": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-09": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-10": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-11": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-12": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-13": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 4,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 4,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-14": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-15": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 2,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-16": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-17": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-18": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 1,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 1,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    },
+    "instance-19": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 5
+        },
+        {
+          "seconds": 0.1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.25,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 0.5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 1,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 5,
+          "successes": 5,
+          "runs": 5
+        },
+        {
+          "seconds": 10,
+          "successes": 5,
+          "runs": 5
+        }
+      ]
+    }
+  },
+  "scope": "Warm KB/matrices; per-run construction, search and validation included (persistent validator). Per-run validation cache. Sequential runs, single CP-SAT thread."
+}

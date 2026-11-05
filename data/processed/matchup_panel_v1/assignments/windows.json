@@ -1,0 +1,13 @@
+{
+  "shard": "windows",
+  "workers": 6,
+  "requests": [
+    "panel-v1-24",
+    "panel-v1-25",
+    "panel-v1-26",
+    "panel-v1-27",
+    "panel-v1-28",
+    "panel-v1-29"
+  ],
+  "manifest_sha256": "7d4316fc15a9b033256c061787f4cd9a072e2b6e72a450afd9dba634a8f34467"
+}

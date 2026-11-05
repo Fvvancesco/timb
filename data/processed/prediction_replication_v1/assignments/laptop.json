@@ -1,0 +1,24 @@
+{
+  "shard": "laptop",
+  "workers": 6,
+  "manifest_sha256": "a1c079de053c0d2d9dbe5d6b2a4891d04341fb2186bfeab04108642848988ee4",
+  "requests": [
+    "pred-rep-v1-038",
+    "pred-rep-v1-039",
+    "pred-rep-v1-040",
+    "pred-rep-v1-041",
+    "pred-rep-v1-042",
+    "pred-rep-v1-043",
+    "pred-rep-v1-044",
+    "pred-rep-v1-045",
+    "pred-rep-v1-046",
+    "pred-rep-v1-047",
+    "pred-rep-v1-048",
+    "pred-rep-v1-049",
+    "pred-rep-v1-050",
+    "pred-rep-v1-051",
+    "pred-rep-v1-052",
+    "pred-rep-v1-053",
+    "pred-rep-v1-054"
+  ]
+}

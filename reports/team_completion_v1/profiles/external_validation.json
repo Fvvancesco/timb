@@ -1,0 +1,59 @@
+{
+  "scope": "New shard and previously unused compositions. Same public replay source family.",
+  "source_url": "https://huggingface.co/datasets/jakegrigsby/metamon-raw-replays/resolve/060367c26630e0d36308fd42673e5cf2f4b4421a/data/train-00031-of-00046.parquet",
+  "train_teams": 4643,
+  "test_teams": 3444,
+  "test_masks": 20664,
+  "out_of_vocabulary_targets": 42,
+  "profile_member_coverage": 0.9020518776616337,
+  "metrics": {
+    "identity": {
+      "top1": 0.1852981029810298,
+      "top5": 0.4300716221447929,
+      "log_loss_covered": 3.706287594192207
+    },
+    "kb": {
+      "top1": 0.18684668989547037,
+      "top5": 0.4318621757646148,
+      "log_loss_covered": 3.696325387257818
+    }
+  },
+  "paired_kb_minus_identity_top1_top5": {
+    "n": 20664,
+    "groups": 3444,
+    "mean": [
+      0.001548586914440573,
+      0.0017905536198219126
+    ],
+    "seed": 11,
+    "repetitions": 10000,
+    "interval_95": [
+      [
+        -0.0012098335269066977,
+        0.0043070073557878435
+      ],
+      [
+        -0.0016453735965931088,
+        0.005226480836236934
+      ]
+    ]
+  },
+  "paired_kb_minus_identity_log_loss": {
+    "n": 20622,
+    "groups": 3444,
+    "mean": [
+      -0.009962206934388925
+    ],
+    "seed": 11,
+    "repetitions": 10000,
+    "interval_95": [
+      [
+        -0.016007604409658805,
+        -0.0038985471935760554
+      ]
+    ]
+  },
+  "protocol_sha256": "df499dc14f6ca390590c3676d03e6981f52f3df6ad4950f6d66b32fd6562e3d1",
+  "test_sha256": "dcb5ca2934ae188d176f8bf466342732b3982078554b44de6c28de05b6ba1bbc",
+  "code_sha256": "c58406c7f051e6c35f5d967f9d37c469c4f13b6651dba9db35858fbfd630ef61"
+}

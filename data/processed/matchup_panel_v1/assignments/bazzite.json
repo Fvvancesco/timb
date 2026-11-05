@@ -1,0 +1,12 @@
+{
+  "shard": "bazzite",
+  "workers": 6,
+  "requests": [
+    "panel-v1-19",
+    "panel-v1-20",
+    "panel-v1-21",
+    "panel-v1-22",
+    "panel-v1-23"
+  ],
+  "manifest_sha256": "7d4316fc15a9b033256c061787f4cd9a072e2b6e72a450afd9dba634a8f34467"
+}

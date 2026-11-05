@@ -1,0 +1,27 @@
+{
+  "shard": "windows",
+  "workers": 6,
+  "requests": [
+    "coverage-v2-150",
+    "coverage-v2-151",
+    "coverage-v2-152",
+    "coverage-v2-153",
+    "coverage-v2-154",
+    "coverage-v2-155",
+    "coverage-v2-156",
+    "coverage-v2-157",
+    "coverage-v2-158",
+    "coverage-v2-159",
+    "coverage-v2-160",
+    "coverage-v2-161",
+    "coverage-v2-162",
+    "coverage-v2-163",
+    "coverage-v2-164",
+    "coverage-v2-165",
+    "coverage-v2-166",
+    "coverage-v2-167",
+    "coverage-v2-168",
+    "coverage-v2-169"
+  ],
+  "manifest_sha256": "d0a4219912ecf88d2196a24dca26a31c8b013962520a077c58e42a1bb3a9ffff"
+}

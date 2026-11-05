@@ -1,0 +1,13 @@
+{
+  "scope": "Gen9: presence of a potential hazard-removal effect, not a guarantee of success",
+  "source": "https://github.com/smogon/pokemon-showdown/blob/master/data/moves.ts",
+  "reviewed_on": "2026-11-03",
+  "showdown_version": "0.11.11",
+  "direct_self_recovery_callbacks": ["rest", "moonlight", "synthesis", "morningsun", "shoreup"],
+  "hazard_removal": ["rapidspin", "defog", "mortalspin", "tidyup"],
+  "excluded": {
+    "courtchange": "Swaps side conditions; not represented as unconditional removal.",
+    "wish": "Delayed recovery; outside the immediate self-targeted recovery class.",
+    "strengthsap": "Targets an opponent with contextual recovery; outside this self-targeted class."
+  }
+}

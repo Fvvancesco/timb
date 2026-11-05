@@ -1,0 +1,41 @@
+{
+  "validation": {
+    "identity": {
+      "top1": 0.207035175879397,
+      "top5": 0.4542713567839196,
+      "log_loss_covered": 3.5959852577119293
+    },
+    "kb": {
+      "top1": 0.20603015075376885,
+      "top5": 0.4623115577889447,
+      "log_loss_covered": 3.580027937065216
+    },
+    "rdf16": {
+      "top1": 0.20485762144053601,
+      "top5": 0.4539363484087102,
+      "log_loss_covered": 3.6025542586032167
+    },
+    "rdf32": {
+      "top1": 0.20435510887772193,
+      "top5": 0.45879396984924625,
+      "log_loss_covered": 3.5918865521636714
+    }
+  },
+  "selected": "rdf32",
+  "graph": {
+    "train_sets": 594,
+    "species": 128,
+    "graph_nodes": 1286,
+    "triples": 6742,
+    "walks": 8192
+  },
+  "dependencies": {
+    "gensim": "4.4.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "smart-open": "9.0.2",
+    "wrapt": "2.5.2"
+  },
+  "protocol_sha256": "e9dfb96e5a936a111f73ed991effbce8314cef581f8c8f6ba63e5142e06b47a1"
+}

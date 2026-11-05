@@ -1,0 +1,8 @@
+{
+  "manifest_sha256": "253632ed97a0759dd162e497478a299705adc4d507c26b31e93bca3f3d1bf9f3",
+  "model_sha256": "62566b0ac938953e99ceb4c40a66c63d59d8145f32dee35b98ffda3b62fbfda6",
+  "runner_sha256": "73f848e8c8054864355ee8e83918f3e2e39b8f47d5dc2910a1c03ac3401bd8e6",
+  "workers": 14,
+  "started_utc": "2026-11-04T03:39:34.872123+00:00",
+  "rule": "No model, representation or selector tuning after this point."
+}

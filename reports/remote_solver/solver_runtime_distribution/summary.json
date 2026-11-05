@@ -1,0 +1,693 @@
+{
+  "preparation_seconds": 16.8920342620695,
+  "validator_startup_seconds": 0.30614305997733027,
+  "runs": 900,
+  "statuses": {
+    "OPTIMAL": 300,
+    "BUDGET": 595,
+    "VALIDATION_TIMEOUT": 5
+  },
+  "curves_first_valid": {
+    "instance-01": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 100
+        },
+        {
+          "seconds": 0.1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.25,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 10,
+          "successes": 100,
+          "runs": 100
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 100
+        },
+        {
+          "seconds": 0.1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.25,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 10,
+          "successes": 100,
+          "runs": 100
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 100
+        },
+        {
+          "seconds": 0.1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.25,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 10,
+          "successes": 100,
+          "runs": 100
+        }
+      ]
+    },
+    "instance-04": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 100
+        },
+        {
+          "seconds": 0.1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.25,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 10,
+          "successes": 100,
+          "runs": 100
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 100
+        },
+        {
+          "seconds": 0.1,
+          "successes": 99,
+          "runs": 100
+        },
+        {
+          "seconds": 0.25,
+          "successes": 99,
+          "runs": 100
+        },
+        {
+          "seconds": 0.5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 10,
+          "successes": 100,
+          "runs": 100
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 100
+        },
+        {
+          "seconds": 0.1,
+          "successes": 96,
+          "runs": 100
+        },
+        {
+          "seconds": 0.25,
+          "successes": 96,
+          "runs": 100
+        },
+        {
+          "seconds": 0.5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 10,
+          "successes": 100,
+          "runs": 100
+        }
+      ]
+    },
+    "instance-07": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 100
+        },
+        {
+          "seconds": 0.1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.25,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 10,
+          "successes": 100,
+          "runs": 100
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 100
+        },
+        {
+          "seconds": 0.1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.25,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 10,
+          "successes": 100,
+          "runs": 100
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 100
+        },
+        {
+          "seconds": 0.1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.25,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 10,
+          "successes": 100,
+          "runs": 100
+        }
+      ]
+    }
+  },
+  "curves_quality": {
+    "instance-01": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 100
+        },
+        {
+          "seconds": 0.1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.25,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 10,
+          "successes": 100,
+          "runs": 100
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 100
+        },
+        {
+          "seconds": 0.1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.25,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 10,
+          "successes": 100,
+          "runs": 100
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 100
+        },
+        {
+          "seconds": 0.1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.25,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 10,
+          "successes": 100,
+          "runs": 100
+        }
+      ]
+    },
+    "instance-04": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 100
+        },
+        {
+          "seconds": 0.1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.25,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 10,
+          "successes": 100,
+          "runs": 100
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 100
+        },
+        {
+          "seconds": 0.1,
+          "successes": 99,
+          "runs": 100
+        },
+        {
+          "seconds": 0.25,
+          "successes": 99,
+          "runs": 100
+        },
+        {
+          "seconds": 0.5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 10,
+          "successes": 100,
+          "runs": 100
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 100
+        },
+        {
+          "seconds": 0.1,
+          "successes": 96,
+          "runs": 100
+        },
+        {
+          "seconds": 0.25,
+          "successes": 96,
+          "runs": 100
+        },
+        {
+          "seconds": 0.5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 10,
+          "successes": 100,
+          "runs": 100
+        }
+      ]
+    },
+    "instance-07": {
+      "random": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 100
+        },
+        {
+          "seconds": 0.1,
+          "successes": 20,
+          "runs": 100
+        },
+        {
+          "seconds": 0.25,
+          "successes": 30,
+          "runs": 100
+        },
+        {
+          "seconds": 0.5,
+          "successes": 57,
+          "runs": 100
+        },
+        {
+          "seconds": 1,
+          "successes": 79,
+          "runs": 100
+        },
+        {
+          "seconds": 5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 10,
+          "successes": 100,
+          "runs": 100
+        }
+      ],
+      "greedy": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 100
+        },
+        {
+          "seconds": 0.1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.25,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 10,
+          "successes": 100,
+          "runs": 100
+        }
+      ],
+      "cp_sat": [
+        {
+          "seconds": 0,
+          "successes": 0,
+          "runs": 100
+        },
+        {
+          "seconds": 0.1,
+          "successes": 99,
+          "runs": 100
+        },
+        {
+          "seconds": 0.25,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 0.5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 1,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 5,
+          "successes": 100,
+          "runs": 100
+        },
+        {
+          "seconds": 10,
+          "successes": 100,
+          "runs": 100
+        }
+      ]
+    }
+  },
+  "scope": "Warm KB/matrices; per-run construction, search and validation included (persistent validator). Per-run validation cache. Sequential runs, single CP-SAT thread."
+}

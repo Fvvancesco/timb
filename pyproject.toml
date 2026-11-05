@@ -1,0 +1,19 @@
+[project]
+name = "icon-pokemon"
+version = "0.1.0"
+description = "Knowledge-based Pokemon team construction and repair"
+requires-python = ">=3.11"
+dependencies = [
+  "rdflib>=7,<8",
+  "owlrl>=7,<8",
+  "ortools>=9.11,<10",
+  "scikit-learn>=1.6,<2",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+

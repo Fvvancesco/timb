@@ -1,0 +1,103 @@
+@prefix p: <urn:icon:pokemon:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+p:MoveEffect a owl:Class .
+p:hasStructuredEffect a owl:ObjectProperty ; rdfs:range p:MoveEffect .
+p:PrimarySelfIncrease a owl:Class ; owl:equivalentClass [ a owl:Class ; owl:intersectionOf (
+    [ a owl:Restriction ; owl:onProperty p:effectKind ; owl:hasValue p:stat_change ]
+    [ a owl:Restriction ; owl:onProperty p:recipient ; owl:hasValue p:self ]
+    [ a owl:Restriction ; owl:onProperty p:phase ; owl:hasValue p:primary ]
+    [ a owl:Restriction ; owl:onProperty p:direction ; owl:hasValue p:Increase ]
+) ] .
+
+p:PhysicalSetupEffect a owl:Class ; owl:equivalentClass [ a owl:Class ; owl:intersectionOf (
+    p:PrimarySelfIncrease
+    [ a owl:Restriction ; owl:onProperty p:stat ; owl:hasValue p:atk ]
+) ] .
+
+p:SpecialSetupEffect a owl:Class ; owl:equivalentClass [ a owl:Class ; owl:intersectionOf (
+    p:PrimarySelfIncrease
+    [ a owl:Restriction ; owl:onProperty p:stat ; owl:hasValue p:spa ]
+) ] .
+
+p:SpeedSetupEffect a owl:Class ; owl:equivalentClass [ a owl:Class ; owl:intersectionOf (
+    p:PrimarySelfIncrease
+    [ a owl:Restriction ; owl:onProperty p:stat ; owl:hasValue p:spe ]
+) ] .
+
+p:DefenseStatEffect a owl:Class ; owl:equivalentClass [ a owl:Class ; owl:unionOf ( [ a owl:Restriction ; owl:onProperty p:stat ; owl:hasValue p:def ] [ a owl:Restriction ; owl:onProperty p:stat ; owl:hasValue p:spd ] ) ] .
+p:DefensiveSetupEffect a owl:Class ; owl:equivalentClass [ a owl:Class ; owl:intersectionOf (
+    p:PrimarySelfIncrease
+    p:DefenseStatEffect
+) ] .
+
+p:StatusInflictionEffect a owl:Class ; owl:equivalentClass [ a owl:Class ; owl:intersectionOf (
+    [ a owl:Restriction ; owl:onProperty p:effectKind ; owl:hasValue p:major_status ]
+    [ a owl:Restriction ; owl:onProperty p:recipient ; owl:hasValue p:target ]
+) ] .
+
+p:PivotEffect a owl:Class ; owl:equivalentClass [ a owl:Class ; owl:intersectionOf (
+    [ a owl:Restriction ; owl:onProperty p:effectKind ; owl:hasValue p:self_switch ]
+    [ a owl:Restriction ; owl:onProperty p:recipient ; owl:hasValue p:self ]
+) ] .
+
+p:ForcedSwitchEffect a owl:Class ; owl:equivalentClass [ a owl:Class ; owl:intersectionOf (
+    [ a owl:Restriction ; owl:onProperty p:effectKind ; owl:hasValue p:force_switch ]
+    [ a owl:Restriction ; owl:onProperty p:recipient ; owl:hasValue p:target ]
+) ] .
+
+p:ScreenConditionEffect a owl:Class ; owl:equivalentClass [ a owl:Class ; owl:unionOf ( [ a owl:Restriction ; owl:onProperty p:condition ; owl:hasValue p:reflect ] [ a owl:Restriction ; owl:onProperty p:condition ; owl:hasValue p:lightscreen ] [ a owl:Restriction ; owl:onProperty p:condition ; owl:hasValue p:auroraveil ] ) ] .
+p:ScreenEffect a owl:Class ; owl:equivalentClass [ a owl:Class ; owl:intersectionOf (
+    [ a owl:Restriction ; owl:onProperty p:effectKind ; owl:hasValue p:side_condition ]
+    [ a owl:Restriction ; owl:onProperty p:recipient ; owl:hasValue p:allySide ]
+    p:ScreenConditionEffect
+) ] .
+
+p:PhysicalSetupMove a owl:Class ; rdfs:subClassOf p:Move ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasStructuredEffect ; owl:someValuesFrom p:PhysicalSetupEffect ] .
+p:SetWithPhysicalSetup a owl:Class ; rdfs:subClassOf p:PokemonSet ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasMove ; owl:someValuesFrom p:PhysicalSetupMove ] .
+p:TeamWithPhysicalSetup a owl:Class ; rdfs:subClassOf p:Team ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:availableMove ; owl:someValuesFrom p:PhysicalSetupMove ] .
+
+p:SpecialSetupMove a owl:Class ; rdfs:subClassOf p:Move ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasStructuredEffect ; owl:someValuesFrom p:SpecialSetupEffect ] .
+p:SetWithSpecialSetup a owl:Class ; rdfs:subClassOf p:PokemonSet ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasMove ; owl:someValuesFrom p:SpecialSetupMove ] .
+p:TeamWithSpecialSetup a owl:Class ; rdfs:subClassOf p:Team ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:availableMove ; owl:someValuesFrom p:SpecialSetupMove ] .
+
+p:SpeedSetupMove a owl:Class ; rdfs:subClassOf p:Move ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasStructuredEffect ; owl:someValuesFrom p:SpeedSetupEffect ] .
+p:SetWithSpeedSetup a owl:Class ; rdfs:subClassOf p:PokemonSet ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasMove ; owl:someValuesFrom p:SpeedSetupMove ] .
+p:TeamWithSpeedSetup a owl:Class ; rdfs:subClassOf p:Team ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:availableMove ; owl:someValuesFrom p:SpeedSetupMove ] .
+
+p:DefensiveSetupMove a owl:Class ; rdfs:subClassOf p:Move ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasStructuredEffect ; owl:someValuesFrom p:DefensiveSetupEffect ] .
+p:SetWithDefensiveSetup a owl:Class ; rdfs:subClassOf p:PokemonSet ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasMove ; owl:someValuesFrom p:DefensiveSetupMove ] .
+p:TeamWithDefensiveSetup a owl:Class ; rdfs:subClassOf p:Team ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:availableMove ; owl:someValuesFrom p:DefensiveSetupMove ] .
+
+p:StatusInflictionMove a owl:Class ; rdfs:subClassOf p:Move ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasStructuredEffect ; owl:someValuesFrom p:StatusInflictionEffect ] .
+p:SetWithStatusInfliction a owl:Class ; rdfs:subClassOf p:PokemonSet ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasMove ; owl:someValuesFrom p:StatusInflictionMove ] .
+p:TeamWithStatusInfliction a owl:Class ; rdfs:subClassOf p:Team ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:availableMove ; owl:someValuesFrom p:StatusInflictionMove ] .
+
+p:PivotMove a owl:Class ; rdfs:subClassOf p:Move ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasStructuredEffect ; owl:someValuesFrom p:PivotEffect ] .
+p:SetWithPivot a owl:Class ; rdfs:subClassOf p:PokemonSet ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasMove ; owl:someValuesFrom p:PivotMove ] .
+p:TeamWithPivot a owl:Class ; rdfs:subClassOf p:Team ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:availableMove ; owl:someValuesFrom p:PivotMove ] .
+
+p:ForcedSwitchMove a owl:Class ; rdfs:subClassOf p:Move ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasStructuredEffect ; owl:someValuesFrom p:ForcedSwitchEffect ] .
+p:SetWithForcedSwitch a owl:Class ; rdfs:subClassOf p:PokemonSet ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasMove ; owl:someValuesFrom p:ForcedSwitchMove ] .
+p:TeamWithForcedSwitch a owl:Class ; rdfs:subClassOf p:Team ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:availableMove ; owl:someValuesFrom p:ForcedSwitchMove ] .
+
+p:ScreenMove a owl:Class ; rdfs:subClassOf p:Move ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasStructuredEffect ; owl:someValuesFrom p:ScreenEffect ] .
+p:SetWithScreens a owl:Class ; rdfs:subClassOf p:PokemonSet ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:hasMove ; owl:someValuesFrom p:ScreenMove ] .
+p:TeamWithScreens a owl:Class ; rdfs:subClassOf p:Team ; owl:equivalentClass [ a owl:Restriction ; owl:onProperty p:availableMove ; owl:someValuesFrom p:ScreenMove ] .
+
+p:SetWithMixedSetup a owl:Class ; owl:equivalentClass [ a owl:Class ; owl:intersectionOf (
+    p:SetWithPhysicalSetup
+    p:SetWithSpecialSetup
+) ] .
+
+p:TeamWithPhysicalSetupAndScreens a owl:Class ; owl:equivalentClass [ a owl:Class ; owl:intersectionOf (
+    p:TeamWithPhysicalSetup
+    p:TeamWithScreens
+) ] .
+
+p:TeamWithSpecialSetupAndScreens a owl:Class ; owl:equivalentClass [ a owl:Class ; owl:intersectionOf (
+    p:TeamWithSpecialSetup
+    p:TeamWithScreens
+) ] .
+

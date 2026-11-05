@@ -1,0 +1,17 @@
+{
+  "shard": "workstation",
+  "workers": 14,
+  "requests": [
+    "panel-v1-00",
+    "panel-v1-01",
+    "panel-v1-02",
+    "panel-v1-03",
+    "panel-v1-04",
+    "panel-v1-05",
+    "panel-v1-06",
+    "panel-v1-07",
+    "panel-v1-08",
+    "panel-v1-09"
+  ],
+  "manifest_sha256": "c3d4a3c53516af850dc88f1bb5e2ba479b085e37b2a5731457c2eb03448b2137"
+}

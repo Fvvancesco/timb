@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "catalog_teams": 140,
+  "catalog_sets": 829,
+  "team_splits": {
+    "train": 100,
+    "validation": 20,
+    "test": 20
+  },
+  "development_records": 5520,
+  "development_outcomes": {
+    "team_b": 2716,
+    "team_a": 2747,
+    "None": 57
+  },
+  "final_records": 312,
+  "final_statuses": {
+    "completed": 307,
+    "timeout": 3,
+    "truncated": 2
+  },
+  "prediction_pairs_with_complementary_probabilities": 40,
+  "requests": 20,
+  "model_selection": {
+    "representation": "v1",
+    "family": "boosting",
+    "parameter": 1,
+    "mean_log_loss": 0.6844218677767132
+  },
+  "scope": "Hashes, manifest metadata, splits, prediction symmetry and candidate membership; raw replay verification is recorded by collectors, not rerun here.",
+  "script_sha256": "a58f1958f1eb03a42575995312a29fc08bc6e088fc49123c9ed038de17672d23"
+}

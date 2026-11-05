@@ -1,0 +1,492 @@
+{
+  "manifest_sha256": "7d4316fc15a9b033256c061787f4cd9a072e2b6e72a450afd9dba634a8f34467",
+  "battles": 480,
+  "statuses": {
+    "completed": 478,
+    "timeout": 2
+  },
+  "seed_half_comparison": {
+    "pairs": 30,
+    "mean_first": 0.5541666666666667,
+    "mean_second": 0.525,
+    "mean_signed_difference": 0.029166666666666667,
+    "mean_absolute_difference": 0.1625,
+    "interval_95_mean_signed_difference": [
+      -0.05,
+      0.1125
+    ],
+    "pearson": 0.6801883932119762
+  },
+  "per_pair": {
+    "panel-v1-00": {
+      "means": [
+        0.75,
+        0.875
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-01": {
+      "means": [
+        0.375,
+        0.375
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-02": {
+      "means": [
+        0.75,
+        0.5
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-03": {
+      "means": [
+        0.5,
+        0.25
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-04": {
+      "means": [
+        0.5,
+        0.25
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-05": {
+      "means": [
+        0.375,
+        0.375
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-06": {
+      "means": [
+        0.625,
+        0.125
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-07": {
+      "means": [
+        0.75,
+        0.125
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-08": {
+      "means": [
+        0.125,
+        0.25
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-09": {
+      "means": [
+        1.0,
+        0.875
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-10": {
+      "means": [
+        0.5,
+        0.5
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-11": {
+      "means": [
+        0.625,
+        1.0
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-12": {
+      "means": [
+        0.75,
+        1.0
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-13": {
+      "means": [
+        0.875,
+        0.875
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-14": {
+      "means": [
+        0.625,
+        0.875
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-15": {
+      "means": [
+        0.75,
+        0.5
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-16": {
+      "means": [
+        0.375,
+        0.25
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-17": {
+      "means": [
+        0.625,
+        0.625
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-18": {
+      "means": [
+        0.0,
+        0.125
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-19": {
+      "means": [
+        0.125,
+        0.25
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-20": {
+      "means": [
+        0.375,
+        0.375
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-21": {
+      "means": [
+        0.75,
+        0.25
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-22": {
+      "means": [
+        0.5,
+        0.625
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-23": {
+      "means": [
+        0.0,
+        0.125
+      ],
+      "available_roots": [
+        2,
+        4
+      ]
+    },
+    "panel-v1-24": {
+      "means": [
+        0.5,
+        0.5
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-25": {
+      "means": [
+        0.875,
+        0.875
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-26": {
+      "means": [
+        0.375,
+        0.625
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-27": {
+      "means": [
+        1.0,
+        1.0
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-28": {
+      "means": [
+        0.875,
+        1.0
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    },
+    "panel-v1-29": {
+      "means": [
+        0.375,
+        0.375
+      ],
+      "available_roots": [
+        4,
+        4
+      ]
+    }
+  },
+  "scope": "Rates for 30 pairs of development teams, both sides per seed. Conditional on simulation and chosen policies. Small per-pair replication makes split-half correlation descriptive.",
+  "pilot_comparison": {
+    "pairs": 15,
+    "mean_first": 0.6083333333333333,
+    "mean_second": 0.5083333333333333,
+    "mean_signed_difference": 0.1,
+    "mean_absolute_difference": 0.31666666666666665,
+    "interval_95_mean_signed_difference": [
+      -0.08333333333333333,
+      0.2916666666666667
+    ],
+    "pearson": -0.21933160982296818,
+    "simple_manifest_sha256": "c3d4a3c53516af850dc88f1bb5e2ba479b085e37b2a5731457c2eb03448b2137",
+    "simple_battles": 120,
+    "simple_statuses": {
+      "completed": 120
+    },
+    "per_pair": {
+      "panel-v1-00": {
+        "roots": [
+          811,
+          823,
+          829,
+          839
+        ],
+        "foul_play": 0.75,
+        "simple_heuristics": 0.5
+      },
+      "panel-v1-01": {
+        "roots": [
+          811,
+          823,
+          829,
+          839
+        ],
+        "foul_play": 0.375,
+        "simple_heuristics": 0.625
+      },
+      "panel-v1-02": {
+        "roots": [
+          811,
+          823,
+          829,
+          839
+        ],
+        "foul_play": 0.75,
+        "simple_heuristics": 0.5
+      },
+      "panel-v1-03": {
+        "roots": [
+          811,
+          823,
+          829,
+          839
+        ],
+        "foul_play": 0.5,
+        "simple_heuristics": 0.625
+      },
+      "panel-v1-04": {
+        "roots": [
+          811,
+          823,
+          829,
+          839
+        ],
+        "foul_play": 0.5,
+        "simple_heuristics": 0.375
+      },
+      "panel-v1-05": {
+        "roots": [
+          811,
+          823,
+          829,
+          839
+        ],
+        "foul_play": 0.375,
+        "simple_heuristics": 0.875
+      },
+      "panel-v1-06": {
+        "roots": [
+          811,
+          823,
+          829,
+          839
+        ],
+        "foul_play": 0.625,
+        "simple_heuristics": 0.75
+      },
+      "panel-v1-07": {
+        "roots": [
+          811,
+          823,
+          829,
+          839
+        ],
+        "foul_play": 0.75,
+        "simple_heuristics": 0.125
+      },
+      "panel-v1-08": {
+        "roots": [
+          811,
+          823,
+          829,
+          839
+        ],
+        "foul_play": 0.125,
+        "simple_heuristics": 0.25
+      },
+      "panel-v1-09": {
+        "roots": [
+          811,
+          823,
+          829,
+          839
+        ],
+        "foul_play": 1.0,
+        "simple_heuristics": 0.375
+      },
+      "panel-v1-10": {
+        "roots": [
+          811,
+          823,
+          829,
+          839
+        ],
+        "foul_play": 0.5,
+        "simple_heuristics": 0.875
+      },
+      "panel-v1-11": {
+        "roots": [
+          811,
+          823,
+          829,
+          839
+        ],
+        "foul_play": 0.625,
+        "simple_heuristics": 0.125
+      },
+      "panel-v1-12": {
+        "roots": [
+          811,
+          823,
+          829,
+          839
+        ],
+        "foul_play": 0.75,
+        "simple_heuristics": 0.875
+      },
+      "panel-v1-13": {
+        "roots": [
+          811,
+          823,
+          829,
+          839
+        ],
+        "foul_play": 0.875,
+        "simple_heuristics": 0.125
+      },
+      "panel-v1-14": {
+        "roots": [
+          811,
+          823,
+          829,
+          839
+        ],
+        "foul_play": 0.625,
+        "simple_heuristics": 0.625
+      }
+    }
+  }
+}

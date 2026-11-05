@@ -1,0 +1,5066 @@
+{
+  "method_selected_on_validation": "pokemon2vec",
+  "requests": 100,
+  "paired_legal": 100,
+  "scope": "Exploratory follow-up using canonical base-species typing and static super-effective moves. No battle outcomes. Top-5 probabilities truncated and quantized to 20 integer weight units, at least one per scenario.",
+  "seed": 719,
+  "budget_seconds": 2.0,
+  "measures": [
+    "hidden_covered",
+    "hidden_responses",
+    "visible_covered"
+  ],
+  "hashes": {
+    "data/processed/dataset_v1/catalog.json": "4a57069d62f1d9f1df68b3e9625c6f122f93e26639dd75538fdb8e41e31ab755",
+    "reports/team_completion_v1/test_predictions.jsonl": "250b2cc28498e940fb2db1dbc440b982e8cf81c3fb3e5b7d16a3c52a81254c4e",
+    "reports/team_completion_v1/selection.json": "2a3b49c464391592ed7c05e0305fef39a5ac88c28122a79b6d485e3de4de5d4a",
+    "scripts/run_completion_solver_extension.py": "61cd15ac4d8d5a5f3c428181762936229b232741c2afa59c19310ec0a3ff775d"
+  },
+  "methods": {
+    "top1": {
+      "legal": 100,
+      "optimal": 100,
+      "means_paired": {
+        "hidden_covered": 0.97,
+        "hidden_responses": 2.73,
+        "visible_covered": 5.0
+      }
+    },
+    "top5": {
+      "legal": 100,
+      "optimal": 100,
+      "means_paired": {
+        "hidden_covered": 0.99,
+        "hidden_responses": 2.81,
+        "visible_covered": 5.0
+      }
+    }
+  },
+  "paired_top5_minus_top1": {
+    "n": 100,
+    "groups": 100,
+    "mean": [
+      0.02,
+      0.08,
+      0.0
+    ],
+    "seed": 11,
+    "repetitions": 10000,
+    "interval_95": [
+      [
+        0.0,
+        0.05
+      ],
+      [
+        -0.02,
+        0.18
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "runs": [
+    {
+      "opponent_id": 283,
+      "visible": [
+        "Alomomola",
+        "Electrode",
+        "Gliscor",
+        "Gouging Fire",
+        "Heatran"
+      ],
+      "hidden": "Primarina",
+      "fixed": [
+        "72eab44a3c06ef03a147",
+        "380a996a4dc82788bde9",
+        "99bc49d4f9b77d1ed6a4",
+        "b27f38b8bde460f6f747",
+        "dcc3f97f6777a9f08c24"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "380a996a4dc82788bde9",
+          "72eab44a3c06ef03a147",
+          "99bc49d4f9b77d1ed6a4",
+          "b27f38b8bde460f6f747",
+          "dcc3f97f6777a9f08c24",
+          "fd01560383677ffad51c"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "380a996a4dc82788bde9",
+          "72eab44a3c06ef03a147",
+          "99bc49d4f9b77d1ed6a4",
+          "b27f38b8bde460f6f747",
+          "dcc3f97f6777a9f08c24",
+          "fd01560383677ffad51c"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 990,
+      "visible": [
+        "Deoxys",
+        "Gardevoir",
+        "Ogerpon",
+        "Pelipper",
+        "Talonflame"
+      ],
+      "hidden": "Kingdra",
+      "fixed": [
+        "7eff8f238e3b1cd40b21",
+        "09ee509abe0ebbb82a0c",
+        "52efbe615ab49567cd3b",
+        "03b001e75d4467a6fd7d",
+        "947aec458c35c327eae1"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "03b001e75d4467a6fd7d",
+          "09ee509abe0ebbb82a0c",
+          "52efbe615ab49567cd3b",
+          "7eff8f238e3b1cd40b21",
+          "947aec458c35c327eae1",
+          "d7f62a02592db7f0080d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 0,
+        "hidden_responses": 0,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "03b001e75d4467a6fd7d",
+          "09ee509abe0ebbb82a0c",
+          "52efbe615ab49567cd3b",
+          "7eff8f238e3b1cd40b21",
+          "947aec458c35c327eae1",
+          "da1f83ef39743c9e239f"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 715,
+      "visible": [
+        "Dragonite",
+        "Iron Valiant",
+        "Kingambit",
+        "Maushold",
+        "Ogerpon"
+      ],
+      "hidden": "Ninetales",
+      "fixed": [
+        "fbb79ac16c1ec29c1e4d",
+        "37353ac28ad127805a37",
+        "c242a36d4a67dae1fe87",
+        "8ecc94f03f2950bc6812",
+        "25198087e63b638eff29"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "25198087e63b638eff29",
+          "37353ac28ad127805a37",
+          "8ecc94f03f2950bc6812",
+          "c242a36d4a67dae1fe87",
+          "d60f540316e643cb27e7",
+          "fbb79ac16c1ec29c1e4d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "25198087e63b638eff29",
+          "37353ac28ad127805a37",
+          "8ecc94f03f2950bc6812",
+          "c242a36d4a67dae1fe87",
+          "e6acae444bf322e2f2b3",
+          "fbb79ac16c1ec29c1e4d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 114,
+      "visible": [
+        "Glimmora",
+        "Grimmsnarl",
+        "Iron Hands",
+        "Roaring Moon",
+        "Serperior"
+      ],
+      "hidden": "Rillaboom",
+      "fixed": [
+        "17381be5143df9bfe82d",
+        "c35e28dd8e9aa20e8f89",
+        "a19fdd9ff7b95f6e8649",
+        "d02c559dac04afa33946",
+        "9d6e39b567b0cf90b4ff"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "17381be5143df9bfe82d",
+          "85a8f2a71eb939e47acf",
+          "9d6e39b567b0cf90b4ff",
+          "a19fdd9ff7b95f6e8649",
+          "c35e28dd8e9aa20e8f89",
+          "d02c559dac04afa33946"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "17381be5143df9bfe82d",
+          "85a8f2a71eb939e47acf",
+          "9d6e39b567b0cf90b4ff",
+          "a19fdd9ff7b95f6e8649",
+          "c35e28dd8e9aa20e8f89",
+          "d02c559dac04afa33946"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 694,
+      "visible": [
+        "Alomomola",
+        "Clodsire",
+        "Great Tusk",
+        "Iron Moth",
+        "Quaquaval"
+      ],
+      "hidden": "Darkrai",
+      "fixed": [
+        "7315ddfc9f63accfd0b7",
+        "1a02a9ed4b43c7a97026",
+        "f42c01c6501e95e2d57f",
+        "eaf466b86f4c126c66a9",
+        "7f081823faa58119421f"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "1a02a9ed4b43c7a97026",
+          "7315ddfc9f63accfd0b7",
+          "771e5f9d1d99df3b91af",
+          "7f081823faa58119421f",
+          "eaf466b86f4c126c66a9",
+          "f42c01c6501e95e2d57f"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "1a02a9ed4b43c7a97026",
+          "7315ddfc9f63accfd0b7",
+          "771e5f9d1d99df3b91af",
+          "7f081823faa58119421f",
+          "eaf466b86f4c126c66a9",
+          "f42c01c6501e95e2d57f"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 186,
+      "visible": [
+        "Dondozo",
+        "Great Tusk",
+        "Heatran",
+        "Meowscarada",
+        "Zapdos"
+      ],
+      "hidden": "Dragapult",
+      "fixed": [
+        "cc8cd57602331cfa2047",
+        "0c537164624938cbe789",
+        "6735ed11203d23b18131",
+        "bc317dcc042f57cc8e33",
+        "9af7cb4d9a4d90a25fbf"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "0c537164624938cbe789",
+          "3ab8df6fc3b53e172c19",
+          "6735ed11203d23b18131",
+          "9af7cb4d9a4d90a25fbf",
+          "bc317dcc042f57cc8e33",
+          "cc8cd57602331cfa2047"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "0c537164624938cbe789",
+          "3ab8df6fc3b53e172c19",
+          "6735ed11203d23b18131",
+          "9af7cb4d9a4d90a25fbf",
+          "bc317dcc042f57cc8e33",
+          "cc8cd57602331cfa2047"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 520,
+      "visible": [
+        "Iron Valiant",
+        "Kingambit",
+        "Landorus",
+        "Slowking",
+        "Thundurus"
+      ],
+      "hidden": "Cinderace",
+      "fixed": [
+        "2538f41a73779d3b2376",
+        "dfd13a64fa45fb3c73ac",
+        "6cb022b29c1768c16e41",
+        "ac7ef8b460e3fba54c42",
+        "7bf049ebab486b68216b"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "2538f41a73779d3b2376",
+          "6cb022b29c1768c16e41",
+          "7bf049ebab486b68216b",
+          "ac7ef8b460e3fba54c42",
+          "dfd13a64fa45fb3c73ac",
+          "f99f3eb52187256946ca"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "2538f41a73779d3b2376",
+          "6cb022b29c1768c16e41",
+          "7bf049ebab486b68216b",
+          "ac7ef8b460e3fba54c42",
+          "d7f62a02592db7f0080d",
+          "dfd13a64fa45fb3c73ac"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 287,
+      "visible": [
+        "Blaziken",
+        "Gholdengo",
+        "Kingambit",
+        "Landorus",
+        "Ogerpon"
+      ],
+      "hidden": "Okidogi",
+      "fixed": [
+        "bc317dcc042f57cc8e33",
+        "0c537164624938cbe789",
+        "6735ed11203d23b18131",
+        "9af7cb4d9a4d90a25fbf",
+        "cc8cd57602331cfa2047"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "0c537164624938cbe789",
+          "6735ed11203d23b18131",
+          "9af7cb4d9a4d90a25fbf",
+          "bc317dcc042f57cc8e33",
+          "cc8cd57602331cfa2047",
+          "e287b9b4cd9913804f21"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "0c537164624938cbe789",
+          "4124de7d85c8fd9e9dec",
+          "6735ed11203d23b18131",
+          "9af7cb4d9a4d90a25fbf",
+          "bc317dcc042f57cc8e33",
+          "cc8cd57602331cfa2047"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 836,
+      "visible": [
+        "Fezandipiti",
+        "Great Tusk",
+        "Moltres",
+        "Ogerpon",
+        "Samurott"
+      ],
+      "hidden": "Dragapult",
+      "fixed": [
+        "205990b7bd1f9c7417c4",
+        "8d85955598d8b73064e1",
+        "d592f9245c92b8947035",
+        "6fba91486b632f50148e",
+        "55382cf6d46726dc97ae"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "205990b7bd1f9c7417c4",
+          "55382cf6d46726dc97ae",
+          "6fba91486b632f50148e",
+          "8d85955598d8b73064e1",
+          "d592f9245c92b8947035",
+          "f1403520d2454ab070c5"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "205990b7bd1f9c7417c4",
+          "55382cf6d46726dc97ae",
+          "6fba91486b632f50148e",
+          "8d85955598d8b73064e1",
+          "d592f9245c92b8947035",
+          "e287b9b4cd9913804f21"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 830,
+      "visible": [
+        "Cresselia",
+        "Darkrai",
+        "Gliscor",
+        "Moltres",
+        "Ogerpon"
+      ],
+      "hidden": "Garganacl",
+      "fixed": [
+        "b8274234cc834a83f2ce",
+        "1d9acafdba0dfb397298",
+        "9ff81d06c995e031527d",
+        "da1f83ef39743c9e239f",
+        "6882403b7f04bee3f5c4"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "00dd36ff03a0041ffa96",
+          "1d9acafdba0dfb397298",
+          "6882403b7f04bee3f5c4",
+          "9ff81d06c995e031527d",
+          "b8274234cc834a83f2ce",
+          "da1f83ef39743c9e239f"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 5,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "1d9acafdba0dfb397298",
+          "4318375a8ffb520962ee",
+          "6882403b7f04bee3f5c4",
+          "9ff81d06c995e031527d",
+          "b8274234cc834a83f2ce",
+          "da1f83ef39743c9e239f"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 5,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 633,
+      "visible": [
+        "Cinderace",
+        "Kingambit",
+        "Landorus",
+        "Ogerpon",
+        "Reuniclus"
+      ],
+      "hidden": "Iron Valiant",
+      "fixed": [
+        "8c0434d8ab0651551dbf",
+        "e950eb7bf0b5d2575e04",
+        "4855ad52f04b88d093c2",
+        "cd6a4db164f2a40d509c",
+        "7daa00189c83dfd476dd"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4855ad52f04b88d093c2",
+          "7daa00189c83dfd476dd",
+          "8c0434d8ab0651551dbf",
+          "cd6a4db164f2a40d509c",
+          "e950eb7bf0b5d2575e04",
+          "f1403520d2454ab070c5"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4855ad52f04b88d093c2",
+          "7daa00189c83dfd476dd",
+          "8c0434d8ab0651551dbf",
+          "cd6a4db164f2a40d509c",
+          "d60f540316e643cb27e7",
+          "e950eb7bf0b5d2575e04"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 430,
+      "visible": [
+        "Glimmora",
+        "Hawlucha",
+        "Heatran",
+        "Ogerpon",
+        "Serperior"
+      ],
+      "hidden": "Rillaboom",
+      "fixed": [
+        "9d960bc146d1515e7b84",
+        "83e7c240f994c85a12ed",
+        "9b96636cc16a64a2241f",
+        "8fd5415a7f679f3fc0a8",
+        "a63755a482ef9428d601"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "00dd36ff03a0041ffa96",
+          "83e7c240f994c85a12ed",
+          "8fd5415a7f679f3fc0a8",
+          "9b96636cc16a64a2241f",
+          "9d960bc146d1515e7b84",
+          "a63755a482ef9428d601"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "83e7c240f994c85a12ed",
+          "8fd5415a7f679f3fc0a8",
+          "9b96636cc16a64a2241f",
+          "9d960bc146d1515e7b84",
+          "a63755a482ef9428d601",
+          "fc1bf68f0aa64c7a8213"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 687,
+      "visible": [
+        "Garchomp",
+        "Goodra",
+        "Great Tusk",
+        "Hatterene",
+        "Rillaboom"
+      ],
+      "hidden": "Sinistcha",
+      "fixed": [
+        "c1389fdf2c10e162c2f7",
+        "6cc34c3d7a15c5a604c8",
+        "c4e30cf55a541691d3f4",
+        "2b710a8ef68fa223a6d3",
+        "7a5576ac927c6b2725db"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "2b710a8ef68fa223a6d3",
+          "6cc34c3d7a15c5a604c8",
+          "7a5576ac927c6b2725db",
+          "c1389fdf2c10e162c2f7",
+          "c4e30cf55a541691d3f4",
+          "eaf466b86f4c126c66a9"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "2b710a8ef68fa223a6d3",
+          "6cc34c3d7a15c5a604c8",
+          "7a5576ac927c6b2725db",
+          "a6e479f42c5582b09708",
+          "c1389fdf2c10e162c2f7",
+          "c4e30cf55a541691d3f4"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 338,
+      "visible": [
+        "Great Tusk",
+        "Roaring Moon",
+        "Slither Wing",
+        "Torkoal",
+        "Walking Wake"
+      ],
+      "hidden": "Venusaur",
+      "fixed": [
+        "1c2c3e1291b6cd18a843",
+        "50c8ce690435088bf3cb",
+        "5678db1261a422902dfc",
+        "6cd6f1eae0efdf664b90",
+        "28cf5ff1e4e3bb3d1d14"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "1c2c3e1291b6cd18a843",
+          "28cf5ff1e4e3bb3d1d14",
+          "50c8ce690435088bf3cb",
+          "5678db1261a422902dfc",
+          "6cd6f1eae0efdf664b90",
+          "91b921a2956bcaf01638"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "1c2c3e1291b6cd18a843",
+          "28cf5ff1e4e3bb3d1d14",
+          "50c8ce690435088bf3cb",
+          "5678db1261a422902dfc",
+          "6cd6f1eae0efdf664b90",
+          "91b921a2956bcaf01638"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 936,
+      "visible": [
+        "Corviknight",
+        "Crawdaunt",
+        "Heatran",
+        "Iron Valiant",
+        "Slowking"
+      ],
+      "hidden": "Landorus",
+      "fixed": [
+        "3d18fe3703690d494c42",
+        "b37145827dc6521465a3",
+        "7777733a28092251f18b",
+        "f37fe7a4cb13e64b3e37",
+        "d619b0bd154f1fe7ebca"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "3d18fe3703690d494c42",
+          "7777733a28092251f18b",
+          "b37145827dc6521465a3",
+          "d619b0bd154f1fe7ebca",
+          "ea8b6ac10afd0f987143",
+          "f37fe7a4cb13e64b3e37"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "3d18fe3703690d494c42",
+          "7777733a28092251f18b",
+          "a979fbc31f7f8e7a7f65",
+          "b37145827dc6521465a3",
+          "d619b0bd154f1fe7ebca",
+          "f37fe7a4cb13e64b3e37"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 670,
+      "visible": [
+        "Azumarill",
+        "Cresselia",
+        "Hatterene",
+        "Hoopa",
+        "Rabsca"
+      ],
+      "hidden": "Kingambit",
+      "fixed": [
+        "f93c24ba788a6056a45d",
+        "90f143c23fa2007bbe18",
+        "59b2a3bedb55b9e3dc20",
+        "d7b9188585156381c12d",
+        "4fe69062cfdef7607d34"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4fe69062cfdef7607d34",
+          "59b2a3bedb55b9e3dc20",
+          "90f143c23fa2007bbe18",
+          "d7b9188585156381c12d",
+          "f8e7314d3bb4e38b058d",
+          "f93c24ba788a6056a45d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4fe69062cfdef7607d34",
+          "59b2a3bedb55b9e3dc20",
+          "90f143c23fa2007bbe18",
+          "d7b9188585156381c12d",
+          "f8e7314d3bb4e38b058d",
+          "f93c24ba788a6056a45d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 432,
+      "visible": [
+        "Deoxys",
+        "Kingambit",
+        "Kyurem",
+        "Ninetales",
+        "Volcarona"
+      ],
+      "hidden": "Landorus",
+      "fixed": [
+        "e1a3e629d504575d9004",
+        "6a4085a08ceb699a4b54",
+        "482b3dd698ba3012e9ca",
+        "bc05d66aa05e8148e630",
+        "f1403520d2454ab070c5"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "482b3dd698ba3012e9ca",
+          "6a4085a08ceb699a4b54",
+          "bc05d66aa05e8148e630",
+          "e1a3e629d504575d9004",
+          "f1403520d2454ab070c5",
+          "fc1bf68f0aa64c7a8213"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "482b3dd698ba3012e9ca",
+          "6a4085a08ceb699a4b54",
+          "bc05d66aa05e8148e630",
+          "e1a3e629d504575d9004",
+          "f1403520d2454ab070c5",
+          "fc1bf68f0aa64c7a8213"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 710,
+      "visible": [
+        "Corviknight",
+        "Iron Crown",
+        "Keldeo",
+        "Meowscarada",
+        "Tyranitar"
+      ],
+      "hidden": "Primarina",
+      "fixed": [
+        "66d18caaa3db7b120478",
+        "0a3ea00da30eaaa6bdc9",
+        "6d5a2c4b3baaef84f688",
+        "374a78c1f746809aa268",
+        "3004a8a58fdeb262f280"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "0a3ea00da30eaaa6bdc9",
+          "3004a8a58fdeb262f280",
+          "374a78c1f746809aa268",
+          "66d18caaa3db7b120478",
+          "6d5a2c4b3baaef84f688",
+          "e6acae444bf322e2f2b3"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "0a3ea00da30eaaa6bdc9",
+          "3004a8a58fdeb262f280",
+          "374a78c1f746809aa268",
+          "66d18caaa3db7b120478",
+          "6d5a2c4b3baaef84f688",
+          "f93c24ba788a6056a45d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 981,
+      "visible": [
+        "Great Tusk",
+        "Kingambit",
+        "Samurott",
+        "Slowking",
+        "Zapdos"
+      ],
+      "hidden": "Gholdengo",
+      "fixed": [
+        "7c2d833891bd068ddf95",
+        "562a87e352930c79742c",
+        "e499e2339d92aa0a39a3",
+        "ea8b6ac10afd0f987143",
+        "28c996d1152f813c5baa"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "28c996d1152f813c5baa",
+          "562a87e352930c79742c",
+          "7c2d833891bd068ddf95",
+          "d7f62a02592db7f0080d",
+          "e499e2339d92aa0a39a3",
+          "ea8b6ac10afd0f987143"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 5,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "28c996d1152f813c5baa",
+          "562a87e352930c79742c",
+          "7c2d833891bd068ddf95",
+          "d7f62a02592db7f0080d",
+          "e499e2339d92aa0a39a3",
+          "ea8b6ac10afd0f987143"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 5,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 666,
+      "visible": [
+        "Darkrai",
+        "Enamorus",
+        "Glimmora",
+        "Kyurem",
+        "Walking Wake"
+      ],
+      "hidden": "Kingambit",
+      "fixed": [
+        "7bf049ebab486b68216b",
+        "dfd13a64fa45fb3c73ac",
+        "6cb022b29c1768c16e41",
+        "2538f41a73779d3b2376",
+        "ac7ef8b460e3fba54c42"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "00dd36ff03a0041ffa96",
+          "2538f41a73779d3b2376",
+          "6cb022b29c1768c16e41",
+          "7bf049ebab486b68216b",
+          "ac7ef8b460e3fba54c42",
+          "dfd13a64fa45fb3c73ac"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "00dd36ff03a0041ffa96",
+          "2538f41a73779d3b2376",
+          "6cb022b29c1768c16e41",
+          "7bf049ebab486b68216b",
+          "ac7ef8b460e3fba54c42",
+          "dfd13a64fa45fb3c73ac"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 558,
+      "visible": [
+        "Cinderace",
+        "Great Tusk",
+        "Magnezone",
+        "Rillaboom",
+        "Slowking"
+      ],
+      "hidden": "Dragonite",
+      "fixed": [
+        "f9435a19685dca5ec1eb",
+        "2c85e28eddbe52ab17f2",
+        "ca4e78db80622b9111e6",
+        "d71c23d750ec5bc2ea42",
+        "95ec5ae10f0af4cfb592"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "2c85e28eddbe52ab17f2",
+          "4c69db2e4e7cbe5c97fc",
+          "95ec5ae10f0af4cfb592",
+          "ca4e78db80622b9111e6",
+          "d71c23d750ec5bc2ea42",
+          "f9435a19685dca5ec1eb"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "2c85e28eddbe52ab17f2",
+          "4c69db2e4e7cbe5c97fc",
+          "95ec5ae10f0af4cfb592",
+          "ca4e78db80622b9111e6",
+          "d71c23d750ec5bc2ea42",
+          "f9435a19685dca5ec1eb"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 894,
+      "visible": [
+        "Deoxys",
+        "Gholdengo",
+        "Great Tusk",
+        "Iron Moth",
+        "Samurott"
+      ],
+      "hidden": "Salamence",
+      "fixed": [
+        "74cd5c1d5b8d346cd3d6",
+        "482b3dd698ba3012e9ca",
+        "bc05d66aa05e8148e630",
+        "6a4085a08ceb699a4b54",
+        "f1403520d2454ab070c5"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "380a996a4dc82788bde9",
+          "482b3dd698ba3012e9ca",
+          "6a4085a08ceb699a4b54",
+          "74cd5c1d5b8d346cd3d6",
+          "bc05d66aa05e8148e630",
+          "f1403520d2454ab070c5"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "482b3dd698ba3012e9ca",
+          "6a4085a08ceb699a4b54",
+          "6cb022b29c1768c16e41",
+          "74cd5c1d5b8d346cd3d6",
+          "bc05d66aa05e8148e630",
+          "f1403520d2454ab070c5"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 556,
+      "visible": [
+        "Cinderace",
+        "Mandibuzz",
+        "Ninetales",
+        "Okidogi",
+        "Raging Bolt"
+      ],
+      "hidden": "Ursaluna",
+      "fixed": [
+        "2643511ed520583e411f",
+        "13f7b3c7a6ef8704ca3e",
+        "7dcc2b13ce23c0fc5bea",
+        "be1cf19124f93b7d8014",
+        "5c6be90b43b7f8ae7e90"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "13f7b3c7a6ef8704ca3e",
+          "2643511ed520583e411f",
+          "5c6be90b43b7f8ae7e90",
+          "7dcc2b13ce23c0fc5bea",
+          "be1cf19124f93b7d8014",
+          "ef31f8f70454d9d95197"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "13f7b3c7a6ef8704ca3e",
+          "2643511ed520583e411f",
+          "5c6be90b43b7f8ae7e90",
+          "7dcc2b13ce23c0fc5bea",
+          "be1cf19124f93b7d8014",
+          "ef31f8f70454d9d95197"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 704,
+      "visible": [
+        "Haxorus",
+        "Klefki",
+        "Latias",
+        "Maushold",
+        "Ninetales"
+      ],
+      "hidden": "Darkrai",
+      "fixed": [
+        "38c8fb27a2ef27b36f81",
+        "dd3214de90baa258ce86",
+        "3c1c62622feda5960d11",
+        "e18421b0e9f6117f703a",
+        "b477155431db3d800bdd"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "38c8fb27a2ef27b36f81",
+          "3c1c62622feda5960d11",
+          "b477155431db3d800bdd",
+          "dd3214de90baa258ce86",
+          "e18421b0e9f6117f703a",
+          "f9435a19685dca5ec1eb"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "38c8fb27a2ef27b36f81",
+          "3c1c62622feda5960d11",
+          "b477155431db3d800bdd",
+          "dd3214de90baa258ce86",
+          "e18421b0e9f6117f703a",
+          "f9435a19685dca5ec1eb"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 986,
+      "visible": [
+        "Ceruledge",
+        "Corviknight",
+        "Great Tusk",
+        "Roaring Moon",
+        "Walking Wake"
+      ],
+      "hidden": "Torkoal",
+      "fixed": [
+        "cab216627c1b85051947",
+        "2a61732ce709b6c0690f",
+        "a0be5bc76c397bf8c1fe",
+        "9640b49d1654580e7908",
+        "4da639f53b29e66cc058"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "2a61732ce709b6c0690f",
+          "4da639f53b29e66cc058",
+          "77a58941cad0a5007a27",
+          "9640b49d1654580e7908",
+          "a0be5bc76c397bf8c1fe",
+          "cab216627c1b85051947"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "2a61732ce709b6c0690f",
+          "4da639f53b29e66cc058",
+          "9640b49d1654580e7908",
+          "a0be5bc76c397bf8c1fe",
+          "ac5a1c8cd4f623f007c9",
+          "cab216627c1b85051947"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 527,
+      "visible": [
+        "Iron Hands",
+        "Jirachi",
+        "Moltres",
+        "Rillaboom",
+        "Volcanion"
+      ],
+      "hidden": "Ursaluna",
+      "fixed": [
+        "866dab6080c6162fae95",
+        "4c5f75e3fc93398f0b64",
+        "5cf5fb53a385d1460c09",
+        "3ab8df6fc3b53e172c19",
+        "e1a802e102c6173539c2"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "00dd36ff03a0041ffa96",
+          "3ab8df6fc3b53e172c19",
+          "4c5f75e3fc93398f0b64",
+          "5cf5fb53a385d1460c09",
+          "866dab6080c6162fae95",
+          "e1a802e102c6173539c2"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "3ab8df6fc3b53e172c19",
+          "4c5f75e3fc93398f0b64",
+          "5cf5fb53a385d1460c09",
+          "866dab6080c6162fae95",
+          "d7f62a02592db7f0080d",
+          "e1a802e102c6173539c2"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 642,
+      "visible": [
+        "Garchomp",
+        "Gholdengo",
+        "Great Tusk",
+        "Meowscarada",
+        "Roaring Moon"
+      ],
+      "hidden": "Rotom",
+      "fixed": [
+        "e1a3e629d504575d9004",
+        "482b3dd698ba3012e9ca",
+        "74cd5c1d5b8d346cd3d6",
+        "6a4085a08ceb699a4b54",
+        "bc05d66aa05e8148e630"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "00dd36ff03a0041ffa96",
+          "482b3dd698ba3012e9ca",
+          "6a4085a08ceb699a4b54",
+          "74cd5c1d5b8d346cd3d6",
+          "bc05d66aa05e8148e630",
+          "e1a3e629d504575d9004"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "482b3dd698ba3012e9ca",
+          "6a4085a08ceb699a4b54",
+          "74cd5c1d5b8d346cd3d6",
+          "bc05d66aa05e8148e630",
+          "e04efe87a4923831f40a",
+          "e1a3e629d504575d9004"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 354,
+      "visible": [
+        "Houndstone",
+        "Iron Treads",
+        "Iron Valiant",
+        "Kyurem",
+        "Samurott"
+      ],
+      "hidden": "Ting-Lu",
+      "fixed": [
+        "bed0c78bd59300441d17",
+        "32daa5b8a12a28357d05",
+        "8867b588a3a391e92b21",
+        "46be12eaf049a8d399f5",
+        "6c7485d3e0575793c307"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "32daa5b8a12a28357d05",
+          "46be12eaf049a8d399f5",
+          "59b2a3bedb55b9e3dc20",
+          "6c7485d3e0575793c307",
+          "8867b588a3a391e92b21",
+          "bed0c78bd59300441d17"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "28c996d1152f813c5baa",
+          "32daa5b8a12a28357d05",
+          "46be12eaf049a8d399f5",
+          "6c7485d3e0575793c307",
+          "8867b588a3a391e92b21",
+          "bed0c78bd59300441d17"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 985,
+      "visible": [
+        "Garganacl",
+        "Great Tusk",
+        "Iron Moth",
+        "Samurott",
+        "Zapdos"
+      ],
+      "hidden": "Gholdengo",
+      "fixed": [
+        "96ab7f57643b689e4460",
+        "34cfc159bddf110b6e9a",
+        "6027d06db2b36e95485b",
+        "1362b3b5b46928fee410",
+        "d2be6981af36d733382f"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "00dd36ff03a0041ffa96",
+          "1362b3b5b46928fee410",
+          "34cfc159bddf110b6e9a",
+          "6027d06db2b36e95485b",
+          "96ab7f57643b689e4460",
+          "d2be6981af36d733382f"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "00dd36ff03a0041ffa96",
+          "1362b3b5b46928fee410",
+          "34cfc159bddf110b6e9a",
+          "6027d06db2b36e95485b",
+          "96ab7f57643b689e4460",
+          "d2be6981af36d733382f"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 417,
+      "visible": [
+        "Darkrai",
+        "Enamorus",
+        "Great Tusk",
+        "Iron Valiant",
+        "Kingambit"
+      ],
+      "hidden": "Dragonite",
+      "fixed": [
+        "f45c2cc8d71d6abe8589",
+        "947aec458c35c327eae1",
+        "09ee509abe0ebbb82a0c",
+        "03b001e75d4467a6fd7d",
+        "7eff8f238e3b1cd40b21"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "03b001e75d4467a6fd7d",
+          "09ee509abe0ebbb82a0c",
+          "7eff8f238e3b1cd40b21",
+          "947aec458c35c327eae1",
+          "f313057f8f9e14a62b4f",
+          "f45c2cc8d71d6abe8589"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "03b001e75d4467a6fd7d",
+          "09ee509abe0ebbb82a0c",
+          "7eff8f238e3b1cd40b21",
+          "947aec458c35c327eae1",
+          "f313057f8f9e14a62b4f",
+          "f45c2cc8d71d6abe8589"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 260,
+      "visible": [
+        "Deoxys",
+        "Dragonite",
+        "Rotom",
+        "Slowking",
+        "Ting-Lu"
+      ],
+      "hidden": "Corviknight",
+      "fixed": [
+        "59f4dfb43e1e7f789c9b",
+        "545a6d004eb36fecfda3",
+        "6015821e68893728cf50",
+        "4df0e87121794690d3f1",
+        "423363aed86901c01349"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "423363aed86901c01349",
+          "4df0e87121794690d3f1",
+          "545a6d004eb36fecfda3",
+          "59f4dfb43e1e7f789c9b",
+          "6015821e68893728cf50",
+          "f99f3eb52187256946ca"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "423363aed86901c01349",
+          "4df0e87121794690d3f1",
+          "545a6d004eb36fecfda3",
+          "59f4dfb43e1e7f789c9b",
+          "6015821e68893728cf50",
+          "d1be09127bcb8303ab92"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 255,
+      "visible": [
+        "Dragonite",
+        "Garchomp",
+        "Glimmora",
+        "Iron Moth",
+        "Umbreon"
+      ],
+      "hidden": "Gholdengo",
+      "fixed": [
+        "d644971becd804c1c5eb",
+        "c589461d740003635bb2",
+        "a245992c263bd818cc80",
+        "2f808cf4fddd080d9c06",
+        "d2e4630b99c33c14a429"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "2f808cf4fddd080d9c06",
+          "a245992c263bd818cc80",
+          "c589461d740003635bb2",
+          "d2e4630b99c33c14a429",
+          "d644971becd804c1c5eb",
+          "e287b9b4cd9913804f21"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "2f808cf4fddd080d9c06",
+          "a245992c263bd818cc80",
+          "c589461d740003635bb2",
+          "d2e4630b99c33c14a429",
+          "d644971becd804c1c5eb",
+          "e287b9b4cd9913804f21"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 211,
+      "visible": [
+        "Alomomola",
+        "Frosmoth",
+        "Hatterene",
+        "Sinistcha",
+        "Volcanion"
+      ],
+      "hidden": "Iron Treads",
+      "fixed": [
+        "f37fe7a4cb13e64b3e37",
+        "7777733a28092251f18b",
+        "3d18fe3703690d494c42",
+        "d619b0bd154f1fe7ebca",
+        "b37145827dc6521465a3"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "3d18fe3703690d494c42",
+          "7777733a28092251f18b",
+          "b37145827dc6521465a3",
+          "d619b0bd154f1fe7ebca",
+          "e04efe87a4923831f40a",
+          "f37fe7a4cb13e64b3e37"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "3d18fe3703690d494c42",
+          "7777733a28092251f18b",
+          "a979fbc31f7f8e7a7f65",
+          "b37145827dc6521465a3",
+          "d619b0bd154f1fe7ebca",
+          "f37fe7a4cb13e64b3e37"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 574,
+      "visible": [
+        "Great Tusk",
+        "Hatterene",
+        "Ninetales",
+        "Raging Bolt",
+        "Walking Wake"
+      ],
+      "hidden": "Ceruledge",
+      "fixed": [
+        "9bb76d512b84b20110e8",
+        "5b31bc42f4c6fa2b238b",
+        "765a81ab92acd0e49d82",
+        "ea08741e1a5c4e5ca798",
+        "67832c1b8233a36339c3"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "5b31bc42f4c6fa2b238b",
+          "627e8dd98c7e4483ade5",
+          "67832c1b8233a36339c3",
+          "765a81ab92acd0e49d82",
+          "9bb76d512b84b20110e8",
+          "ea08741e1a5c4e5ca798"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "5b31bc42f4c6fa2b238b",
+          "627e8dd98c7e4483ade5",
+          "67832c1b8233a36339c3",
+          "765a81ab92acd0e49d82",
+          "9bb76d512b84b20110e8",
+          "ea08741e1a5c4e5ca798"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 901,
+      "visible": [
+        "Iron Valiant",
+        "Kingambit",
+        "Primarina",
+        "Slowking",
+        "Ursaluna"
+      ],
+      "hidden": "Corviknight",
+      "fixed": [
+        "ebbd843d5db44995158e",
+        "c1a3fdb8bd8f07c7ce52",
+        "ef31f8f70454d9d95197",
+        "a6cf066c3aaa15edf9b7",
+        "6cfd4064a8018d750b72"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "6cfd4064a8018d750b72",
+          "a6cf066c3aaa15edf9b7",
+          "c1a3fdb8bd8f07c7ce52",
+          "ebbd843d5db44995158e",
+          "ef31f8f70454d9d95197",
+          "f8e7314d3bb4e38b058d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "6cfd4064a8018d750b72",
+          "9e3411e82e1d51b281a3",
+          "a6cf066c3aaa15edf9b7",
+          "c1a3fdb8bd8f07c7ce52",
+          "ebbd843d5db44995158e",
+          "ef31f8f70454d9d95197"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 26,
+      "visible": [
+        "Gholdengo",
+        "Kingambit",
+        "Landorus",
+        "Roaring Moon",
+        "Samurott"
+      ],
+      "hidden": "Iron Moth",
+      "fixed": [
+        "5c2cab9471214320415b",
+        "057353c850c473f3eaf9",
+        "66727f9082e2437cea37",
+        "4dc6a8d48bd5b46574e9",
+        "f31889bf420cf072926b"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "057353c850c473f3eaf9",
+          "4dc6a8d48bd5b46574e9",
+          "5c2cab9471214320415b",
+          "66727f9082e2437cea37",
+          "e04efe87a4923831f40a",
+          "f31889bf420cf072926b"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "057353c850c473f3eaf9",
+          "4dc6a8d48bd5b46574e9",
+          "5c2cab9471214320415b",
+          "66727f9082e2437cea37",
+          "e04efe87a4923831f40a",
+          "f31889bf420cf072926b"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 379,
+      "visible": [
+        "Corviknight",
+        "Kyurem",
+        "Landorus",
+        "Pecharunt",
+        "Slowking"
+      ],
+      "hidden": "Ogerpon",
+      "fixed": [
+        "0a3ea00da30eaaa6bdc9",
+        "3004a8a58fdeb262f280",
+        "374a78c1f746809aa268",
+        "caa6c3f123f009d5b3bc",
+        "6d5a2c4b3baaef84f688"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "0a3ea00da30eaaa6bdc9",
+          "3004a8a58fdeb262f280",
+          "374a78c1f746809aa268",
+          "6d5a2c4b3baaef84f688",
+          "caa6c3f123f009d5b3bc",
+          "d7f62a02592db7f0080d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "0a3ea00da30eaaa6bdc9",
+          "3004a8a58fdeb262f280",
+          "374a78c1f746809aa268",
+          "6d5a2c4b3baaef84f688",
+          "a979fbc31f7f8e7a7f65",
+          "caa6c3f123f009d5b3bc"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 381,
+      "visible": [
+        "Darkrai",
+        "Gholdengo",
+        "Great Tusk",
+        "Samurott",
+        "Weezing"
+      ],
+      "hidden": "Hatterene",
+      "fixed": [
+        "c589461d740003635bb2",
+        "d644971becd804c1c5eb",
+        "d2e4630b99c33c14a429",
+        "a245992c263bd818cc80",
+        "89c09af33172c1492602"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "89c09af33172c1492602",
+          "a245992c263bd818cc80",
+          "c589461d740003635bb2",
+          "d2e4630b99c33c14a429",
+          "d644971becd804c1c5eb",
+          "fd01560383677ffad51c"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "89c09af33172c1492602",
+          "a245992c263bd818cc80",
+          "c589461d740003635bb2",
+          "d2e4630b99c33c14a429",
+          "d644971becd804c1c5eb",
+          "fd01560383677ffad51c"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 203,
+      "visible": [
+        "Kingambit",
+        "Roaring Moon",
+        "Sylveon",
+        "Torkoal",
+        "Walking Wake"
+      ],
+      "hidden": "Great Tusk",
+      "fixed": [
+        "4124de7d85c8fd9e9dec",
+        "06079378009f9432714a",
+        "e96ebb74ae3e715ba33f",
+        "3b0bb36c03beb643733f",
+        "bd1b0028ec6910970802"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "06079378009f9432714a",
+          "3b0bb36c03beb643733f",
+          "4124de7d85c8fd9e9dec",
+          "627e8dd98c7e4483ade5",
+          "bd1b0028ec6910970802",
+          "e96ebb74ae3e715ba33f"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "06079378009f9432714a",
+          "3b0bb36c03beb643733f",
+          "4124de7d85c8fd9e9dec",
+          "77a58941cad0a5007a27",
+          "bd1b0028ec6910970802",
+          "e96ebb74ae3e715ba33f"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 407,
+      "visible": [
+        "Garchomp",
+        "Gholdengo",
+        "Kingambit",
+        "Meowscarada",
+        "Primarina"
+      ],
+      "hidden": "Iron Treads",
+      "fixed": [
+        "627e8dd98c7e4483ade5",
+        "3591aed3faa677965d88",
+        "df7b072aef608d758d92",
+        "84d20c9751cf39fc77a9",
+        "b4d5bad6b31cdee91280"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "3591aed3faa677965d88",
+          "627e8dd98c7e4483ade5",
+          "84d20c9751cf39fc77a9",
+          "b4d5bad6b31cdee91280",
+          "df7b072aef608d758d92",
+          "fd01560383677ffad51c"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 5,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "3591aed3faa677965d88",
+          "627e8dd98c7e4483ade5",
+          "84d20c9751cf39fc77a9",
+          "b4d5bad6b31cdee91280",
+          "df7b072aef608d758d92",
+          "f8e7314d3bb4e38b058d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 140,
+      "visible": [
+        "Deoxys",
+        "Great Tusk",
+        "Iron Moth",
+        "Samurott",
+        "Sinistcha"
+      ],
+      "hidden": "Scizor",
+      "fixed": [
+        "98b5f86855964646a141",
+        "c23fe90b7dc99e7f9d6c",
+        "ea1268bc67a842c0e5ad",
+        "f79d029bbd631171512b",
+        "4c63af31ef07e1554aee"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4c63af31ef07e1554aee",
+          "98b5f86855964646a141",
+          "c23fe90b7dc99e7f9d6c",
+          "ea1268bc67a842c0e5ad",
+          "f79d029bbd631171512b",
+          "fd01560383677ffad51c"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4c63af31ef07e1554aee",
+          "98b5f86855964646a141",
+          "c23fe90b7dc99e7f9d6c",
+          "ea1268bc67a842c0e5ad",
+          "ef31f8f70454d9d95197",
+          "f79d029bbd631171512b"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 503,
+      "visible": [
+        "Dragonite",
+        "Iron Treads",
+        "Primarina",
+        "Raging Bolt",
+        "Zapdos"
+      ],
+      "hidden": "Garganacl",
+      "fixed": [
+        "651ef2fe21866e1e6a61",
+        "31b2ca37a1fce88d87ca",
+        "32cfbe0dbb8b01a3143a",
+        "380e3bb414552367a135",
+        "142b6885e608c31f75d2"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "142b6885e608c31f75d2",
+          "31b2ca37a1fce88d87ca",
+          "32cfbe0dbb8b01a3143a",
+          "380e3bb414552367a135",
+          "651ef2fe21866e1e6a61",
+          "ad094ea9afc5553c27a7"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "142b6885e608c31f75d2",
+          "31b2ca37a1fce88d87ca",
+          "32cfbe0dbb8b01a3143a",
+          "380e3bb414552367a135",
+          "651ef2fe21866e1e6a61",
+          "ad094ea9afc5553c27a7"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 479,
+      "visible": [
+        "Dragapult",
+        "Keldeo",
+        "Landorus",
+        "Roaring Moon",
+        "Slowking"
+      ],
+      "hidden": "Scizor",
+      "fixed": [
+        "a6cf066c3aaa15edf9b7",
+        "c1a3fdb8bd8f07c7ce52",
+        "6cfd4064a8018d750b72",
+        "ebbd843d5db44995158e",
+        "ef31f8f70454d9d95197"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "3dc3b919cd7574a1b929",
+          "6cfd4064a8018d750b72",
+          "a6cf066c3aaa15edf9b7",
+          "c1a3fdb8bd8f07c7ce52",
+          "ebbd843d5db44995158e",
+          "ef31f8f70454d9d95197"
+        ],
+        "rejected": 0,
+        "hidden_covered": 0,
+        "hidden_responses": 0,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "6cfd4064a8018d750b72",
+          "a6cf066c3aaa15edf9b7",
+          "a8c732aab5617c93e0b7",
+          "c1a3fdb8bd8f07c7ce52",
+          "ebbd843d5db44995158e",
+          "ef31f8f70454d9d95197"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 586,
+      "visible": [
+        "Alomomola",
+        "Garganacl",
+        "Gholdengo",
+        "Gliscor",
+        "Slither Wing"
+      ],
+      "hidden": "Ogerpon",
+      "fixed": [
+        "f1d7e11267c681efbc38",
+        "877933bd9707cfea431c",
+        "17a2efc6795f29df00fc",
+        "140e0ce94f905c5431ba",
+        "7ff2b8fc7a3a261f1116"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "140e0ce94f905c5431ba",
+          "17a2efc6795f29df00fc",
+          "6cb022b29c1768c16e41",
+          "7ff2b8fc7a3a261f1116",
+          "877933bd9707cfea431c",
+          "f1d7e11267c681efbc38"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "140e0ce94f905c5431ba",
+          "17a2efc6795f29df00fc",
+          "2500a1f4ecf255730b63",
+          "7ff2b8fc7a3a261f1116",
+          "877933bd9707cfea431c",
+          "f1d7e11267c681efbc38"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 92,
+      "visible": [
+        "Barraskewda",
+        "Dragonite",
+        "Houndstone",
+        "Sandslash",
+        "Venusaur"
+      ],
+      "hidden": "Tornadus",
+      "fixed": [
+        "423363aed86901c01349",
+        "545a6d004eb36fecfda3",
+        "ff1046ecd950b137a7c1",
+        "6015821e68893728cf50",
+        "59f4dfb43e1e7f789c9b"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "423363aed86901c01349",
+          "545a6d004eb36fecfda3",
+          "59f4dfb43e1e7f789c9b",
+          "6015821e68893728cf50",
+          "da1f83ef39743c9e239f",
+          "ff1046ecd950b137a7c1"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "423363aed86901c01349",
+          "545a6d004eb36fecfda3",
+          "59f4dfb43e1e7f789c9b",
+          "6015821e68893728cf50",
+          "da1f83ef39743c9e239f",
+          "ff1046ecd950b137a7c1"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 401,
+      "visible": [
+        "Blaziken",
+        "Cinderace",
+        "Great Tusk",
+        "Heatran",
+        "Landorus"
+      ],
+      "hidden": "Armarouge",
+      "fixed": [
+        "4988fea7e68e99b8cd3f",
+        "ad09a57199a9a0ca8ce2",
+        "653b453e6358160a4a20",
+        "9ed3f08ff96a159695c3",
+        "9a309111b7e1cc50cd14"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4988fea7e68e99b8cd3f",
+          "653b453e6358160a4a20",
+          "9a309111b7e1cc50cd14",
+          "9ed3f08ff96a159695c3",
+          "ad09a57199a9a0ca8ce2",
+          "e287b9b4cd9913804f21"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 5,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4988fea7e68e99b8cd3f",
+          "653b453e6358160a4a20",
+          "9a309111b7e1cc50cd14",
+          "9ed3f08ff96a159695c3",
+          "ad09a57199a9a0ca8ce2",
+          "e287b9b4cd9913804f21"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 5,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 952,
+      "visible": [
+        "Gholdengo",
+        "Great Tusk",
+        "Landorus",
+        "Ogerpon",
+        "Roaring Moon"
+      ],
+      "hidden": "Iron Moth",
+      "fixed": [
+        "91b921a2956bcaf01638",
+        "9f9186157354daeb4409",
+        "af5b29c347551c8759b5",
+        "4f393c34a61de2729c00",
+        "c3ac592c486154ebbc27"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "00dd36ff03a0041ffa96",
+          "4f393c34a61de2729c00",
+          "91b921a2956bcaf01638",
+          "9f9186157354daeb4409",
+          "af5b29c347551c8759b5",
+          "c3ac592c486154ebbc27"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 5,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "00dd36ff03a0041ffa96",
+          "4f393c34a61de2729c00",
+          "91b921a2956bcaf01638",
+          "9f9186157354daeb4409",
+          "af5b29c347551c8759b5",
+          "c3ac592c486154ebbc27"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 5,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 974,
+      "visible": [
+        "Darkrai",
+        "Glimmora",
+        "Kingambit",
+        "Primarina",
+        "Raging Bolt"
+      ],
+      "hidden": "Iron Valiant",
+      "fixed": [
+        "c699d5665b5dc4fbd2db",
+        "b4fb53e572e2816945b0",
+        "40ae5ae58d67b17c002b",
+        "4ee9765a2dd147793d49",
+        "f8169a9ef57eca1894e3"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "40ae5ae58d67b17c002b",
+          "4ee9765a2dd147793d49",
+          "b4fb53e572e2816945b0",
+          "c699d5665b5dc4fbd2db",
+          "f8169a9ef57eca1894e3",
+          "fc1bf68f0aa64c7a8213"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "40ae5ae58d67b17c002b",
+          "4ee9765a2dd147793d49",
+          "b4fb53e572e2816945b0",
+          "c699d5665b5dc4fbd2db",
+          "f8169a9ef57eca1894e3",
+          "fc1bf68f0aa64c7a8213"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 982,
+      "visible": [
+        "Darkrai",
+        "Deoxys",
+        "Dragonite",
+        "Iron Valiant",
+        "Roaring Moon"
+      ],
+      "hidden": "Meowscarada",
+      "fixed": [
+        "3b0bb36c03beb643733f",
+        "078ae9c5406d3cb6ab6f",
+        "4124de7d85c8fd9e9dec",
+        "06079378009f9432714a",
+        "bd1b0028ec6910970802"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "00dd36ff03a0041ffa96",
+          "06079378009f9432714a",
+          "078ae9c5406d3cb6ab6f",
+          "3b0bb36c03beb643733f",
+          "4124de7d85c8fd9e9dec",
+          "bd1b0028ec6910970802"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "06079378009f9432714a",
+          "078ae9c5406d3cb6ab6f",
+          "3b0bb36c03beb643733f",
+          "4124de7d85c8fd9e9dec",
+          "bd1b0028ec6910970802",
+          "df7b072aef608d758d92"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 361,
+      "visible": [
+        "Charizard",
+        "Great Tusk",
+        "Ninetales",
+        "Venusaur",
+        "Walking Wake"
+      ],
+      "hidden": "Hatterene",
+      "fixed": [
+        "a4925f9f765d98b17dee",
+        "03153fac52adc7bcc9fe",
+        "1757533bf88b3af2df65",
+        "3753e2dd13b440522356",
+        "42388deeda0be403bb0c"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "03153fac52adc7bcc9fe",
+          "1757533bf88b3af2df65",
+          "3753e2dd13b440522356",
+          "42388deeda0be403bb0c",
+          "77a58941cad0a5007a27",
+          "a4925f9f765d98b17dee"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "03153fac52adc7bcc9fe",
+          "1757533bf88b3af2df65",
+          "3753e2dd13b440522356",
+          "42388deeda0be403bb0c",
+          "77a58941cad0a5007a27",
+          "a4925f9f765d98b17dee"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 166,
+      "visible": [
+        "Moltres",
+        "Ogerpon",
+        "Primarina",
+        "Rillaboom",
+        "Tyranitar"
+      ],
+      "hidden": "Excadrill",
+      "fixed": [
+        "1c2c3e1291b6cd18a843",
+        "50c8ce690435088bf3cb",
+        "c2ecae3bf1f4b0b42942",
+        "5678db1261a422902dfc",
+        "6cd6f1eae0efdf664b90"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "1c2c3e1291b6cd18a843",
+          "50c8ce690435088bf3cb",
+          "5678db1261a422902dfc",
+          "6cb022b29c1768c16e41",
+          "6cd6f1eae0efdf664b90",
+          "c2ecae3bf1f4b0b42942"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "1c2c3e1291b6cd18a843",
+          "50c8ce690435088bf3cb",
+          "5678db1261a422902dfc",
+          "6cd6f1eae0efdf664b90",
+          "a6e479f42c5582b09708",
+          "c2ecae3bf1f4b0b42942"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 684,
+      "visible": [
+        "Dragonite",
+        "Heatran",
+        "Ninetales",
+        "Sandy Shocks",
+        "Walking Wake"
+      ],
+      "hidden": "Leafeon",
+      "fixed": [
+        "30a5484c4c6eb3bd3db8",
+        "46f45802174bee0204bb",
+        "4cb2d5afda747d6f809c",
+        "c86c2c16d30af5fa0426",
+        "9eda4b51f412a6edeee1"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "30a5484c4c6eb3bd3db8",
+          "46f45802174bee0204bb",
+          "4cb2d5afda747d6f809c",
+          "9eda4b51f412a6edeee1",
+          "c86c2c16d30af5fa0426",
+          "f8e7314d3bb4e38b058d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "30a5484c4c6eb3bd3db8",
+          "46f45802174bee0204bb",
+          "4cb2d5afda747d6f809c",
+          "9eda4b51f412a6edeee1",
+          "c86c2c16d30af5fa0426",
+          "ef31f8f70454d9d95197"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 828,
+      "visible": [
+        "Ceruledge",
+        "Enamorus",
+        "Glimmora",
+        "Quaquaval",
+        "Sandy Shocks"
+      ],
+      "hidden": "Meowscarada",
+      "fixed": [
+        "cd118b84ea90ce27e975",
+        "f330e89e2733425ab8a5",
+        "418c4f66e22465d14cb6",
+        "6011f708cfc574694334",
+        "12648d352083269fecdf"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "12648d352083269fecdf",
+          "418c4f66e22465d14cb6",
+          "6011f708cfc574694334",
+          "cd118b84ea90ce27e975",
+          "df7b072aef608d758d92",
+          "f330e89e2733425ab8a5"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "12648d352083269fecdf",
+          "418c4f66e22465d14cb6",
+          "6011f708cfc574694334",
+          "cd118b84ea90ce27e975",
+          "ce2aecec77b87efb500b",
+          "f330e89e2733425ab8a5"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 0,
+      "visible": [
+        "Dragapult",
+        "Iron Treads",
+        "Kingambit",
+        "Kyurem",
+        "Primarina"
+      ],
+      "hidden": "Enamorus",
+      "fixed": [
+        "13f7b3c7a6ef8704ca3e",
+        "7dcc2b13ce23c0fc5bea",
+        "be1cf19124f93b7d8014",
+        "7aa1d7adf40867c59330",
+        "2643511ed520583e411f"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "13f7b3c7a6ef8704ca3e",
+          "2643511ed520583e411f",
+          "7aa1d7adf40867c59330",
+          "7dcc2b13ce23c0fc5bea",
+          "bb5bc2fd31a26f397429",
+          "be1cf19124f93b7d8014"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "13f7b3c7a6ef8704ca3e",
+          "2643511ed520583e411f",
+          "7aa1d7adf40867c59330",
+          "7dcc2b13ce23c0fc5bea",
+          "be1cf19124f93b7d8014",
+          "d1be09127bcb8303ab92"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 744,
+      "visible": [
+        "Cresselia",
+        "Hatterene",
+        "Hoopa",
+        "Torkoal",
+        "Ursaluna"
+      ],
+      "hidden": "Kingambit",
+      "fixed": [
+        "9ed3f08ff96a159695c3",
+        "c1e4810d1866fb003caa",
+        "9a309111b7e1cc50cd14",
+        "653b453e6358160a4a20",
+        "4988fea7e68e99b8cd3f"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "00dd36ff03a0041ffa96",
+          "4988fea7e68e99b8cd3f",
+          "653b453e6358160a4a20",
+          "9a309111b7e1cc50cd14",
+          "9ed3f08ff96a159695c3",
+          "c1e4810d1866fb003caa"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4988fea7e68e99b8cd3f",
+          "653b453e6358160a4a20",
+          "9a309111b7e1cc50cd14",
+          "9ed3f08ff96a159695c3",
+          "c1e4810d1866fb003caa",
+          "fc1bf68f0aa64c7a8213"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 767,
+      "visible": [
+        "Dragonite",
+        "Iron Treads",
+        "Iron Valiant",
+        "Meowscarada",
+        "Volcanion"
+      ],
+      "hidden": "Iron Moth",
+      "fixed": [
+        "c1e4810d1866fb003caa",
+        "9ed3f08ff96a159695c3",
+        "653b453e6358160a4a20",
+        "9a309111b7e1cc50cd14",
+        "4988fea7e68e99b8cd3f"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4988fea7e68e99b8cd3f",
+          "653b453e6358160a4a20",
+          "9a309111b7e1cc50cd14",
+          "9ed3f08ff96a159695c3",
+          "c1e4810d1866fb003caa",
+          "f99f3eb52187256946ca"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 5,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4988fea7e68e99b8cd3f",
+          "653b453e6358160a4a20",
+          "9a309111b7e1cc50cd14",
+          "9ed3f08ff96a159695c3",
+          "c1e4810d1866fb003caa",
+          "f99f3eb52187256946ca"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 5,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 435,
+      "visible": [
+        "Clefable",
+        "Dragapult",
+        "Garganacl",
+        "Skarmory",
+        "Ting-Lu"
+      ],
+      "hidden": "Slowking",
+      "fixed": [
+        "32f76f7be19cf0a50b6f",
+        "5100238954761a4bc3b3",
+        "742b6120727de67b136b",
+        "62c64d4481fc14901cd7",
+        "f528e0e79d96fa7b1c7f"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "32f76f7be19cf0a50b6f",
+          "5100238954761a4bc3b3",
+          "62c64d4481fc14901cd7",
+          "742b6120727de67b136b",
+          "d644971becd804c1c5eb",
+          "f528e0e79d96fa7b1c7f"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "32f76f7be19cf0a50b6f",
+          "5100238954761a4bc3b3",
+          "62c64d4481fc14901cd7",
+          "742b6120727de67b136b",
+          "9e3411e82e1d51b281a3",
+          "f528e0e79d96fa7b1c7f"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 731,
+      "visible": [
+        "Alomomola",
+        "Dragapult",
+        "Great Tusk",
+        "Iron Crown",
+        "Zapdos"
+      ],
+      "hidden": "Palafin",
+      "fixed": [
+        "765a81ab92acd0e49d82",
+        "5b31bc42f4c6fa2b238b",
+        "ea08741e1a5c4e5ca798",
+        "67832c1b8233a36339c3",
+        "9bb76d512b84b20110e8"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "5b31bc42f4c6fa2b238b",
+          "67832c1b8233a36339c3",
+          "765a81ab92acd0e49d82",
+          "9bb76d512b84b20110e8",
+          "a6e479f42c5582b09708",
+          "ea08741e1a5c4e5ca798"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "5b31bc42f4c6fa2b238b",
+          "67832c1b8233a36339c3",
+          "765a81ab92acd0e49d82",
+          "9bb76d512b84b20110e8",
+          "a6e479f42c5582b09708",
+          "ea08741e1a5c4e5ca798"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 153,
+      "visible": [
+        "Dragapult",
+        "Gholdengo",
+        "Iron Valiant",
+        "Primarina",
+        "Ting-Lu"
+      ],
+      "hidden": "Zapdos",
+      "fixed": [
+        "bed0c78bd59300441d17",
+        "46be12eaf049a8d399f5",
+        "32daa5b8a12a28357d05",
+        "8867b588a3a391e92b21",
+        "6c7485d3e0575793c307"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "1e3fa481c87479293c4e",
+          "32daa5b8a12a28357d05",
+          "46be12eaf049a8d399f5",
+          "6c7485d3e0575793c307",
+          "8867b588a3a391e92b21",
+          "bed0c78bd59300441d17"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "32daa5b8a12a28357d05",
+          "46be12eaf049a8d399f5",
+          "6c7485d3e0575793c307",
+          "8867b588a3a391e92b21",
+          "ac5a1c8cd4f623f007c9",
+          "bed0c78bd59300441d17"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 771,
+      "visible": [
+        "Corviknight",
+        "Meowscarada",
+        "Primarina",
+        "Slowking",
+        "Ting-Lu"
+      ],
+      "hidden": "Iron Valiant",
+      "fixed": [
+        "85a8f2a71eb939e47acf",
+        "262710de7d4c35a5c5f4",
+        "145572c08a840efce3f6",
+        "44af10ab8ca9467d4297",
+        "1ae49dc081972d26fa11"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "145572c08a840efce3f6",
+          "1ae49dc081972d26fa11",
+          "262710de7d4c35a5c5f4",
+          "44af10ab8ca9467d4297",
+          "85a8f2a71eb939e47acf",
+          "d357fc66b34c7afc0473"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "145572c08a840efce3f6",
+          "1ae49dc081972d26fa11",
+          "262710de7d4c35a5c5f4",
+          "44af10ab8ca9467d4297",
+          "85a8f2a71eb939e47acf",
+          "d357fc66b34c7afc0473"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 486,
+      "visible": [
+        "Goodra",
+        "Great Tusk",
+        "Meowscarada",
+        "Moltres",
+        "Ogerpon"
+      ],
+      "hidden": "Raging Bolt",
+      "fixed": [
+        "6cc34c3d7a15c5a604c8",
+        "7a5576ac927c6b2725db",
+        "c4e30cf55a541691d3f4",
+        "c1389fdf2c10e162c2f7",
+        "2b710a8ef68fa223a6d3"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "2b710a8ef68fa223a6d3",
+          "6cc34c3d7a15c5a604c8",
+          "7a5576ac927c6b2725db",
+          "ac5a1c8cd4f623f007c9",
+          "c1389fdf2c10e162c2f7",
+          "c4e30cf55a541691d3f4"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "2b710a8ef68fa223a6d3",
+          "6cc34c3d7a15c5a604c8",
+          "7a5576ac927c6b2725db",
+          "ac5a1c8cd4f623f007c9",
+          "c1389fdf2c10e162c2f7",
+          "c4e30cf55a541691d3f4"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 561,
+      "visible": [
+        "Blissey",
+        "Ogerpon",
+        "Skarmory",
+        "Tornadus",
+        "Toxapex"
+      ],
+      "hidden": "Hippowdon",
+      "fixed": [
+        "4fe69062cfdef7607d34",
+        "59b2a3bedb55b9e3dc20",
+        "f74537749be67c8de386",
+        "f93c24ba788a6056a45d",
+        "d7b9188585156381c12d"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4fe69062cfdef7607d34",
+          "59b2a3bedb55b9e3dc20",
+          "d1be09127bcb8303ab92",
+          "d7b9188585156381c12d",
+          "f74537749be67c8de386",
+          "f93c24ba788a6056a45d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "17a2efc6795f29df00fc",
+          "4fe69062cfdef7607d34",
+          "59b2a3bedb55b9e3dc20",
+          "d7b9188585156381c12d",
+          "f74537749be67c8de386",
+          "f93c24ba788a6056a45d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 240,
+      "visible": [
+        "Glimmora",
+        "Gouging Fire",
+        "Kingambit",
+        "Ogerpon",
+        "Roaring Moon"
+      ],
+      "hidden": "Kyurem",
+      "fixed": [
+        "91ef96ccfe9df3f2e886",
+        "89f41f77dfcf99b19952",
+        "a9242d063aeae5b4d176",
+        "278f574d2026e557ea74",
+        "97197275876349239e28"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "278f574d2026e557ea74",
+          "89f41f77dfcf99b19952",
+          "91ef96ccfe9df3f2e886",
+          "97197275876349239e28",
+          "a9242d063aeae5b4d176",
+          "d60f540316e643cb27e7"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "278f574d2026e557ea74",
+          "89f41f77dfcf99b19952",
+          "91ef96ccfe9df3f2e886",
+          "97197275876349239e28",
+          "a9242d063aeae5b4d176",
+          "d60f540316e643cb27e7"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 872,
+      "visible": [
+        "Dragonite",
+        "Gholdengo",
+        "Iron Valiant",
+        "Rotom",
+        "Ting-Lu"
+      ],
+      "hidden": "Great Tusk",
+      "fixed": [
+        "5341983890eac314c73a",
+        "d020d073d53da9f63c06",
+        "411e4c3034816fea9112",
+        "8dcf67d58b9e088fddc5",
+        "8eccf22c58e1c8c7058a"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "411e4c3034816fea9112",
+          "5341983890eac314c73a",
+          "8dcf67d58b9e088fddc5",
+          "8eccf22c58e1c8c7058a",
+          "d020d073d53da9f63c06",
+          "f99f3eb52187256946ca"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "411e4c3034816fea9112",
+          "4c69db2e4e7cbe5c97fc",
+          "5341983890eac314c73a",
+          "8dcf67d58b9e088fddc5",
+          "8eccf22c58e1c8c7058a",
+          "d020d073d53da9f63c06"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 713,
+      "visible": [
+        "Empoleon",
+        "Kingambit",
+        "Ribombee",
+        "Serperior",
+        "Slowking"
+      ],
+      "hidden": "Cinderace",
+      "fixed": [
+        "c079d8fc8fd658c75cac",
+        "2500a1f4ecf255730b63",
+        "09ecd3dec9f4b9b9c278",
+        "adf55ec2494518a749a5",
+        "2c41682293d6061ce814"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "09ecd3dec9f4b9b9c278",
+          "2500a1f4ecf255730b63",
+          "2c41682293d6061ce814",
+          "adf55ec2494518a749a5",
+          "c079d8fc8fd658c75cac",
+          "f99f3eb52187256946ca"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "09ecd3dec9f4b9b9c278",
+          "2500a1f4ecf255730b63",
+          "2c41682293d6061ce814",
+          "8446645b93871aa8f640",
+          "adf55ec2494518a749a5",
+          "c079d8fc8fd658c75cac"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 532,
+      "visible": [
+        "Araquanid",
+        "Great Tusk",
+        "Iron Valiant",
+        "Raging Bolt",
+        "Regigigas"
+      ],
+      "hidden": "Iron Crown",
+      "fixed": [
+        "55382cf6d46726dc97ae",
+        "6fba91486b632f50148e",
+        "205990b7bd1f9c7417c4",
+        "8d85955598d8b73064e1",
+        "9d6c16aa8c95b0f6c739"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "205990b7bd1f9c7417c4",
+          "2c6af7a89f736c4ba6f9",
+          "55382cf6d46726dc97ae",
+          "6fba91486b632f50148e",
+          "8d85955598d8b73064e1",
+          "9d6c16aa8c95b0f6c739"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "205990b7bd1f9c7417c4",
+          "55382cf6d46726dc97ae",
+          "6fba91486b632f50148e",
+          "8d85955598d8b73064e1",
+          "9d6c16aa8c95b0f6c739",
+          "d644971becd804c1c5eb"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 676,
+      "visible": [
+        "Garchomp",
+        "Iron Valiant",
+        "Moltres",
+        "Slowking",
+        "Zoroark"
+      ],
+      "hidden": "Gholdengo",
+      "fixed": [
+        "44daa1de1af1abc547e7",
+        "a9e1da10b40e621df802",
+        "9357ca64f4e2499a9362",
+        "c4510040f1813ca48014",
+        "eea127abc7fe6e6ad033"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "3004a8a58fdeb262f280",
+          "44daa1de1af1abc547e7",
+          "9357ca64f4e2499a9362",
+          "a9e1da10b40e621df802",
+          "c4510040f1813ca48014",
+          "eea127abc7fe6e6ad033"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "44daa1de1af1abc547e7",
+          "6cb022b29c1768c16e41",
+          "9357ca64f4e2499a9362",
+          "a9e1da10b40e621df802",
+          "c4510040f1813ca48014",
+          "eea127abc7fe6e6ad033"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 613,
+      "visible": [
+        "Corviknight",
+        "Garganacl",
+        "Hoopa",
+        "Primarina",
+        "Slowking"
+      ],
+      "hidden": "Cinderace",
+      "fixed": [
+        "9c666a661807b0e51949",
+        "174ec1a9c4433ec5300b",
+        "55c6c15c5dd6794d24a6",
+        "70425b09be1b9b876523",
+        "48bc15c2e695c128a25e"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "174ec1a9c4433ec5300b",
+          "48bc15c2e695c128a25e",
+          "55c6c15c5dd6794d24a6",
+          "70425b09be1b9b876523",
+          "9c666a661807b0e51949",
+          "f528e0e79d96fa7b1c7f"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "174ec1a9c4433ec5300b",
+          "48bc15c2e695c128a25e",
+          "55c6c15c5dd6794d24a6",
+          "70425b09be1b9b876523",
+          "9c666a661807b0e51949",
+          "d7f62a02592db7f0080d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 646,
+      "visible": [
+        "Gholdengo",
+        "Great Tusk",
+        "Kingambit",
+        "Kyurem",
+        "Toxapex"
+      ],
+      "hidden": "Zapdos",
+      "fixed": [
+        "8a298d2ed9465119f6bb",
+        "8ab03ef330923c8c93d4",
+        "b46bc7514a684a589618",
+        "08f12f65a02796f8cb02",
+        "27f6cfa04f932af1a889"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "08f12f65a02796f8cb02",
+          "27f6cfa04f932af1a889",
+          "8a298d2ed9465119f6bb",
+          "8ab03ef330923c8c93d4",
+          "b46bc7514a684a589618",
+          "f8e7314d3bb4e38b058d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "08f12f65a02796f8cb02",
+          "27f6cfa04f932af1a889",
+          "85a8f2a71eb939e47acf",
+          "8a298d2ed9465119f6bb",
+          "8ab03ef330923c8c93d4",
+          "b46bc7514a684a589618"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 735,
+      "visible": [
+        "Garganacl",
+        "Moltres",
+        "Primarina",
+        "Sinistcha",
+        "Tyranitar"
+      ],
+      "hidden": "Excadrill",
+      "fixed": [
+        "b477155431db3d800bdd",
+        "dd3214de90baa258ce86",
+        "83bd56d791bf85d11e5e",
+        "38c8fb27a2ef27b36f81",
+        "3c1c62622feda5960d11"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "38c8fb27a2ef27b36f81",
+          "3c1c62622feda5960d11",
+          "83bd56d791bf85d11e5e",
+          "b477155431db3d800bdd",
+          "dd3214de90baa258ce86",
+          "e04efe87a4923831f40a"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "38c8fb27a2ef27b36f81",
+          "3c1c62622feda5960d11",
+          "83bd56d791bf85d11e5e",
+          "b477155431db3d800bdd",
+          "d7f62a02592db7f0080d",
+          "dd3214de90baa258ce86"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 559,
+      "visible": [
+        "Hatterene",
+        "Hawlucha",
+        "Heatran",
+        "Rillaboom",
+        "Sandy Shocks"
+      ],
+      "hidden": "Roaring Moon",
+      "fixed": [
+        "c0472bf55c0b12742f93",
+        "0ab53bacca443c125fd2",
+        "c34aa6ec89f46aa18729",
+        "8394b9b6a7b4e44ab890",
+        "a1d11c04c955ea5bddbd"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "0ab53bacca443c125fd2",
+          "8394b9b6a7b4e44ab890",
+          "a1d11c04c955ea5bddbd",
+          "c0472bf55c0b12742f93",
+          "c34aa6ec89f46aa18729",
+          "d60f540316e643cb27e7"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "0ab53bacca443c125fd2",
+          "8394b9b6a7b4e44ab890",
+          "a1d11c04c955ea5bddbd",
+          "c0472bf55c0b12742f93",
+          "c34aa6ec89f46aa18729",
+          "d60f540316e643cb27e7"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 127,
+      "visible": [
+        "Alomomola",
+        "Iron Treads",
+        "Moltres",
+        "Samurott",
+        "Sinistcha"
+      ],
+      "hidden": "Gholdengo",
+      "fixed": [
+        "9dc2d4a62a4f63479b7d",
+        "ea08399e317277a27772",
+        "ce99b868b93665a343d5",
+        "1571b736a290d649062c",
+        "16cf73c8ac1d79dac683"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "1571b736a290d649062c",
+          "16cf73c8ac1d79dac683",
+          "6fba91486b632f50148e",
+          "9dc2d4a62a4f63479b7d",
+          "ce99b868b93665a343d5",
+          "ea08399e317277a27772"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 5,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "1571b736a290d649062c",
+          "16cf73c8ac1d79dac683",
+          "6cb022b29c1768c16e41",
+          "9dc2d4a62a4f63479b7d",
+          "ce99b868b93665a343d5",
+          "ea08399e317277a27772"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 6,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 183,
+      "visible": [
+        "Clefable",
+        "Great Tusk",
+        "Kingambit",
+        "Rillaboom",
+        "Zapdos"
+      ],
+      "hidden": "Dragapult",
+      "fixed": [
+        "ebbd843d5db44995158e",
+        "f41552b0efce1fb0f48c",
+        "ef31f8f70454d9d95197",
+        "c1a3fdb8bd8f07c7ce52",
+        "a6cf066c3aaa15edf9b7"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "a6cf066c3aaa15edf9b7",
+          "c1a3fdb8bd8f07c7ce52",
+          "ebbd843d5db44995158e",
+          "ef31f8f70454d9d95197",
+          "f41552b0efce1fb0f48c",
+          "f99f3eb52187256946ca"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "a6cf066c3aaa15edf9b7",
+          "c1a3fdb8bd8f07c7ce52",
+          "ebbd843d5db44995158e",
+          "ef31f8f70454d9d95197",
+          "f41552b0efce1fb0f48c",
+          "f99f3eb52187256946ca"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 816,
+      "visible": [
+        "Araquanid",
+        "Dragonite",
+        "Great Tusk",
+        "Iron Valiant",
+        "Kingambit"
+      ],
+      "hidden": "Gholdengo",
+      "fixed": [
+        "b78be58720a335c58228",
+        "4c2b2d3d44d8ed52bc3b",
+        "437f4c6b0abf0c0c88d0",
+        "2d00cda136d1c5b8d96b",
+        "2632c2ebf50e57f9cde2"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "2632c2ebf50e57f9cde2",
+          "2d00cda136d1c5b8d96b",
+          "437f4c6b0abf0c0c88d0",
+          "4c2b2d3d44d8ed52bc3b",
+          "ac5a1c8cd4f623f007c9",
+          "b78be58720a335c58228"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "2632c2ebf50e57f9cde2",
+          "2d00cda136d1c5b8d96b",
+          "437f4c6b0abf0c0c88d0",
+          "4c2b2d3d44d8ed52bc3b",
+          "a6e479f42c5582b09708",
+          "b78be58720a335c58228"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 889,
+      "visible": [
+        "Araquanid",
+        "Cinderace",
+        "Cresselia",
+        "Kingambit",
+        "Serperior"
+      ],
+      "hidden": "Empoleon",
+      "fixed": [
+        "13f7b3c7a6ef8704ca3e",
+        "7dcc2b13ce23c0fc5bea",
+        "be1cf19124f93b7d8014",
+        "5c6be90b43b7f8ae7e90",
+        "2643511ed520583e411f"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "13f7b3c7a6ef8704ca3e",
+          "2643511ed520583e411f",
+          "5c6be90b43b7f8ae7e90",
+          "7dcc2b13ce23c0fc5bea",
+          "be1cf19124f93b7d8014",
+          "ef31f8f70454d9d95197"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "13f7b3c7a6ef8704ca3e",
+          "2643511ed520583e411f",
+          "5c6be90b43b7f8ae7e90",
+          "7dcc2b13ce23c0fc5bea",
+          "be1cf19124f93b7d8014",
+          "ef31f8f70454d9d95197"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 846,
+      "visible": [
+        "Great Tusk",
+        "Iron Valiant",
+        "Kingambit",
+        "Samurott",
+        "Zapdos"
+      ],
+      "hidden": "Slowking",
+      "fixed": [
+        "79b7d64c9d1a2ce7ba16",
+        "d0a3fad33dc0f327d9be",
+        "7162e4a49f9fe40771f8",
+        "f32939319b718312db68",
+        "7b9c0156a37d9758bcb0"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "7162e4a49f9fe40771f8",
+          "79b7d64c9d1a2ce7ba16",
+          "7b9c0156a37d9758bcb0",
+          "a6e479f42c5582b09708",
+          "d0a3fad33dc0f327d9be",
+          "f32939319b718312db68"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "7162e4a49f9fe40771f8",
+          "79b7d64c9d1a2ce7ba16",
+          "7b9c0156a37d9758bcb0",
+          "a6e479f42c5582b09708",
+          "d0a3fad33dc0f327d9be",
+          "f32939319b718312db68"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 511,
+      "visible": [
+        "Dragonite",
+        "Gouging Fire",
+        "Hatterene",
+        "Moltres",
+        "Weavile"
+      ],
+      "hidden": "Ninetales",
+      "fixed": [
+        "cdae52c67237214c0ff4",
+        "bd862b464bd2fe3ca688",
+        "c5570a0e07d35edc8cfe",
+        "6ca5fdeac3b8999a2d39",
+        "6548514c632b6bf280f5"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4318375a8ffb520962ee",
+          "6548514c632b6bf280f5",
+          "6ca5fdeac3b8999a2d39",
+          "bd862b464bd2fe3ca688",
+          "c5570a0e07d35edc8cfe",
+          "cdae52c67237214c0ff4"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "6548514c632b6bf280f5",
+          "6ca5fdeac3b8999a2d39",
+          "bd862b464bd2fe3ca688",
+          "c5570a0e07d35edc8cfe",
+          "cdae52c67237214c0ff4",
+          "ef31f8f70454d9d95197"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 727,
+      "visible": [
+        "Dragapult",
+        "Iron Boulder",
+        "Iron Crown",
+        "Samurott",
+        "Zapdos"
+      ],
+      "hidden": "Great Tusk",
+      "fixed": [
+        "f79d029bbd631171512b",
+        "ab3e1a046385a2c7c02e",
+        "98b5f86855964646a141",
+        "ea1268bc67a842c0e5ad",
+        "c23fe90b7dc99e7f9d6c"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "98b5f86855964646a141",
+          "ab3e1a046385a2c7c02e",
+          "c23fe90b7dc99e7f9d6c",
+          "d7f62a02592db7f0080d",
+          "ea1268bc67a842c0e5ad",
+          "f79d029bbd631171512b"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "98b5f86855964646a141",
+          "a6e479f42c5582b09708",
+          "ab3e1a046385a2c7c02e",
+          "c23fe90b7dc99e7f9d6c",
+          "ea1268bc67a842c0e5ad",
+          "f79d029bbd631171512b"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 290,
+      "visible": [
+        "Dondozo",
+        "Great Tusk",
+        "Kingambit",
+        "Toxapex",
+        "Ursaluna"
+      ],
+      "hidden": "Dragapult",
+      "fixed": [
+        "cd6a4db164f2a40d509c",
+        "e950eb7bf0b5d2575e04",
+        "4855ad52f04b88d093c2",
+        "7daa00189c83dfd476dd",
+        "8c0434d8ab0651551dbf"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4855ad52f04b88d093c2",
+          "7daa00189c83dfd476dd",
+          "8c0434d8ab0651551dbf",
+          "9b96636cc16a64a2241f",
+          "cd6a4db164f2a40d509c",
+          "e950eb7bf0b5d2575e04"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4855ad52f04b88d093c2",
+          "7daa00189c83dfd476dd",
+          "8c0434d8ab0651551dbf",
+          "a6e479f42c5582b09708",
+          "cd6a4db164f2a40d509c",
+          "e950eb7bf0b5d2575e04"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 465,
+      "visible": [
+        "Dragapult",
+        "Great Tusk",
+        "Iron Moth",
+        "Rotom",
+        "Weavile"
+      ],
+      "hidden": "Copperajah",
+      "fixed": [
+        "57105a1fb88e3713252d",
+        "393722af6321406c8dd9",
+        "c7d0660b9192f50146f2",
+        "f94310b8982a73f07409",
+        "a121a82beee61230e5b1"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "393722af6321406c8dd9",
+          "57105a1fb88e3713252d",
+          "a121a82beee61230e5b1",
+          "c7d0660b9192f50146f2",
+          "f528e0e79d96fa7b1c7f",
+          "f94310b8982a73f07409"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 6,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "393722af6321406c8dd9",
+          "57105a1fb88e3713252d",
+          "a121a82beee61230e5b1",
+          "c7d0660b9192f50146f2",
+          "f528e0e79d96fa7b1c7f",
+          "f94310b8982a73f07409"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 6,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 154,
+      "visible": [
+        "Cetitan",
+        "Kommo-o",
+        "Kyurem",
+        "Ninetales",
+        "Slowking"
+      ],
+      "hidden": "Great Tusk",
+      "fixed": [
+        "a0be5bc76c397bf8c1fe",
+        "cab216627c1b85051947",
+        "7d1f2a03ec16f6dba68a",
+        "4da639f53b29e66cc058",
+        "2a61732ce709b6c0690f"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "2a61732ce709b6c0690f",
+          "4da639f53b29e66cc058",
+          "7d1f2a03ec16f6dba68a",
+          "a0be5bc76c397bf8c1fe",
+          "cab216627c1b85051947",
+          "eaf466b86f4c126c66a9"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "2a61732ce709b6c0690f",
+          "4da639f53b29e66cc058",
+          "7d1f2a03ec16f6dba68a",
+          "a0be5bc76c397bf8c1fe",
+          "cab216627c1b85051947",
+          "f9435a19685dca5ec1eb"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 261,
+      "visible": [
+        "Cresselia",
+        "Great Tusk",
+        "Rabsca",
+        "Talonflame",
+        "Torkoal"
+      ],
+      "hidden": "Hatterene",
+      "fixed": [
+        "17a2efc6795f29df00fc",
+        "140e0ce94f905c5431ba",
+        "f1d7e11267c681efbc38",
+        "877933bd9707cfea431c",
+        "f313057f8f9e14a62b4f"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "140e0ce94f905c5431ba",
+          "17a2efc6795f29df00fc",
+          "4c69db2e4e7cbe5c97fc",
+          "877933bd9707cfea431c",
+          "f1d7e11267c681efbc38",
+          "f313057f8f9e14a62b4f"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "140e0ce94f905c5431ba",
+          "17a2efc6795f29df00fc",
+          "742b6120727de67b136b",
+          "877933bd9707cfea431c",
+          "f1d7e11267c681efbc38",
+          "f313057f8f9e14a62b4f"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 863,
+      "visible": [
+        "Arboliva",
+        "Heatran",
+        "Quaquaval",
+        "Skeledirge",
+        "Tinkaton"
+      ],
+      "hidden": "Meowscarada",
+      "fixed": [
+        "8e57f65e8b6150481014",
+        "5d2b3b62b8aafcf2d5f1",
+        "e739d571c9124e43e06d",
+        "4214c36fdc94fff026c5",
+        "89e0f915ad3bd1f7583c"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4214c36fdc94fff026c5",
+          "5d2b3b62b8aafcf2d5f1",
+          "89e0f915ad3bd1f7583c",
+          "8e57f65e8b6150481014",
+          "df7b072aef608d758d92",
+          "e739d571c9124e43e06d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 5,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4214c36fdc94fff026c5",
+          "5d2b3b62b8aafcf2d5f1",
+          "89e0f915ad3bd1f7583c",
+          "8e57f65e8b6150481014",
+          "df7b072aef608d758d92",
+          "e739d571c9124e43e06d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 5,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 130,
+      "visible": [
+        "Gouging Fire",
+        "Hatterene",
+        "Kingambit",
+        "Torkoal",
+        "Venusaur"
+      ],
+      "hidden": "Walking Wake",
+      "fixed": [
+        "7c1160e45901dccc9aab",
+        "ab4cfe16321496b861ff",
+        "beee0efc45068a816888",
+        "3d98ae500f8ede2998e7",
+        "24cbf0b0b78fcf7a21cf"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "24cbf0b0b78fcf7a21cf",
+          "380e3bb414552367a135",
+          "3d98ae500f8ede2998e7",
+          "7c1160e45901dccc9aab",
+          "ab4cfe16321496b861ff",
+          "beee0efc45068a816888"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "24cbf0b0b78fcf7a21cf",
+          "380e3bb414552367a135",
+          "3d98ae500f8ede2998e7",
+          "7c1160e45901dccc9aab",
+          "ab4cfe16321496b861ff",
+          "beee0efc45068a816888"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 742,
+      "visible": [
+        "Cinderace",
+        "Dragonite",
+        "Iron Moth",
+        "Ogerpon",
+        "Roaring Moon"
+      ],
+      "hidden": "Corviknight",
+      "fixed": [
+        "6f5f5108308b4521e1e7",
+        "9dc2d4a62a4f63479b7d",
+        "1571b736a290d649062c",
+        "ce99b868b93665a343d5",
+        "ea08399e317277a27772"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "1571b736a290d649062c",
+          "6f5f5108308b4521e1e7",
+          "9dc2d4a62a4f63479b7d",
+          "ad094ea9afc5553c27a7",
+          "ce99b868b93665a343d5",
+          "ea08399e317277a27772"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "1571b736a290d649062c",
+          "6f5f5108308b4521e1e7",
+          "9dc2d4a62a4f63479b7d",
+          "ce99b868b93665a343d5",
+          "d1be09127bcb8303ab92",
+          "ea08399e317277a27772"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 47,
+      "visible": [
+        "Araquanid",
+        "Ceruledge",
+        "Darkrai",
+        "Gliscor",
+        "Iron Crown"
+      ],
+      "hidden": "Serperior",
+      "fixed": [
+        "2652838458bba9d32bf0",
+        "06510855a5cf478bf71d",
+        "7ee7d5e958a701542199",
+        "05e3c0d02fef8f69de93",
+        "6b98935a784363cbec5e"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "05e3c0d02fef8f69de93",
+          "06510855a5cf478bf71d",
+          "2652838458bba9d32bf0",
+          "6b98935a784363cbec5e",
+          "7ee7d5e958a701542199",
+          "d7f62a02592db7f0080d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "05e3c0d02fef8f69de93",
+          "06510855a5cf478bf71d",
+          "2652838458bba9d32bf0",
+          "6b98935a784363cbec5e",
+          "7ee7d5e958a701542199",
+          "d7f62a02592db7f0080d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 623,
+      "visible": [
+        "Garganacl",
+        "Great Tusk",
+        "Kingambit",
+        "Slowbro",
+        "Slowking"
+      ],
+      "hidden": "Dragapult",
+      "fixed": [
+        "77b8c05bfad6272d5fd4",
+        "88b9524711eb95208ec5",
+        "6265e69854366136a630",
+        "3e6356ae71d67792f27e",
+        "86170107dc6d7256c2a9"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "3e6356ae71d67792f27e",
+          "6265e69854366136a630",
+          "77b8c05bfad6272d5fd4",
+          "86170107dc6d7256c2a9",
+          "88b9524711eb95208ec5",
+          "fd01560383677ffad51c"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "3e6356ae71d67792f27e",
+          "6265e69854366136a630",
+          "77b8c05bfad6272d5fd4",
+          "86170107dc6d7256c2a9",
+          "88b9524711eb95208ec5",
+          "d7f62a02592db7f0080d"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 5,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 350,
+      "visible": [
+        "Cresselia",
+        "Hatterene",
+        "Hoopa",
+        "Mimikyu",
+        "Ursaluna"
+      ],
+      "hidden": "Clawitzer",
+      "fixed": [
+        "2c6af7a89f736c4ba6f9",
+        "a19fdd9ff7b95f6e8649",
+        "17381be5143df9bfe82d",
+        "d02c559dac04afa33946",
+        "9d6e39b567b0cf90b4ff"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "00dd36ff03a0041ffa96",
+          "17381be5143df9bfe82d",
+          "2c6af7a89f736c4ba6f9",
+          "9d6e39b567b0cf90b4ff",
+          "a19fdd9ff7b95f6e8649",
+          "d02c559dac04afa33946"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "17381be5143df9bfe82d",
+          "2c6af7a89f736c4ba6f9",
+          "9d6e39b567b0cf90b4ff",
+          "a19fdd9ff7b95f6e8649",
+          "d02c559dac04afa33946",
+          "e04efe87a4923831f40a"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 706,
+      "visible": [
+        "Hydrapple",
+        "Ogerpon",
+        "Raging Bolt",
+        "Slowking",
+        "Ting-Lu"
+      ],
+      "hidden": "Corviknight",
+      "fixed": [
+        "20aa328d8b4712c48c35",
+        "31b2ca37a1fce88d87ca",
+        "380e3bb414552367a135",
+        "651ef2fe21866e1e6a61",
+        "142b6885e608c31f75d2"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "00dd36ff03a0041ffa96",
+          "142b6885e608c31f75d2",
+          "20aa328d8b4712c48c35",
+          "31b2ca37a1fce88d87ca",
+          "380e3bb414552367a135",
+          "651ef2fe21866e1e6a61"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "142b6885e608c31f75d2",
+          "20aa328d8b4712c48c35",
+          "31b2ca37a1fce88d87ca",
+          "380e3bb414552367a135",
+          "4c69db2e4e7cbe5c97fc",
+          "651ef2fe21866e1e6a61"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 970,
+      "visible": [
+        "Great Tusk",
+        "Kingambit",
+        "Lokix",
+        "Ogerpon",
+        "Slowking"
+      ],
+      "hidden": "Landorus",
+      "fixed": [
+        "7ee7d5e958a701542199",
+        "06510855a5cf478bf71d",
+        "f737a06502fcfc1d4dac",
+        "05e3c0d02fef8f69de93",
+        "2652838458bba9d32bf0"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "05e3c0d02fef8f69de93",
+          "06510855a5cf478bf71d",
+          "2652838458bba9d32bf0",
+          "7ee7d5e958a701542199",
+          "c699d5665b5dc4fbd2db",
+          "f737a06502fcfc1d4dac"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "05e3c0d02fef8f69de93",
+          "06510855a5cf478bf71d",
+          "2652838458bba9d32bf0",
+          "7ee7d5e958a701542199",
+          "ac5a1c8cd4f623f007c9",
+          "f737a06502fcfc1d4dac"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 903,
+      "visible": [
+        "Barraskewda",
+        "Keldeo",
+        "Pelipper",
+        "Samurott",
+        "Ursaluna"
+      ],
+      "hidden": "Iron Treads",
+      "fixed": [
+        "3542976735789dc23268",
+        "9f0bb4250ffbcd700001",
+        "5530493487aab47416f8",
+        "ce2aecec77b87efb500b",
+        "e144838220b956ab96b8"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "3542976735789dc23268",
+          "5530493487aab47416f8",
+          "9f0bb4250ffbcd700001",
+          "ce2aecec77b87efb500b",
+          "e04efe87a4923831f40a",
+          "e144838220b956ab96b8"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "3542976735789dc23268",
+          "5530493487aab47416f8",
+          "9f0bb4250ffbcd700001",
+          "ce2aecec77b87efb500b",
+          "e04efe87a4923831f40a",
+          "e144838220b956ab96b8"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 873,
+      "visible": [
+        "Iron Treads",
+        "Kingambit",
+        "Kyurem",
+        "Primarina",
+        "Roaring Moon"
+      ],
+      "hidden": "Ninetales",
+      "fixed": [
+        "1e3fa481c87479293c4e",
+        "a2c85afd145ec1085b61",
+        "66009fe2ff3f419a4b6f",
+        "337be6dc412864959c1a",
+        "771e5f9d1d99df3b91af"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "00dd36ff03a0041ffa96",
+          "1e3fa481c87479293c4e",
+          "337be6dc412864959c1a",
+          "66009fe2ff3f419a4b6f",
+          "771e5f9d1d99df3b91af",
+          "a2c85afd145ec1085b61"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "1e3fa481c87479293c4e",
+          "337be6dc412864959c1a",
+          "66009fe2ff3f419a4b6f",
+          "771e5f9d1d99df3b91af",
+          "a2c85afd145ec1085b61",
+          "e287b9b4cd9913804f21"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 757,
+      "visible": [
+        "Barraskewda",
+        "Blissey",
+        "Cinderace",
+        "Kingdra",
+        "Zapdos"
+      ],
+      "hidden": "Pelipper",
+      "fixed": [
+        "09f307961e1cef36ee15",
+        "ac6b17777e5f98f97874",
+        "26ac2f5e6075d85e2b7c",
+        "3dc3b919cd7574a1b929",
+        "cd910870edc226dac27b"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "09f307961e1cef36ee15",
+          "26ac2f5e6075d85e2b7c",
+          "3dc3b919cd7574a1b929",
+          "a979fbc31f7f8e7a7f65",
+          "ac6b17777e5f98f97874",
+          "cd910870edc226dac27b"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "09f307961e1cef36ee15",
+          "26ac2f5e6075d85e2b7c",
+          "3dc3b919cd7574a1b929",
+          "a979fbc31f7f8e7a7f65",
+          "ac6b17777e5f98f97874",
+          "cd910870edc226dac27b"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 253,
+      "visible": [
+        "Pawmot",
+        "Samurott",
+        "Sinistcha",
+        "Skeledirge",
+        "Smeargle"
+      ],
+      "hidden": "Latios",
+      "fixed": [
+        "8a298d2ed9465119f6bb",
+        "b46bc7514a684a589618",
+        "ec78e75b6569ef0edeb5",
+        "8ab03ef330923c8c93d4",
+        "27f6cfa04f932af1a889"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "27f6cfa04f932af1a889",
+          "380a996a4dc82788bde9",
+          "8a298d2ed9465119f6bb",
+          "8ab03ef330923c8c93d4",
+          "b46bc7514a684a589618",
+          "ec78e75b6569ef0edeb5"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "27f6cfa04f932af1a889",
+          "4c69db2e4e7cbe5c97fc",
+          "8a298d2ed9465119f6bb",
+          "8ab03ef330923c8c93d4",
+          "b46bc7514a684a589618",
+          "ec78e75b6569ef0edeb5"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 187,
+      "visible": [
+        "Clodsire",
+        "Corviknight",
+        "Dondozo",
+        "Gliscor",
+        "Sinistcha"
+      ],
+      "hidden": "Blissey",
+      "fixed": [
+        "274023dc7b525d3929b2",
+        "67a53b9db1f65c60a31e",
+        "f497af2a530055857cd6",
+        "7f17d6e966ff793bb12e",
+        "e498040d00f69119239b"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "274023dc7b525d3929b2",
+          "67a53b9db1f65c60a31e",
+          "7f17d6e966ff793bb12e",
+          "a979fbc31f7f8e7a7f65",
+          "e498040d00f69119239b",
+          "f497af2a530055857cd6"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "274023dc7b525d3929b2",
+          "332f87be2778fc6db095",
+          "67a53b9db1f65c60a31e",
+          "7f17d6e966ff793bb12e",
+          "e498040d00f69119239b",
+          "f497af2a530055857cd6"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 1,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 246,
+      "visible": [
+        "Blaziken",
+        "Gliscor",
+        "Slowking",
+        "Toxapex",
+        "Weavile"
+      ],
+      "hidden": "Skarmory",
+      "fixed": [
+        "9b96636cc16a64a2241f",
+        "83e7c240f994c85a12ed",
+        "4c50e3bdc30f15ce4efd",
+        "a63755a482ef9428d601",
+        "8fd5415a7f679f3fc0a8"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4c50e3bdc30f15ce4efd",
+          "83e7c240f994c85a12ed",
+          "8fd5415a7f679f3fc0a8",
+          "9b96636cc16a64a2241f",
+          "a63755a482ef9428d601",
+          "e287b9b4cd9913804f21"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "4c50e3bdc30f15ce4efd",
+          "83e7c240f994c85a12ed",
+          "85a8f2a71eb939e47acf",
+          "8fd5415a7f679f3fc0a8",
+          "9b96636cc16a64a2241f",
+          "a63755a482ef9428d601"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 3,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 188,
+      "visible": [
+        "Amoonguss",
+        "Corviknight",
+        "Great Tusk",
+        "Hoopa",
+        "Rotom"
+      ],
+      "hidden": "Skeledirge",
+      "fixed": [
+        "b78be58720a335c58228",
+        "2d00cda136d1c5b8d96b",
+        "2632c2ebf50e57f9cde2",
+        "437f4c6b0abf0c0c88d0",
+        "4c2b2d3d44d8ed52bc3b"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "2632c2ebf50e57f9cde2",
+          "2d00cda136d1c5b8d96b",
+          "437f4c6b0abf0c0c88d0",
+          "4c2b2d3d44d8ed52bc3b",
+          "a8c732aab5617c93e0b7",
+          "b78be58720a335c58228"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "2632c2ebf50e57f9cde2",
+          "2d00cda136d1c5b8d96b",
+          "437f4c6b0abf0c0c88d0",
+          "4c2b2d3d44d8ed52bc3b",
+          "a8c732aab5617c93e0b7",
+          "b78be58720a335c58228"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 347,
+      "visible": [
+        "Clefable",
+        "Deoxys",
+        "Hatterene",
+        "Haxorus",
+        "Kingambit"
+      ],
+      "hidden": "Volcarona",
+      "fixed": [
+        "f31dca40bbe095424d40",
+        "47c1d8b5c5cf01ea2b58",
+        "e04efe87a4923831f40a",
+        "7b0e4cf3011fb5f8a391",
+        "6e8952d8b97c5e77ba38"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "17a2efc6795f29df00fc",
+          "47c1d8b5c5cf01ea2b58",
+          "6e8952d8b97c5e77ba38",
+          "7b0e4cf3011fb5f8a391",
+          "e04efe87a4923831f40a",
+          "f31dca40bbe095424d40"
+        ],
+        "rejected": 0,
+        "hidden_covered": 0,
+        "hidden_responses": 0,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "17a2efc6795f29df00fc",
+          "47c1d8b5c5cf01ea2b58",
+          "6e8952d8b97c5e77ba38",
+          "7b0e4cf3011fb5f8a391",
+          "e04efe87a4923831f40a",
+          "f31dca40bbe095424d40"
+        ],
+        "rejected": 0,
+        "hidden_covered": 0,
+        "hidden_responses": 0,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 173,
+      "visible": [
+        "Kingambit",
+        "Pecharunt",
+        "Raging Bolt",
+        "Ribombee",
+        "Roaring Moon"
+      ],
+      "hidden": "Serperior",
+      "fixed": [
+        "d55b3f9778f0d07e3f35",
+        "da78dd5987b37d3d9798",
+        "6defaef7db28c8690f7f",
+        "678fd190e22f46ed9304",
+        "051b8d550b530807a373"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "051b8d550b530807a373",
+          "678fd190e22f46ed9304",
+          "6defaef7db28c8690f7f",
+          "d55b3f9778f0d07e3f35",
+          "da78dd5987b37d3d9798",
+          "f99f3eb52187256946ca"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "051b8d550b530807a373",
+          "678fd190e22f46ed9304",
+          "6defaef7db28c8690f7f",
+          "d55b3f9778f0d07e3f35",
+          "da78dd5987b37d3d9798",
+          "f99f3eb52187256946ca"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 2,
+        "visible_covered": 5
+      }
+    },
+    {
+      "opponent_id": 538,
+      "visible": [
+        "Clodsire",
+        "Empoleon",
+        "Garganacl",
+        "Great Tusk",
+        "Roaring Moon"
+      ],
+      "hidden": "Keldeo",
+      "fixed": [
+        "f8a05b28d3f36958d65e",
+        "6f46ab48f4b740953637",
+        "33b822bc0842fd38afda",
+        "fc1bf68f0aa64c7a8213",
+        "f3641c362ab22b526ea4"
+      ],
+      "top1": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "33b822bc0842fd38afda",
+          "6f46ab48f4b740953637",
+          "df7b072aef608d758d92",
+          "f3641c362ab22b526ea4",
+          "f8a05b28d3f36958d65e",
+          "fc1bf68f0aa64c7a8213"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 4,
+        "visible_covered": 5
+      },
+      "top5": {
+        "status": "OPTIMAL",
+        "legal": true,
+        "team": [
+          "33b822bc0842fd38afda",
+          "6f46ab48f4b740953637",
+          "a6e479f42c5582b09708",
+          "f3641c362ab22b526ea4",
+          "f8a05b28d3f36958d65e",
+          "fc1bf68f0aa64c7a8213"
+        ],
+        "rejected": 0,
+        "hidden_covered": 1,
+        "hidden_responses": 5,
+        "visible_covered": 5
+      }
+    }
+  ]
+}

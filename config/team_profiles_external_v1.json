@@ -1,0 +1,34 @@
+{
+  "source_url": "https://huggingface.co/datasets/jakegrigsby/metamon-raw-replays/resolve/060367c26630e0d36308fd42673e5cf2f4b4421a/data/train-00031-of-00046.parquet",
+  "format": "gen9ou",
+  "minimum_rating": 1600,
+  "models": [
+    "identity",
+    "kb"
+  ],
+  "train": "Original 4643 training compositions, original vocabulary",
+  "network": {
+    "dimension": 32,
+    "epochs": 35,
+    "seeds": [
+      11,
+      23,
+      47
+    ]
+  },
+  "test": "All eligible unique base-species compositions from Metamon shard 31, excluding every prior completion split and every catalog composition, with six masks per team.",
+  "primary": "KB minus identity top-5, paired percentile bootstrap by composition with 10000 replicates and seed 11.",
+  "secondary": [
+    "top1",
+    "log loss on common in-vocabulary targets"
+  ],
+  "inputs_sha256": {
+    "data/processed/team_completion_v1/splits.json": "99107b97a1c2bc596fc8abbb6ecd55f0ab2417dc8144d0e893f2428c1f1c20b7",
+    "reports/team_completion_v1/selection.json": "2a3b49c464391592ed7c05e0305fef39a5ac88c28122a79b6d485e3de4de5d4a",
+    "reports/team_completion_v1/profiles/audit.json": "92287e0ebd499d871ff8039fa3ff2e3e6c960e3f8770afcb4321c68d9ad56737",
+    "data/processed/dataset_v1/catalog.json": "4a57069d62f1d9f1df68b3e9625c6f122f93e26639dd75538fdb8e41e31ab755",
+    "scripts/run_team_profile_extension.py": "82dc9ff2090169da21c8bb75d5e13d958c565bdd465a68edca074a12d9b5735b"
+  },
+  "source_selection": "Pok\u00e9Champ shard 35 contained zero gen9ou replays. Chose adjacent unused Metamon shard 31 at the same revision as training shard 30 before evaluating predictions.",
+  "rejected_source_sha256": "38602dbdcb4a1047d171227b45a6f7526b40f850fb146bebe5cb186d23eb410b"
+}

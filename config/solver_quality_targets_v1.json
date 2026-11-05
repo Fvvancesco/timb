@@ -1,0 +1,186 @@
+{
+  "source": "reports/solver_pilot/runs.jsonl",
+  "definition": "Best validated pilot quality; optimum only where certified. Frozen before warm-validator evaluation.",
+  "targets": {
+    "instance-00": {
+      "quality": [
+        0,
+        6,
+        6,
+        12
+      ],
+      "certified_optimum": true
+    },
+    "instance-01": {
+      "quality": [
+        5,
+        6,
+        6,
+        10
+      ],
+      "certified_optimum": true
+    },
+    "instance-02": {
+      "quality": [
+        0,
+        6,
+        5,
+        12
+      ],
+      "certified_optimum": true
+    },
+    "instance-03": {
+      "quality": [
+        5,
+        6,
+        6,
+        10
+      ],
+      "certified_optimum": false
+    },
+    "instance-04": {
+      "quality": [
+        0,
+        6,
+        6,
+        12
+      ],
+      "certified_optimum": true
+    },
+    "instance-05": {
+      "quality": [
+        5,
+        6,
+        6,
+        12
+      ],
+      "certified_optimum": true
+    },
+    "instance-06": {
+      "quality": [
+        0,
+        6,
+        6,
+        12
+      ],
+      "certified_optimum": true
+    },
+    "instance-07": {
+      "quality": [
+        5,
+        6,
+        3,
+        6
+      ],
+      "certified_optimum": false
+    },
+    "instance-08": {
+      "quality": [
+        0,
+        6,
+        6,
+        11
+      ],
+      "certified_optimum": true
+    },
+    "instance-09": {
+      "quality": [
+        5,
+        6,
+        6,
+        10
+      ],
+      "certified_optimum": false
+    },
+    "instance-10": {
+      "quality": [
+        0,
+        6,
+        6,
+        12
+      ],
+      "certified_optimum": true
+    },
+    "instance-11": {
+      "quality": [
+        5,
+        6,
+        6,
+        11
+      ],
+      "certified_optimum": true
+    },
+    "instance-12": {
+      "quality": [
+        0,
+        6,
+        6,
+        12
+      ],
+      "certified_optimum": true
+    },
+    "instance-13": {
+      "quality": [
+        5,
+        6,
+        6,
+        12
+      ],
+      "certified_optimum": true
+    },
+    "instance-14": {
+      "quality": [
+        0,
+        6,
+        6,
+        12
+      ],
+      "certified_optimum": true
+    },
+    "instance-15": {
+      "quality": [
+        5,
+        6,
+        6,
+        11
+      ],
+      "certified_optimum": false
+    },
+    "instance-16": {
+      "quality": [
+        0,
+        6,
+        6,
+        12
+      ],
+      "certified_optimum": true
+    },
+    "instance-17": {
+      "quality": [
+        5,
+        6,
+        6,
+        12
+      ],
+      "certified_optimum": true
+    },
+    "instance-18": {
+      "quality": [
+        0,
+        6,
+        6,
+        12
+      ],
+      "certified_optimum": true
+    },
+    "instance-19": {
+      "quality": [
+        5,
+        6,
+        6,
+        12
+      ],
+      "certified_optimum": false
+    }
+  }
+}

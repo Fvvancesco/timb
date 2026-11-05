@@ -1,0 +1,14 @@
+{
+  "url": "https://huggingface.co/datasets/milkkarten/pokechamp/resolve/main/data/train-00034-of-00037.parquet",
+  "sha256": "553e4119a1bb4a49689043783a63b3cadc2755858bbfb9d243c22b3b5f3d72d9",
+  "seed": 11,
+  "source_count": 51807,
+  "eligible_counts": {
+    "1600-1799": 6020,
+    "1800+": 492
+  },
+  "sampled_counts": {
+    "1600-1799": 500,
+    "1800+": 492
+  }
+}

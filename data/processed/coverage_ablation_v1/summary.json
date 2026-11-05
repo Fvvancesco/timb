@@ -1,0 +1,445 @@
+{
+  "manifest_sha256": "a2c452f218ce1c0677066e43fba828b36a2c1d0c11b1f5ae5adcf030eb40c47a",
+  "physical_jobs": 476,
+  "statuses": {
+    "completed": 470,
+    "censored": 2,
+    "truncated": 1,
+    "timeout": 3
+  },
+  "requests": 60,
+  "paired_requests": 60,
+  "identical_solver_outputs": 1,
+  "coverage_score": 0.45694444444444443,
+  "neutral_score": 0.3902777777777777,
+  "coverage_minus_neutral": 0.06666666666666668,
+  "bootstrap_interval_95": [
+    -0.016666666666666666,
+    0.1513888888888889
+  ],
+  "bootstrap_seed": 11,
+  "bootstrap_samples": 10000,
+  "estimand": "Mean over requests of paired win-score differences. Natural draw = 0.5. Slots with censored outcomes in either arm omitted. Bootstrap over request; residual dependence from common catalog and pilot.",
+  "per_request": [
+    {
+      "request": "coverage-v1-00",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.25,
+      "difference": -0.25
+    },
+    {
+      "request": "coverage-v1-01",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 1.0,
+      "difference": -0.75
+    },
+    {
+      "request": "coverage-v1-02",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.75,
+      "difference": -0.25
+    },
+    {
+      "request": "coverage-v1-03",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.75,
+      "difference": 0.25
+    },
+    {
+      "request": "coverage-v1-04",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.25,
+      "difference": -0.25
+    },
+    {
+      "request": "coverage-v1-05",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 1.0,
+      "difference": 0.0
+    },
+    {
+      "request": "coverage-v1-06",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.0,
+      "difference": 0.5
+    },
+    {
+      "request": "coverage-v1-07",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.25,
+      "difference": 0.5
+    },
+    {
+      "request": "coverage-v1-08",
+      "slots": 3,
+      "coverage": 0.0,
+      "neutral": 0.3333333333333333,
+      "difference": -0.3333333333333333
+    },
+    {
+      "request": "coverage-v1-09",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.5,
+      "difference": 0.25
+    },
+    {
+      "request": "coverage-v1-10",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25
+    },
+    {
+      "request": "coverage-v1-11",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.5,
+      "difference": -0.5
+    },
+    {
+      "request": "coverage-v1-12",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.0,
+      "difference": 0.0
+    },
+    {
+      "request": "coverage-v1-13",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.5,
+      "difference": 0.25
+    },
+    {
+      "request": "coverage-v1-14",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.25,
+      "difference": 0.5
+    },
+    {
+      "request": "coverage-v1-15",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.0,
+      "difference": 0.0
+    },
+    {
+      "request": "coverage-v1-16",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.0,
+      "difference": 0.25
+    },
+    {
+      "request": "coverage-v1-17",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.75,
+      "difference": -0.25
+    },
+    {
+      "request": "coverage-v1-18",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.25,
+      "difference": 0.0
+    },
+    {
+      "request": "coverage-v1-19",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.25,
+      "difference": 0.0
+    },
+    {
+      "request": "coverage-v1-20",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.25,
+      "difference": 0.75
+    },
+    {
+      "request": "coverage-v1-21",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.0,
+      "difference": 0.0
+    },
+    {
+      "request": "coverage-v1-22",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25
+    },
+    {
+      "request": "coverage-v1-23",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.0,
+      "difference": 0.5
+    },
+    {
+      "request": "coverage-v1-24",
+      "slots": 2,
+      "coverage": 0.0,
+      "neutral": 0.5,
+      "difference": -0.5
+    },
+    {
+      "request": "coverage-v1-25",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.75,
+      "difference": 0.0
+    },
+    {
+      "request": "coverage-v1-26",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.5,
+      "difference": 0.0
+    },
+    {
+      "request": "coverage-v1-27",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.0,
+      "difference": 0.0
+    },
+    {
+      "request": "coverage-v1-28",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.0,
+      "difference": 0.25
+    },
+    {
+      "request": "coverage-v1-29",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.5,
+      "difference": 0.0
+    },
+    {
+      "request": "coverage-v1-30",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.0,
+      "difference": 1.0
+    },
+    {
+      "request": "coverage-v1-31",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.5,
+      "difference": 0.25
+    },
+    {
+      "request": "coverage-v1-32",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.5,
+      "difference": -0.25
+    },
+    {
+      "request": "coverage-v1-33",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 1.0,
+      "difference": -0.25
+    },
+    {
+      "request": "coverage-v1-34",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.5,
+      "difference": 0.0
+    },
+    {
+      "request": "coverage-v1-35",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 1.0,
+      "difference": 0.0
+    },
+    {
+      "request": "coverage-v1-36",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.25,
+      "difference": 0.25
+    },
+    {
+      "request": "coverage-v1-37",
+      "slots": 3,
+      "coverage": 0.6666666666666666,
+      "neutral": 1.0,
+      "difference": -0.33333333333333337
+    },
+    {
+      "request": "coverage-v1-38",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.25,
+      "difference": -0.25
+    },
+    {
+      "request": "coverage-v1-39",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.5,
+      "difference": 0.25
+    },
+    {
+      "request": "coverage-v1-40",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.5,
+      "difference": 0.0
+    },
+    {
+      "request": "coverage-v1-41",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.75,
+      "difference": 0.25
+    },
+    {
+      "request": "coverage-v1-42",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.25,
+      "difference": 0.0
+    },
+    {
+      "request": "coverage-v1-43",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.75,
+      "difference": -0.25
+    },
+    {
+      "request": "coverage-v1-44",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.5,
+      "difference": -0.25
+    },
+    {
+      "request": "coverage-v1-45",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.25,
+      "difference": -0.25
+    },
+    {
+      "request": "coverage-v1-46",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.75,
+      "difference": 0.0
+    },
+    {
+      "request": "coverage-v1-47",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.25,
+      "difference": 0.0
+    },
+    {
+      "request": "coverage-v1-48",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.25,
+      "difference": 0.5
+    },
+    {
+      "request": "coverage-v1-49",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.25,
+      "difference": 0.5
+    },
+    {
+      "request": "coverage-v1-50",
+      "slots": 4,
+      "coverage": 0.0,
+      "neutral": 0.25,
+      "difference": -0.25
+    },
+    {
+      "request": "coverage-v1-51",
+      "slots": 4,
+      "coverage": 1.0,
+      "neutral": 0.75,
+      "difference": 0.25
+    },
+    {
+      "request": "coverage-v1-52",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.25,
+      "difference": 0.5
+    },
+    {
+      "request": "coverage-v1-53",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.25,
+      "difference": 0.0
+    },
+    {
+      "request": "coverage-v1-54",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.0,
+      "difference": 0.5
+    },
+    {
+      "request": "coverage-v1-55",
+      "slots": 3,
+      "coverage": 0.0,
+      "neutral": 0.3333333333333333,
+      "difference": -0.3333333333333333
+    },
+    {
+      "request": "coverage-v1-56",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.0,
+      "difference": 0.25
+    },
+    {
+      "request": "coverage-v1-57",
+      "slots": 4,
+      "coverage": 0.75,
+      "neutral": 0.25,
+      "difference": 0.5
+    },
+    {
+      "request": "coverage-v1-58",
+      "slots": 4,
+      "coverage": 0.5,
+      "neutral": 0.75,
+      "difference": -0.25
+    },
+    {
+      "request": "coverage-v1-59",
+      "slots": 4,
+      "coverage": 0.25,
+      "neutral": 0.0,
+      "difference": 0.25
+    }
+  ]
+}

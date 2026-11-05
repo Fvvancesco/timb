@@ -1,0 +1,54 @@
+{
+  "source_url": "https://huggingface.co/datasets/jakegrigsby/metamon-raw-replays/resolve/060367c26630e0d36308fd42673e5cf2f4b4421a/data/train-00032-of-00046.parquet",
+  "min_rating": 1600,
+  "format": "gen9ou",
+  "models": [
+    "identity",
+    "kb",
+    "rdf2vec"
+  ],
+  "primary": "Top-5 delta vs identity",
+  "secondary": [
+    "Top-1",
+    "Log loss on common in-vocabulary targets"
+  ],
+  "choice": "Select RDF2Vec dimension by top-5 on original validation; log loss breaks ties.",
+  "test": "Distinct compositions from Metamon shard 32, excluding prior splits and catalog.",
+  "network": {
+    "dimensions": 32,
+    "epochs": 35,
+    "seeds": [
+      11,
+      23,
+      47
+    ]
+  },
+  "embedding": {
+    "dimensions": [
+      16,
+      32
+    ],
+    "walks_per_species": 64,
+    "depth_edges": 4,
+    "seed": 307,
+    "epochs": 15,
+    "window": 4,
+    "negative_samples": 5,
+    "architecture": "skip-gram"
+  },
+  "input_sha256": {
+    "data/processed/dataset_v1/catalog.json": "4a57069d62f1d9f1df68b3e9625c6f122f93e26639dd75538fdb8e41e31ab755",
+    "data/processed/team_completion_v1/splits.json": "99107b97a1c2bc596fc8abbb6ecd55f0ab2417dc8144d0e893f2428c1f1c20b7",
+    "data/processed/team_completion_v1/external_metamon31.json": "dcb5ca2934ae188d176f8bf466342732b3982078554b44de6c28de05b6ba1bbc",
+    "reports/team_completion_v1/profiles/audit.json": "92287e0ebd499d871ff8039fa3ff2e3e6c960e3f8770afcb4321c68d9ad56737",
+    "reports/team_completion_v1/selection.json": "2a3b49c464391592ed7c05e0305fef39a5ac88c28122a79b6d485e3de4de5d4a",
+    "ontology/pokemon.ttl": "367c6923f47ab06de2f7570ce60592d25dfbea84b43a212cdcaabfdeaf0e78cd",
+    "ontology/move_semantics.ttl": "0263ec139c3d74a6a006f5c7eeb8c35182b9a73ab4cf940675c97be118523366",
+    "ontology/move_annotations.json": "8117352f4fbb642a52cdc02b7072b076e23074719bcfba23a279b2ac5657d35d",
+    "tools/showdown/export-move-semantics.cjs": "7ba7092655a30c2b9695b57bd21b2d4de04d493eeb0a1529a0d4c826a0c58316",
+    "tools/showdown/package-lock.json": "107206ca8d9452aced0bb32537a2c529929369bbddb2514a5faf48edd2ccd432",
+    "src/icon_pokemon/knowledge.py": "9050a4dfb48b1f9ea4d73083d86ee9139363bcafa344eae0739aba4375ff0436",
+    "src/icon_pokemon/move_semantics.py": "66bda441adb9b43fefca40d7b0236eefebc82ed44f50f3bf51fd94d43f5908fd",
+    "scripts/run_rdf2vec_extension.py": "944227cfb46bee24b7feeab6f3a3b0a6163a7600730999fb4432648a08bb0736"
+  }
+}

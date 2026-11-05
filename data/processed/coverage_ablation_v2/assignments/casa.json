@@ -1,0 +1,25 @@
+{
+  "shard": "casa",
+  "workers": 4,
+  "requests": [
+    "coverage-v2-097",
+    "coverage-v2-098",
+    "coverage-v2-099",
+    "coverage-v2-100",
+    "coverage-v2-101",
+    "coverage-v2-102",
+    "coverage-v2-103",
+    "coverage-v2-104",
+    "coverage-v2-105",
+    "coverage-v2-106",
+    "coverage-v2-107",
+    "coverage-v2-108",
+    "coverage-v2-109",
+    "coverage-v2-110",
+    "coverage-v2-111",
+    "coverage-v2-112",
+    "coverage-v2-113",
+    "coverage-v2-114"
+  ],
+  "manifest_sha256": "d0a4219912ecf88d2196a24dca26a31c8b013962520a077c58e42a1bb3a9ffff"
+}

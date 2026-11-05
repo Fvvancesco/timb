@@ -1,0 +1,250 @@
+{
+  "date": "2026-11-04",
+  "scope": "Development only, no final test or candidate battle evaluation",
+  "outcomes": {
+    "team_b": 632,
+    "team_a": 682,
+    "None": 6
+  },
+  "decisive_matches": 1314,
+  "features": {
+    "original": 236,
+    "extended": 252
+  },
+  "protocol": "3 outer x 3 inner folds, 3 partition seeds; disjoint team compositions in fit/evaluation; crossing matches excluded within each fold",
+  "paired_fold_counts_verified": true,
+  "aggregates": {
+    "original": {
+      "train_rate": {
+        "log_loss": {
+          "mean": 0.6928252706643913,
+          "sd": 0.0030090356479563108
+        },
+        "brier": {
+          "mean": 0.2498387832356515,
+          "sd": 0.0015030672565536688
+        },
+        "accuracy": {
+          "mean": 0.5210679913762267,
+          "sd": 0.03243652580688972
+        }
+      },
+      "neutral": {
+        "log_loss": {
+          "mean": 0.6931471805599453,
+          "sd": 5.851389114294502e-17
+        },
+        "brier": {
+          "mean": 0.25,
+          "sd": 0.0
+        },
+        "accuracy": {
+          "mean": 0.5210679913762267,
+          "sd": 0.03243652580688972
+        }
+      },
+      "logistic": {
+        "log_loss": {
+          "mean": 0.7161268176295345,
+          "sd": 0.04678519314799254
+        },
+        "brier": {
+          "mean": 0.2600542101899582,
+          "sd": 0.02114167844362978
+        },
+        "accuracy": {
+          "mean": 0.5210510981589995,
+          "sd": 0.04287154006701203
+        }
+      },
+      "boosting": {
+        "log_loss": {
+          "mean": 0.6972492201797412,
+          "sd": 0.02302802643951365
+        },
+        "brier": {
+          "mean": 0.2515893838006372,
+          "sd": 0.011112103921468497
+        },
+        "accuracy": {
+          "mean": 0.5290203571192421,
+          "sd": 0.05960555288190895
+        }
+      }
+    },
+    "extended": {
+      "train_rate": {
+        "log_loss": {
+          "mean": 0.6928252706643913,
+          "sd": 0.0030090356479563108
+        },
+        "brier": {
+          "mean": 0.2498387832356515,
+          "sd": 0.0015030672565536688
+        },
+        "accuracy": {
+          "mean": 0.5210679913762267,
+          "sd": 0.03243652580688972
+        }
+      },
+      "neutral": {
+        "log_loss": {
+          "mean": 0.6931471805599453,
+          "sd": 5.851389114294502e-17
+        },
+        "brier": {
+          "mean": 0.25,
+          "sd": 0.0
+        },
+        "accuracy": {
+          "mean": 0.5210679913762267,
+          "sd": 0.03243652580688972
+        }
+      },
+      "logistic": {
+        "log_loss": {
+          "mean": 0.7210116270689468,
+          "sd": 0.04847500906418398
+        },
+        "brier": {
+          "mean": 0.26238152288385047,
+          "sd": 0.021888896657979575
+        },
+        "accuracy": {
+          "mean": 0.5183201022149371,
+          "sd": 0.049158437926091585
+        }
+      },
+      "boosting": {
+        "log_loss": {
+          "mean": 0.6922579407859863,
+          "sd": 0.022859318127069435
+        },
+        "brier": {
+          "mean": 0.24929969257725124,
+          "sd": 0.0110811429240924
+        },
+        "accuracy": {
+          "mean": 0.5344853491841906,
+          "sd": 0.07392310315400642
+        }
+      }
+    },
+    "original_regularized": {
+      "train_rate": {
+        "log_loss": {
+          "mean": 0.6928252706643913,
+          "sd": 0.0030090356479563108
+        },
+        "brier": {
+          "mean": 0.2498387832356515,
+          "sd": 0.0015030672565536688
+        },
+        "accuracy": {
+          "mean": 0.5210679913762267,
+          "sd": 0.03243652580688972
+        }
+      },
+      "neutral": {
+        "log_loss": {
+          "mean": 0.6931471805599453,
+          "sd": 5.851389114294502e-17
+        },
+        "brier": {
+          "mean": 0.25,
+          "sd": 0.0
+        },
+        "accuracy": {
+          "mean": 0.5210679913762267,
+          "sd": 0.03243652580688972
+        }
+      },
+      "logistic": {
+        "log_loss": {
+          "mean": 0.7086158294364413,
+          "sd": 0.034822107705043806
+        },
+        "brier": {
+          "mean": 0.2567464139367249,
+          "sd": 0.015179097903670079
+        },
+        "accuracy": {
+          "mean": 0.5169720073362652,
+          "sd": 0.058069095773992774
+        }
+      }
+    },
+    "extended_regularized": {
+      "train_rate": {
+        "log_loss": {
+          "mean": 0.6928252706643913,
+          "sd": 0.0030090356479563108
+        },
+        "brier": {
+          "mean": 0.2498387832356515,
+          "sd": 0.0015030672565536688
+        },
+        "accuracy": {
+          "mean": 0.5210679913762267,
+          "sd": 0.03243652580688972
+        }
+      },
+      "neutral": {
+        "log_loss": {
+          "mean": 0.6931471805599453,
+          "sd": 5.851389114294502e-17
+        },
+        "brier": {
+          "mean": 0.25,
+          "sd": 0.0
+        },
+        "accuracy": {
+          "mean": 0.5210679913762267,
+          "sd": 0.03243652580688972
+        }
+      },
+      "logistic": {
+        "log_loss": {
+          "mean": 0.7042329442270646,
+          "sd": 0.03260403750021954
+        },
+        "brier": {
+          "mean": 0.25475864721833846,
+          "sd": 0.014060881586987511
+        },
+        "accuracy": {
+          "mean": 0.522125115522529,
+          "sd": 0.05977114872689965
+        }
+      }
+    }
+  },
+  "boosting_extended_minus_original_log_loss": {
+    "mean": -0.004991279393754976,
+    "improved_outer_folds": 5,
+    "outer_folds": 9,
+    "per_fold": [
+      0.0013386057974299481,
+      0.006639202078841611,
+      1.0249811678075815e-05,
+      -0.01625490314267941,
+      -0.01771299575853391,
+      -0.0015167229929864412,
+      -0.006354024251676527,
+      5.623280156841215e-05,
+      -0.011127158887436539
+    ]
+  },
+  "limitations": [
+    "Repeated outer folds reuse observations; SD is descriptive, not a confidence interval.",
+    "Extra features are per-team capability counts, not a test of every structured effect or an embedding.",
+    "The small mean improvement does not establish better candidate selection in battle.",
+    "No operational model is exported or selected from these outer-fold results."
+  ],
+  "source_hashes": {
+    "reports/supervised_v2v3_kb_v1.json": "61eae17b5cab50f1bc0225813e009def836b7cbed5fc25fe9b20fb47988f15e3",
+    "reports/supervised_v2v3_kb_v2.json": "3bdba8dccb23be92c1e7788f699a6447464478ab25874ee7087d328729e0a239",
+    "reports/supervised_v2v3_kb_v1_regularization.json": "c9e700232971637f0cd45ad6425ffff249701d8bf191f7a9fbe6b12aa188d82d",
+    "reports/supervised_v2v3_kb_v2_regularization.json": "165275f6f03c2e1ec927f5e18fe6842e1d9a991e87f99e08e68e4132d0abdaa6"
+  }
+}
